@@ -1,0 +1,45 @@
+name: OWCoach
+options:
+  bundleIdPrefix: de.schakal
+  developmentLanguage: de
+  deploymentTarget:
+    iOS: "26.0"
+packages:
+  OWCoachKit:
+    path: OWCoachKit
+targets:
+  OWCoach:
+    type: application
+    platform: iOS
+    sources:
+      - App
+      - path: Content
+        type: folder
+        buildPhase: resources
+    dependencies:
+      - package: OWCoachKit
+    info:
+      path: App/Info.plist
+      properties:
+        CFBundleDisplayName: OWCoach
+        CFBundleLocalizations: [de]
+        UILaunchScreen: {}
+        UISupportedInterfaceOrientations: [UIInterfaceOrientationPortrait]
+        UIBackgroundModes: [remote-notification]
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: de.schakal.OWCoach
+        TARGETED_DEVICE_FAMILY: "1"
+        CODE_SIGN_STYLE: Automatic
+        DEVELOPMENT_TEAM: XU2P9PWM29
+        SWIFT_VERSION: "5.0"
+        CURRENT_PROJECT_VERSION: 1
+        MARKETING_VERSION: 0.1.0
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME: AccentColor
+        CODE_SIGN_ENTITLEMENTS: OWCoach.entitlements
+schemes:
+  OWCoach:
+    build:
+      targets:
+        OWCoach: all

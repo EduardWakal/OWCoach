@@ -1,0 +1,7 @@
+build/
+.build/
+.swiftpm/
+xcuserdata/
+DerivedData/
+__pycache__/
+.superpowers/
