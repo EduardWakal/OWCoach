@@ -1,0 +1,566 @@
+{
+  "id": "doctrine",
+  "name": "Doctrine",
+  "role": "support",
+  "guide": [
+    {
+      "title": "Aufgabe",
+      "rules": [
+        {
+          "text": "Doctrine ist ein aggressiver Support: heilen, Schaden machen und Mitspieler mit Drohnen stärker machen, ständig im Wechsel.",
+          "videos": [
+            {
+              "label": "Ants T500 4:00",
+              "url": "https://www.youtube.com/watch?v=Zf_P8q3llhE&t=240s"
+            },
+            {
+              "label": "AbbyAZK 6:40",
+              "url": "https://www.youtube.com/watch?v=ftMrLvxe9Yk&t=400s"
+            }
+          ]
+        },
+        {
+          "text": "Du bist kein Heal-Bot. Wer nur Heilung spammt und auf den nächsten Cooldown wartet, verschenkt die Hälfte des Helden.",
+          "videos": [
+            {
+              "label": "Ants T500 5:30",
+              "url": "https://www.youtube.com/watch?v=Zf_P8q3llhE&t=330s"
+            }
+          ]
+        },
+        {
+          "text": "Du bleibst ein Support. Dein Wert kommt daher, dass dein Team stärker wird, nicht daher, dass du mehr Kills als deine DPS hast.",
+          "videos": [
+            {
+              "label": "Ants T500 5:00",
+              "url": "https://www.youtube.com/watch?v=Zf_P8q3llhE&t=300s"
+            }
+          ]
+        },
+        {
+          "text": "Ein toter Support ist ein geschenkter Fight. Seitenwinkel ja, Pick nein.",
+          "videos": [
+            {
+              "label": "Ants T500 5:00",
+              "url": "https://www.youtube.com/watch?v=Zf_P8q3llhE&t=300s"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Positionierung",
+      "rules": [
+        {
+          "text": "Vor dem Fight hinten an der Deckung bleiben und Schaden reinpoken. Läuft der Fight, auf einen Seitenwinkel gehen und von dort Druck machen.",
+          "videos": [
+            {
+              "label": "Bily World Cup 2:40",
+              "url": "https://www.youtube.com/watch?v=LWxJi5mzz9U&t=160s"
+            },
+            {
+              "label": "Bily World Cup 4:00",
+              "url": "https://www.youtube.com/watch?v=LWxJi5mzz9U&t=240s"
+            }
+          ]
+        },
+        {
+          "text": "Nur so weit raus, dass du zurück zum Team kommst, wenn es dich braucht. Dafür den Dash aufheben.",
+          "videos": [
+            {
+              "label": "Bily World Cup 3:00",
+              "url": "https://www.youtube.com/watch?v=LWxJi5mzz9U&t=180s"
+            },
+            {
+              "label": "Ants T500 7:00",
+              "url": "https://www.youtube.com/watch?v=Zf_P8q3llhE&t=420s"
+            }
+          ]
+        },
+        {
+          "text": "Meistens auf High Ground stehen. Wirst du dort unter Druck gesetzt, runterfallen und später mit dem Flug wieder hoch.",
+          "videos": [
+            {
+              "label": "Bily World Cup 11:40",
+              "url": "https://www.youtube.com/watch?v=LWxJi5mzz9U&t=700s"
+            },
+            {
+              "label": "Bily World Cup 12:00",
+              "url": "https://www.youtube.com/watch?v=LWxJi5mzz9U&t=720s"
+            }
+          ]
+        },
+        {
+          "text": "Deine Hitbox ist groß und leicht zu treffen. Kein Kopf ins Offene ohne Grund. Stirbst du zweimal gleich, spiel vorsichtiger.",
+          "videos": [
+            {
+              "label": "AbbyAZK 10:20",
+              "url": "https://www.youtube.com/watch?v=ftMrLvxe9Yk&t=620s"
+            },
+            {
+              "label": "AbbyAZK 12:20",
+              "url": "https://www.youtube.com/watch?v=ftMrLvxe9Yk&t=740s"
+            }
+          ]
+        },
+        {
+          "text": "Hast du den Vorteil, kein Extra-Risiko mehr. Zurück auf die sichere Position.",
+          "videos": [
+            {
+              "label": "Bily World Cup 14:00",
+              "url": "https://www.youtube.com/watch?v=LWxJi5mzz9U&t=840s"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Kit · Infuse",
+      "rules": [
+        {
+          "text": "Rechtsklick gedrückt halten, nicht antippen. Zwei Ladungen, je 8 Sekunden. Jede Ladung verstärkt Schuss, Drohnen oder Dash.",
+          "videos": [
+            {
+              "label": "AbbyAZK 1:40",
+              "url": "https://www.youtube.com/watch?v=ftMrLvxe9Yk&t=100s"
+            },
+            {
+              "label": "KarQ Kit 0:40",
+              "url": "https://www.youtube.com/watch?v=w-LEVZbx7dM&t=40s"
+            }
+          ]
+        },
+        {
+          "text": "Wofür du Infuse ausgibst, ist die wichtigste Entscheidung des Helden: Heilung, Schaden oder Flucht.",
+          "videos": [
+            {
+              "label": "Ants T500 1:00",
+              "url": "https://www.youtube.com/watch?v=Zf_P8q3llhE&t=60s"
+            },
+            {
+              "label": "AbbyAZK 12:40",
+              "url": "https://www.youtube.com/watch?v=ftMrLvxe9Yk&t=760s"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Kit · Szepter",
+      "rules": [
+        {
+          "text": "Ein Schuss heilt Mitspieler (60) oder trifft Gegner (60 Körper, 90 Kopf). Kein Headshot beim Heilen.",
+          "videos": [
+            {
+              "label": "KarQ Kit 1:10",
+              "url": "https://www.youtube.com/watch?v=w-LEVZbx7dM&t=70s"
+            }
+          ]
+        },
+        {
+          "text": "Infused Schuss: 120 Heilung, 90 Schaden, dicker Strahl, geht durch alle Helden. Gut zum Finishen in engen Ecken.",
+          "videos": [
+            {
+              "label": "KarQ Kit 2:00",
+              "url": "https://www.youtube.com/watch?v=w-LEVZbx7dM&t=120s"
+            },
+            {
+              "label": "AbbyAZK 12:40",
+              "url": "https://www.youtube.com/watch?v=ftMrLvxe9Yk&t=760s"
+            },
+            {
+              "label": "Voidryn 0:30",
+              "url": "https://www.youtube.com/watch?v=aAlTLgKJo5s&t=30s"
+            }
+          ]
+        },
+        {
+          "text": "Infused Schuss kostet keine Munition. Statt Nachladen für den letzten Schuss lieber infused schießen.",
+          "videos": [
+            {
+              "label": "Macro 9:47",
+              "url": "https://www.youtube.com/watch?v=hRb-zyPLfT0&t=587s"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Kit · Drohnen",
+      "rules": [
+        {
+          "text": "Drohnen geben 30 % Angriffstempo und 120 Heilung über 6 Sekunden. Sie gehen durch Barrieren und D.Vas Matrix frisst sie nicht.",
+          "videos": [
+            {
+              "label": "KarQ Kit 3:40",
+              "url": "https://www.youtube.com/watch?v=w-LEVZbx7dM&t=220s"
+            }
+          ]
+        },
+        {
+          "text": "Drohne auf den, der gleich etwas macht: Genji vor dem Dash, Soldier auf dem Seitenwinkel, Tank in der Backline.",
+          "videos": [
+            {
+              "label": "Ants T500 8:00",
+              "url": "https://www.youtube.com/watch?v=Zf_P8q3llhE&t=480s"
+            },
+            {
+              "label": "AbbyAZK 16:00",
+              "url": "https://www.youtube.com/watch?v=ftMrLvxe9Yk&t=960s"
+            }
+          ]
+        },
+        {
+          "text": "Nicht auf jemanden, dem nur etwas Leben fehlt. Wer gleich stirbt, braucht Heilung, keinen Buff.",
+          "videos": [
+            {
+              "label": "Ants T500 7:45",
+              "url": "https://www.youtube.com/watch?v=Zf_P8q3llhE&t=465s"
+            }
+          ]
+        },
+        {
+          "text": "Infused Drohne gibt dir dieselbe Drohne. Damit heilst du dich, wenn du gedived wirst.",
+          "videos": [
+            {
+              "label": "KarQ Kit 4:30",
+              "url": "https://www.youtube.com/watch?v=w-LEVZbx7dM&t=270s"
+            },
+            {
+              "label": "Ants T500 9:30",
+              "url": "https://www.youtube.com/watch?v=Zf_P8q3llhE&t=570s"
+            }
+          ]
+        },
+        {
+          "text": "Heilt der andere Support schon die DPS, nimm du den Tank. Du stärkst am besten den, mit dem du dich absprechen kannst.",
+          "videos": [
+            {
+              "label": "AbbyAZK 10:00",
+              "url": "https://www.youtube.com/watch?v=ftMrLvxe9Yk&t=600s"
+            },
+            {
+              "label": "AbbyAZK 16:00",
+              "url": "https://www.youtube.com/watch?v=ftMrLvxe9Yk&t=960s"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Kit · Dash",
+      "rules": [
+        {
+          "text": "Dash startet sofort deine Regeneration und gibt 40 % weniger Schaden, aber nicht gegen Headshots.",
+          "videos": [
+            {
+              "label": "KarQ Kit 0:20",
+              "url": "https://www.youtube.com/watch?v=w-LEVZbx7dM&t=20s"
+            },
+            {
+              "label": "KarQ Kit 2:40",
+              "url": "https://www.youtube.com/watch?v=w-LEVZbx7dM&t=160s"
+            }
+          ]
+        },
+        {
+          "text": "Infused Dash lässt dich fliegen. Das ist dein wichtigstes Überlebens-Werkzeug, behandle es so.",
+          "videos": [
+            {
+              "label": "Ants T500 9:00",
+              "url": "https://www.youtube.com/watch?v=Zf_P8q3llhE&t=540s"
+            },
+            {
+              "label": "KarQ Kit 3:20",
+              "url": "https://www.youtube.com/watch?v=w-LEVZbx7dM&t=200s"
+            }
+          ]
+        },
+        {
+          "text": "Wirst du nicht gedived, reicht der normale Dash. Spar den Flug für den Dive.",
+          "videos": [
+            {
+              "label": "Ants T500 9:30",
+              "url": "https://www.youtube.com/watch?v=Zf_P8q3llhE&t=570s"
+            },
+            {
+              "label": "AbbyAZK 8:20",
+              "url": "https://www.youtube.com/watch?v=ftMrLvxe9Yk&t=500s"
+            }
+          ]
+        },
+        {
+          "text": "Mit dem Dash raus aus dem Spawn, um schneller am Ziel zu sein.",
+          "videos": [
+            {
+              "label": "Bily World Cup 6:00",
+              "url": "https://www.youtube.com/watch?v=LWxJi5mzz9U&t=360s"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Kit · Ult",
+      "rules": [
+        {
+          "text": "Deliverance zum Starten oder Kippen eines Fights, nicht als Panikknopf.",
+          "videos": [
+            {
+              "label": "Ants T500 10:00",
+              "url": "https://www.youtube.com/watch?v=Zf_P8q3llhE&t=600s"
+            }
+          ]
+        },
+        {
+          "text": "Getroffene Gegner verlieren bis zur Hälfte ihres Max-Lebens. Dein Team schießt genau auf die.",
+          "videos": [
+            {
+              "label": "Ants T500 10:20",
+              "url": "https://www.youtube.com/watch?v=Zf_P8q3llhE&t=620s"
+            },
+            {
+              "label": "KarQ Kit 4:40",
+              "url": "https://www.youtube.com/watch?v=w-LEVZbx7dM&t=280s"
+            }
+          ]
+        },
+        {
+          "text": "Die Ult fliegt langsam geradeaus und prallt an Wänden ab. Im Training üben, wo sie landet.",
+          "videos": [
+            {
+              "label": "AbbyAZK 3:00",
+              "url": "https://www.youtube.com/watch?v=ftMrLvxe9Yk&t=180s"
+            },
+            {
+              "label": "KarQ Kit 4:40",
+              "url": "https://www.youtube.com/watch?v=w-LEVZbx7dM&t=280s"
+            }
+          ]
+        },
+        {
+          "text": "Gut gegen eine gegnerische Juno- oder Kiriko-Ult.",
+          "videos": [
+            {
+              "label": "Ants T500 10:40",
+              "url": "https://www.youtube.com/watch?v=Zf_P8q3llhE&t=640s"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Perks",
+      "rules": [
+        {
+          "text": "Klein: meist Saving Grace (Drohne heilt sofort 40). Sanguine Siphon nur, wenn Flanker dich dauernd jagen.",
+          "videos": [
+            {
+              "label": "Ants T500 2:30",
+              "url": "https://www.youtube.com/watch?v=Zf_P8q3llhE&t=150s"
+            },
+            {
+              "label": "AbbyAZK 4:30",
+              "url": "https://www.youtube.com/watch?v=ftMrLvxe9Yk&t=270s"
+            },
+            {
+              "label": "Macro 8:27",
+              "url": "https://www.youtube.com/watch?v=hRb-zyPLfT0&t=507s"
+            }
+          ]
+        },
+        {
+          "text": "Groß: Transfusion. Schaden und Heilung laden Infuse schneller. Cost of Life kostet 25 Leben bei großer Hitbox.",
+          "videos": [
+            {
+              "label": "AbbyAZK 5:30",
+              "url": "https://www.youtube.com/watch?v=ftMrLvxe9Yk&t=330s"
+            },
+            {
+              "label": "AbbyAZK 6:00",
+              "url": "https://www.youtube.com/watch?v=ftMrLvxe9Yk&t=360s"
+            },
+            {
+              "label": "Macro 9:00",
+              "url": "https://www.youtube.com/watch?v=hRb-zyPLfT0&t=540s"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Matchups",
+      "rules": [
+        {
+          "text": "Sombra-EMP löscht deine Ult. Ist EMP bereit, erst abwarten.",
+          "videos": [
+            {
+              "label": "Macro 10:59",
+              "url": "https://www.youtube.com/watch?v=hRb-zyPLfT0&t=659s"
+            },
+            {
+              "label": "KarQ Kit 6:00",
+              "url": "https://www.youtube.com/watch?v=w-LEVZbx7dM&t=360s"
+            }
+          ]
+        },
+        {
+          "text": "Genji kann die Drohnen-Schüsse der Ult zurückwerfen. Kirikos Suzu und Zaryas Bubble heben den Effekt auf.",
+          "videos": [
+            {
+              "label": "KarQ Kit 6:00",
+              "url": "https://www.youtube.com/watch?v=w-LEVZbx7dM&t=360s"
+            },
+            {
+              "label": "Macro 10:42",
+              "url": "https://www.youtube.com/watch?v=hRb-zyPLfT0&t=642s"
+            }
+          ]
+        },
+        {
+          "text": "Flieger wie Pharah und Echo sind leichte Ziele für das Szepter. Lucio kommt auf deinen High Ground, halt ihn im Blick.",
+          "videos": [
+            {
+              "label": "Bily World Cup 12:00",
+              "url": "https://www.youtube.com/watch?v=LWxJi5mzz9U&t=720s"
+            },
+            {
+              "label": "Bily World Cup 12:40",
+              "url": "https://www.youtube.com/watch?v=LWxJi5mzz9U&t=760s"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "path": [
+    {
+      "id": "doctrine-back-then-angle",
+      "title": "Erst hinten, dann Winkel",
+      "question": "Hat der Fight schon angefangen?",
+      "points": [
+        "Nein → hinten an Deckung, Schaden reinpoken.",
+        "Ja → Seitenwinkel nehmen und Druck machen.",
+        "Nur so weit, dass du zurück zum Team kommst."
+      ],
+      "videos": [
+        {
+          "label": "Bily World Cup 2:40",
+          "url": "https://www.youtube.com/watch?v=LWxJi5mzz9U&t=160s"
+        },
+        {
+          "label": "Bily World Cup 4:00",
+          "url": "https://www.youtube.com/watch?v=LWxJi5mzz9U&t=240s"
+        }
+      ]
+    },
+    {
+      "id": "doctrine-never-idle",
+      "title": "Nie nichts tun",
+      "question": "Was mache ich gerade zwischen meinen Cooldowns?",
+      "points": [
+        "Braucht keiner Heilung → Schaden machen.",
+        "Tank unter Druck → infused Heilschuss.",
+        "Selbst unter Druck → Position wechseln, nicht warten."
+      ],
+      "videos": [
+        {
+          "label": "Ants T500 4:30",
+          "url": "https://www.youtube.com/watch?v=Zf_P8q3llhE&t=270s"
+        },
+        {
+          "label": "Ants T500 5:30",
+          "url": "https://www.youtube.com/watch?v=Zf_P8q3llhE&t=330s"
+        }
+      ]
+    },
+    {
+      "id": "doctrine-drone-target",
+      "title": "Drohne auf den Macher",
+      "question": "Wer macht in den nächsten zwei Sekunden etwas?",
+      "points": [
+        "Dem gibst du die Drohne: Dash, Seitenwinkel, Push.",
+        "Nicht auf jemanden, dem nur etwas Leben fehlt.",
+        "Stirbt gleich jemand → heilen, nicht buffen."
+      ],
+      "videos": [
+        {
+          "label": "Ants T500 7:45",
+          "url": "https://www.youtube.com/watch?v=Zf_P8q3llhE&t=465s"
+        },
+        {
+          "label": "Ants T500 8:00",
+          "url": "https://www.youtube.com/watch?v=Zf_P8q3llhE&t=480s"
+        },
+        {
+          "label": "AbbyAZK 6:40",
+          "url": "https://www.youtube.com/watch?v=ftMrLvxe9Yk&t=400s"
+        }
+      ]
+    },
+    {
+      "id": "doctrine-flight-escape",
+      "title": "Flug ist dein Ausweg",
+      "question": "Habe ich noch Infuse und Dash, falls mich jemand diven will?",
+      "points": [
+        "Ohne Dive gegen dich reicht der normale Dash.",
+        "Gedived → infused Dash weg, infused Drohne auf dich.",
+        "Nie reinfliegen ohne Plan für den Rückweg."
+      ],
+      "videos": [
+        {
+          "label": "Ants T500 9:00",
+          "url": "https://www.youtube.com/watch?v=Zf_P8q3llhE&t=540s"
+        },
+        {
+          "label": "Ants T500 9:30",
+          "url": "https://www.youtube.com/watch?v=Zf_P8q3llhE&t=570s"
+        },
+        {
+          "label": "AbbyAZK 8:20",
+          "url": "https://www.youtube.com/watch?v=ftMrLvxe9Yk&t=500s"
+        }
+      ]
+    },
+    {
+      "id": "doctrine-high-ground",
+      "title": "High Ground halten",
+      "question": "Stehe ich gerade da, wo mich kaum jemand erreicht?",
+      "points": [
+        "Mit dem Flug hoch und von oben heilen und schießen.",
+        "Unter Druck runterfallen, später wieder hoch.",
+        "Achte auf alle, die hochkommen: Lucio, Flieger, Diver."
+      ],
+      "videos": [
+        {
+          "label": "Bily World Cup 11:40",
+          "url": "https://www.youtube.com/watch?v=LWxJi5mzz9U&t=700s"
+        },
+        {
+          "label": "Bily World Cup 12:00",
+          "url": "https://www.youtube.com/watch?v=LWxJi5mzz9U&t=720s"
+        }
+      ]
+    },
+    {
+      "id": "doctrine-ult-engage",
+      "title": "Ult zum Starten",
+      "question": "Startet oder kippt mein Team gerade einen Fight?",
+      "points": [
+        "Ja → Ult, dann alle auf die Getroffenen.",
+        "Nicht als Panikknopf.",
+        "Sombra mit EMP? Erst abwarten."
+      ],
+      "videos": [
+        {
+          "label": "Ants T500 10:00",
+          "url": "https://www.youtube.com/watch?v=Zf_P8q3llhE&t=600s"
+        },
+        {
+          "label": "Macro 10:59",
+          "url": "https://www.youtube.com/watch?v=hRb-zyPLfT0&t=659s"
+        }
+      ]
+    }
+  ]
+}

@@ -25,7 +25,8 @@ struct RealContentTests {
 
     @Test func startHeroesExist() throws {
         let lib = try Self.repoContent()
-        #expect(Set(lib.heroes.map(\.id)) == ["torbjorn", "juno", "domina", "winston", "zarya"])
+        #expect(Set(lib.heroes.map(\.id)) == ["torbjorn", "juno", "domina", "winston", "zarya", "doctrine"])
+        #expect(lib.hero("doctrine")?.role == .support)
         #expect(lib.hero("torbjorn")?.path.count == 5)
         #expect(lib.hero("zarya")?.role == .tank)
         #expect(lib.hero("juno")?.role == .support)
