@@ -1,0 +1,9 @@
+{
+  "id": "testhero",
+  "name": "Testheld",
+  "role": "tank",
+  "guide": [{ "title": "Aufgabe", "rules": [{ "text": "Platz machen", "videos": [] }] }],
+  "path": [
+    { "id": "testhero-a", "title": "A", "question": "Frage A?", "points": ["a"], "videos": [] }
+  ]
+}

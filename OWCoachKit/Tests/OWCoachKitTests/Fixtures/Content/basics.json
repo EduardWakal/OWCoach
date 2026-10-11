@@ -1,0 +1,10 @@
+[
+  {
+    "id": "cover",
+    "title": "Cover",
+    "question": "Stehe ich an Deckung?",
+    "points": ["Allgemein eins", "Allgemein zwei"],
+    "rolePoints": { "damage": ["DPS eins"] },
+    "videos": [{ "label": "1:00", "url": "https://www.youtube.com/watch?v=abc&t=60s" }]
+  }
+]

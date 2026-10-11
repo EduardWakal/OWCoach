@@ -1,0 +1,5 @@
+[
+  { "id": "paraiso", "name": "Paraíso", "mode": "hybrid" },
+  { "id": "kings-row", "name": "King's Row", "mode": "hybrid" },
+  { "id": "busan", "name": "Busan", "mode": "control" }
+]
