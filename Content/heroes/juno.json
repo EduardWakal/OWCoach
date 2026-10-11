@@ -16,7 +16,7 @@
           ]
         },
         {
-          "text": "Du gewinnst Duelle nicht schnell, sondern auf Dauer: Crits, Torpedos, Distanz halten, Health Packs nutzen.",
+          "text": "Du gewinnst Duelle nicht schnell, sondern auf Dauer: Crits, Torpedos, Distanz halten, Heilpakete nutzen.",
           "videos": [
             {
               "label": "Emerald 9:00",
@@ -123,7 +123,7 @@
           ]
         },
         {
-          "text": "Belohn deine DPS: Wer High Ground nimmt, bekommt sofort Heilung, sonst geht er nicht mehr hin.",
+          "text": "Belohne deine DPS: Wer High Ground nimmt, bekommt sofort Heilung, sonst geht er nicht mehr hin.",
           "videos": [
             {
               "label": "Emerald 31:20",
@@ -180,7 +180,7 @@
       "title": "Auf der Lane bleiben",
       "question": "Laufe ich gerade ohne Grund weg?",
       "points": [
-        "Nicht vom Teammate weggehen.",
+        "Nicht vom Mitspieler weggehen.",
         "Nicht zum Punkt rennen.",
         "Erst Position wählen, dann heilen."
       ],

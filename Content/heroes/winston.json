@@ -16,7 +16,7 @@
           ]
         },
         {
-          "text": "Dein Ziel sind die Squishies, nicht der gegnerische Tank. Bedrohst du ihre Leben, müssen sie Cooldowns ziehen und sich umdrehen.",
+          "text": "Dein Ziel sind die Squishies, nicht der gegnerische Tank. Bedrohst du ihr Leben, müssen sie Cooldowns ziehen und sich umdrehen.",
           "videos": [
             {
               "label": "Plat Grundlagen 8:00",
@@ -33,7 +33,7 @@
           ]
         },
         {
-          "text": "Manchmal ist nichts tun richtig. Ohne Team-Engage nicht allein Cooldowns verbrennen.",
+          "text": "Manchmal ist Nichtstun richtig. Ohne Team-Engage nicht allein Cooldowns verbrennen.",
           "videos": [
             {
               "label": "Plat Grundlagen 24:30",
@@ -86,7 +86,7 @@
           ]
         },
         {
-          "text": "Kämpf auf der Linie deines Teams. Steht du weiter hinten, lass den Gegner die Linie überqueren und geh dann von hinten rein.",
+          "text": "Kämpf auf der Linie deines Teams. Stehst du weiter hinten, lass den Gegner die Linie überqueren und geh dann von hinten rein.",
           "videos": [
             {
               "label": "GM Linie 16:00",
@@ -173,7 +173,7 @@
           ]
         },
         {
-          "text": "Ohne Cooldowns raus, heilen lassen und das nächste Engage aufstellen. Nicht ohne alles weiterkämpfen.",
+          "text": "Ohne Cooldowns raus, heilen lassen und das nächste Engage aufstellen. Ohne Cooldowns nicht weiterkämpfen.",
           "videos": [
             {
               "label": "Plat Grundlagen 11:00",
@@ -204,7 +204,7 @@
           ]
         },
         {
-          "text": "Rechtsklick-Poke nur, wenn du Supports hast. Ist der Gegner gepocket und du nicht, kostet Poke dich mehr als ihn.",
+          "text": "Rechtsklick-Poke nur, wenn du Supports hast. Wird der Gegner gerade geheilt und du nicht, kostet dich der Poke mehr als ihn.",
           "videos": [
             {
               "label": "Plat Grundlagen 9:30",
@@ -240,7 +240,7 @@
           ]
         },
         {
-          "text": "Bubble-Trade: rein, Cooldowns ziehen, raus und Leben behalten. Wer zu lange für den Kill bleibt, war sicher und dann nicht mehr.",
+          "text": "Bubble-Trade: rein, Cooldowns ziehen, raus und Leben behalten. Wer für den Kill zu lange bleibt, verliert den sicheren Rückweg.",
           "videos": [
             {
               "label": "GM Linie 32:30",
@@ -316,7 +316,7 @@
       "points": [
         "High Ground und Deckung suchen.",
         "Hinter den Squishies landen.",
-        "Unterwegs triffst du den gefährlichsten Gegner."
+        "Dabei findest du oft den gefährlichsten Gegner."
       ],
       "videos": [
         {
@@ -364,7 +364,7 @@
       "points": [
         "Squishies und Supports zuerst.",
         "Den Tank fast nie.",
-        "Kill-Druck zwingt Cooldowns."
+        "Drohst du mit einem Kill, müssen sie Cooldowns ziehen."
       ],
       "videos": [
         {
@@ -387,7 +387,7 @@
       "question": "Habe ich noch Sprung oder Bubble?",
       "points": [
         "Nein → raus, heilen, neu aufstellen.",
-        "Nicht ohne alles weiterkämpfen.",
+        "Ohne Cooldowns nicht weiterkämpfen.",
         "Erst mit Bubble wieder rein."
       ],
       "videos": [

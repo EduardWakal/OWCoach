@@ -79,7 +79,7 @@
           ]
         },
         {
-          "text": "Ecke, Schaden, nichts mehr zu schießen, vorgehen, nächste Ecke. Wenn du gerade triffst, nicht weiter vorlaufen.",
+          "text": "Von der Ecke aus Schaden machen. Gibt es nichts mehr zu treffen, zur nächsten Ecke vorgehen. Triffst du gerade, nicht weiterlaufen.",
           "videos": [
             {
               "label": "Diamond Damage 40:00",
@@ -162,7 +162,7 @@
           ]
         },
         {
-          "text": "Nicht vorbeugend bubbeln, außer ein großer Burst kommt sicher. Reaktiv gebubbelt muss der Gegner seinen Cooldown verschwenden.",
+          "text": "Nicht vorbeugend bubbeln, außer ein großer Burst kommt sicher. Bubbelst du erst bei Schaden, muss der Gegner seinen Cooldown verschwenden.",
           "videos": [
             {
               "label": "Diamond Damage 16:30",
@@ -223,7 +223,7 @@
           ]
         },
         {
-          "text": "Ladung kommt von allein, wenn du Raum nimmst. Hohe Ladung plus Bubbles heißt jetzt reingehen.",
+          "text": "Ladung kommt von allein, wenn du Raum nimmst. Hohe Ladung und Bubbles bereit heißt: jetzt rein.",
           "videos": [
             {
               "label": "Plat Bubble 4:00",
@@ -317,7 +317,7 @@
       "points": [
         "Ja → von dort ohne Bubble brennen.",
         "Raus aus der Deckung → mit Bubble.",
-        "Nicht zu weit vor, als die Bubbles zurückreichen."
+        "Nur so weit vor, wie deine Bubbles dich zurückbringen."
       ],
       "videos": [
         {
@@ -388,7 +388,7 @@
       "question": "Habe ich zwei Bubbles und Ladung?",
       "points": [
         "Ja → jetzt großer Push.",
-        "Nein und gratis Schaden möglich → aus der Deckung, Bubbles sparen.",
+        "Nein → aus der Deckung schießen, Bubbles sparen.",
         "Keine Lane wechseln für eine D.Va."
       ],
       "videos": [

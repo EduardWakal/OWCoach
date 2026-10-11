@@ -7,7 +7,7 @@
       "title": "Aufgabe",
       "rules": [
         {
-          "text": "Mid-Range-Tank. Gegen Tanks pokst du auf Distanz, gegen Squishies bist du auf kurze Distanz tödlich, solange Schild, Slam und Crystal bereit sind.",
+          "text": "Tank für mittlere Distanz. Gegen Tanks schießt du aus der Distanz, gegen Squishies bist du auf kurze Distanz tödlich, solange Schild, Slam und Crystal bereit sind.",
           "videos": [
             {
               "label": "Guide 0:00",
@@ -113,7 +113,7 @@
       "title": "Kit · Schild",
       "rules": [
         {
-          "text": "Schild setzen, wenn du dich auf eine Ecke festlegst und dein Team mitkämpft oder der Gegner committet. Nicht als Ersatz für fehlende Deckung.",
+          "text": "Schild setzen, wenn du dich auf eine Ecke festlegst und dein Team mitkämpft oder der Gegner sich festlegt. Nicht als Ersatz für fehlende Deckung.",
           "videos": [
             {
               "label": "Guide 22:00",
@@ -139,7 +139,7 @@
           ]
         },
         {
-          "text": "Ohne Schild vorsichtiger peeken: Deckung nutzen, Tank beschießen, keine Sniper anschauen.",
+          "text": "Ohne Schild vorsichtiger peeken: Deckung nutzen, Tank beschießen, nicht in Sniper-Linien peeken.",
           "videos": [
             {
               "label": "Guide 22:00",
@@ -224,7 +224,7 @@
       "title": "Kit · Ult",
       "rules": [
         {
-          "text": "Ult braucht Nähe. Nicht quer über die Map werfen. Mehrere Gegner treffen, sonst ein nahes Squishy.",
+          "text": "Die Ult braucht Nähe. Nicht quer über die Map werfen. Mehrere Gegner treffen, sonst ein nahes Squishy.",
           "videos": [
             {
               "label": "Guide 32:00",
@@ -398,7 +398,7 @@
       "points": [
         "Das löst du, der Rest gehört dem Team.",
         "Nicht hin und her rotieren.",
-        "Vertrauen kostet weniger als Face-Tanken."
+        "Dem Team vertrauen kostet weniger, als jeden Schaden selbst zu fressen."
       ],
       "videos": [
         {
