@@ -196,7 +196,9 @@ iCloud-Status.
 - `App/`: SwiftUI-Screens und SwiftData-Modelle. Die Modelle werden für die Kit-Logik
   in einfache Werte-Typen übersetzt, damit das Kit ohne SwiftData testbar bleibt
 - Bundle-ID `de.schakal.OWCoach`, CloudKit-Container `iCloud.de.schakal.OWCoach`
-- Design: dunkles Grundthema mit Overwatch-Orange als Akzent, große Touch-Ziele
+- Design: Liquid Glass (iOS 26). Systemeigene Tab-Bar, Toolbars und Buttons bringen es
+  mit; eigene Flächen (Kacheln, Chips, Fokus-Karte) bekommen `.glassEffect()`.
+  Dunkles Grundthema mit Overwatch-Orange als Akzent, große Touch-Ziele
   (mindestens 52 pt), Rollen-Farben für Tank/DPS/Support, Haptik bei jedem Tap
   im Game-Ablauf
 
