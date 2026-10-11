@@ -2,24 +2,36 @@
   {
     "id": "cover",
     "title": "Cover",
-    "question": "Stehe ich gerade an Deckung oder im Offenen?",
+    "question": "Stehe ich gerade hinter Deckung oder im Offenen?",
     "points": [
-      "Zwischen den Aktionen immer an einer Kante stehen, nie mitten im Raum.",
-      "Peeken, Aktion, zurück. Auch mit vollem Leben nicht im Offenen stehen bleiben.",
+      "Zwischen den Aktionen immer an einer Kante stehen, nie frei im Raum.",
+      "Peeken, handeln, zurück. Auch mit vollem Leben nicht im Offenen stehen bleiben.",
       "Weicht der Gegner zurück, nicht durchs Offene hinterher."
     ],
     "rolePoints": {
       "damage": [
-        "Peeken, Schuss, zurück hinter die Kante. Kein W ins Offene, der Druck vom Winkel reicht.",
-        "Nie zweimal gleich peeken: andere Seite der Kante, crouch, Höhe oder die nächste Ecke auf derselben Lane. Die Widow wartet auf deinen alten Kopf.",
-        "Gegner weicht zurück → nicht hinterher. Ecke halten, Team macht den Rest."
+        "Peeken, schießen, zurück hinter die Kante. Nicht ins Offene laufen – der Druck von deinem Winkel reicht.",
+        "Nie zweimal am selben Fleck peeken: andere Seite der Kante, ducken, höher oder die nächste Ecke derselben Lane. Ein Sniper zielt schon dahin, wo du zuletzt warst.",
+        "Weicht der Gegner zurück, nicht hinterher. Ecke halten, den Rest macht dein Team."
       ]
     },
     "videos": [
-      { "label": "Torb Gold 40:30", "url": "https://www.youtube.com/watch?v=EhzSArLzaMc&t=2430s" },
-      { "label": "Torb Gold 43:00", "url": "https://www.youtube.com/watch?v=EhzSArLzaMc&t=2580s" },
-      { "label": "Torb Masters 28:00", "url": "https://www.youtube.com/watch?v=Fy6n5gvYTjY&t=1680s" },
-      { "label": "Torb GM 52:00", "url": "https://www.youtube.com/watch?v=s_Na9l95B5M&t=3120s" }
+      {
+        "label": "Torb Gold 40:30",
+        "url": "https://www.youtube.com/watch?v=EhzSArLzaMc&t=2430s"
+      },
+      {
+        "label": "Torb Gold 43:00",
+        "url": "https://www.youtube.com/watch?v=EhzSArLzaMc&t=2580s"
+      },
+      {
+        "label": "Torb Masters 28:00",
+        "url": "https://www.youtube.com/watch?v=Fy6n5gvYTjY&t=1680s"
+      },
+      {
+        "label": "Torb GM 52:00",
+        "url": "https://www.youtube.com/watch?v=s_Na9l95B5M&t=3120s"
+      }
     ]
   },
   {
@@ -27,29 +39,53 @@
     "title": "Slicing the Pie",
     "question": "Sieht mich gerade mehr als ein Gegner?",
     "points": [
-      "Das Cover so nutzen, dass nur einer dich sieht. Den duellierst du.",
-      "Sehen dich mehrere → einen Schritt ins Cover und neu schneiden."
+      "Deckung so nutzen, dass dich nur ein Gegner sieht. Mit dem duellierst du dich.",
+      "Sehen dich mehrere → einen Schritt zurück in die Deckung und den Winkel neu wählen."
     ],
     "videos": [
-      { "label": "3:30", "url": "https://www.youtube.com/watch?v=GhsnF6mqMV0&t=210s" },
-      { "label": "12:30", "url": "https://www.youtube.com/watch?v=528cyL9_OT8&t=750s" },
-      { "label": "24:00", "url": "https://www.youtube.com/watch?v=528cyL9_OT8&t=1440s" },
-      { "label": "13:30", "url": "https://www.youtube.com/watch?v=i2XOfuzcZGE&t=810s" }
+      {
+        "label": "3:30",
+        "url": "https://www.youtube.com/watch?v=GhsnF6mqMV0&t=210s"
+      },
+      {
+        "label": "12:30",
+        "url": "https://www.youtube.com/watch?v=528cyL9_OT8&t=750s"
+      },
+      {
+        "label": "24:00",
+        "url": "https://www.youtube.com/watch?v=528cyL9_OT8&t=1440s"
+      },
+      {
+        "label": "13:30",
+        "url": "https://www.youtube.com/watch?v=i2XOfuzcZGE&t=810s"
+      }
     ]
   },
   {
     "id": "go-back",
     "title": "Go/Back",
-    "question": "Grünes oder rotes Licht?",
+    "question": "Grünes oder rotes Licht – nach vorn oder zurück?",
     "points": [
-      "Grün → nach vorne: Gegner-Cooldowns weg, du triffst, dein Team engaged.",
-      "Rot → zurück: Dive kommt, Ult kommt, dein Tank backt, drei schießen auf dich."
+      "Grün → nach vorn: Gegner-Cooldowns sind weg, du triffst, dein Team geht rein.",
+      "Rot → zurück: Dive oder Ult kommt, dein Tank zieht sich zurück oder drei Gegner schießen auf dich."
     ],
     "videos": [
-      { "label": "23:00", "url": "https://www.youtube.com/watch?v=mHcokfZRLts&t=1380s" },
-      { "label": "29:00", "url": "https://www.youtube.com/watch?v=GhsnF6mqMV0&t=1740s" },
-      { "label": "4:00", "url": "https://www.youtube.com/watch?v=GhsnF6mqMV0&t=240s" },
-      { "label": "15:30", "url": "https://www.youtube.com/watch?v=NYDmj4dE0Jc&t=930s" }
+      {
+        "label": "23:00",
+        "url": "https://www.youtube.com/watch?v=mHcokfZRLts&t=1380s"
+      },
+      {
+        "label": "29:00",
+        "url": "https://www.youtube.com/watch?v=GhsnF6mqMV0&t=1740s"
+      },
+      {
+        "label": "4:00",
+        "url": "https://www.youtube.com/watch?v=GhsnF6mqMV0&t=240s"
+      },
+      {
+        "label": "15:30",
+        "url": "https://www.youtube.com/watch?v=NYDmj4dE0Jc&t=930s"
+      }
     ]
   },
   {
@@ -57,23 +93,38 @@
     "title": "Position zum Team",
     "question": "Wo steht mein Team, und sehen mich meine Supports?",
     "points": [
-      "In Sicht der Supports bleiben. Ohne Heilung ist jeder Winkel ein Solo-Duell.",
-      "Nicht auf derselben Linie wie das Team und nie zu dritt auf einem Fleck.",
-      "Entscheiden und hingehen. Eine schlechte Wahl ist besser als in der Mitte zu hovern."
+      "In Sicht deiner Supports bleiben. Ohne Heilung wird jeder Winkel ein Solo-Duell.",
+      "Nicht in einer Linie mit dem Team stehen und nie zu dritt auf einem Fleck.",
+      "Entscheiden und hingehen. Eine schlechte Wahl ist besser als in der Mitte zu zögern."
     ],
     "rolePoints": {
       "damage": [
-        "Team auf Main → du nimmst links oder rechts, auf 3 oder 9 Uhr neben der Frontline.",
-        "Entscheiden und hingehen. Nicht in der Mitte hovern, eine schlechte Wahl ist besser als keine.",
-        "Früh hin und nach dem Fight auf der Lane bleiben, nicht quer durchs Offene."
+        "Team auf Main → du nimmst links oder rechts, seitlich neben deiner Frontline (3 oder 9 Uhr).",
+        "Entscheiden und hingehen. Nicht in der Mitte zögern – eine schlechte Wahl ist besser als keine.",
+        "Früh hingehen und nach dem Fight auf deiner Lane bleiben, nicht quer durchs Offene."
       ]
     },
     "videos": [
-      { "label": "Torb Gold 17:30", "url": "https://www.youtube.com/watch?v=EhzSArLzaMc&t=1050s" },
-      { "label": "Torb Gold 10:30", "url": "https://www.youtube.com/watch?v=EhzSArLzaMc&t=630s" },
-      { "label": "Torb Gold 35:00", "url": "https://www.youtube.com/watch?v=EhzSArLzaMc&t=2100s" },
-      { "label": "4:00", "url": "https://www.youtube.com/watch?v=528cyL9_OT8&t=240s" },
-      { "label": "18:00", "url": "https://www.youtube.com/watch?v=GhsnF6mqMV0&t=1080s" }
+      {
+        "label": "Torb Gold 17:30",
+        "url": "https://www.youtube.com/watch?v=EhzSArLzaMc&t=1050s"
+      },
+      {
+        "label": "Torb Gold 10:30",
+        "url": "https://www.youtube.com/watch?v=EhzSArLzaMc&t=630s"
+      },
+      {
+        "label": "Torb Gold 35:00",
+        "url": "https://www.youtube.com/watch?v=EhzSArLzaMc&t=2100s"
+      },
+      {
+        "label": "4:00",
+        "url": "https://www.youtube.com/watch?v=528cyL9_OT8&t=240s"
+      },
+      {
+        "label": "18:00",
+        "url": "https://www.youtube.com/watch?v=GhsnF6mqMV0&t=1080s"
+      }
     ]
   },
   {
@@ -83,29 +134,53 @@
     "points": [
       "Vor dem Fight TAB drücken: Wer ist der Threat (Diver, Flanker, Sniper)?",
       "Hören: Blink, Schritte, Translocator, Jump. Auch während du jemand anderen beschießt.",
-      "Ist er tot oder weit weg → frei spielen. Ist er nah → Deckung, Cooldown bereit."
+      "Ist er tot oder weit weg → frei spielen. Ist er nah → in Deckung, Cooldown bereithalten."
     ],
     "videos": [
-      { "label": "9:00", "url": "https://www.youtube.com/watch?v=IR6lnQlcVEo&t=540s" },
-      { "label": "7:30", "url": "https://www.youtube.com/watch?v=Mj2x1XpgOrg&t=450s" },
-      { "label": "14:30", "url": "https://www.youtube.com/watch?v=_pHmydl9sv4&t=870s" },
-      { "label": "11:30", "url": "https://www.youtube.com/watch?v=NYDmj4dE0Jc&t=690s" }
+      {
+        "label": "9:00",
+        "url": "https://www.youtube.com/watch?v=IR6lnQlcVEo&t=540s"
+      },
+      {
+        "label": "7:30",
+        "url": "https://www.youtube.com/watch?v=Mj2x1XpgOrg&t=450s"
+      },
+      {
+        "label": "14:30",
+        "url": "https://www.youtube.com/watch?v=_pHmydl9sv4&t=870s"
+      },
+      {
+        "label": "11:30",
+        "url": "https://www.youtube.com/watch?v=NYDmj4dE0Jc&t=690s"
+      }
     ]
   },
   {
     "id": "escape",
     "title": "Fluchtweg zuerst",
-    "question": "Wohin gehe ich, wenn es jetzt schiefgeht?",
+    "question": "Wohin komme ich weg, wenn es jetzt schiefgeht?",
     "points": [
-      "Bevor du peekst, kennst du den Weg raus, am besten zwei.",
-      "„Ein Auge macht Schaden, ein Auge sucht den Ausgang.“",
-      "Ist keine Ecke direkt hinter dir, stehst du zu weit vorn."
+      "Bevor du peekst, kennst du den Weg raus – am besten zwei.",
+      "Ein Auge auf dem Ziel, eins auf dem Ausgang.",
+      "Ist keine Deckung direkt hinter dir, stehst du zu weit vorn."
     ],
     "videos": [
-      { "label": "30:30", "url": "https://www.youtube.com/watch?v=528cyL9_OT8&t=1830s" },
-      { "label": "27:00", "url": "https://www.youtube.com/watch?v=GhsnF6mqMV0&t=1620s" },
-      { "label": "7:00", "url": "https://www.youtube.com/watch?v=_pHmydl9sv4&t=420s" },
-      { "label": "1:56", "url": "https://www.youtube.com/watch?v=2pSMPZNzf_E&t=116s" }
+      {
+        "label": "30:30",
+        "url": "https://www.youtube.com/watch?v=528cyL9_OT8&t=1830s"
+      },
+      {
+        "label": "27:00",
+        "url": "https://www.youtube.com/watch?v=GhsnF6mqMV0&t=1620s"
+      },
+      {
+        "label": "7:00",
+        "url": "https://www.youtube.com/watch?v=_pHmydl9sv4&t=420s"
+      },
+      {
+        "label": "1:56",
+        "url": "https://www.youtube.com/watch?v=2pSMPZNzf_E&t=116s"
+      }
     ]
   },
   {
@@ -113,15 +188,27 @@
     "title": "Timing mit dem Team",
     "question": "Pokt mein Team gerade oder engaged es?",
     "points": [
-      "Poken → Chill Pill: schießen, verstecken, schießen, verstecken.",
-      "Engage → Dinosaur: rein in die Range, Aufmerksamkeit ziehen, Cooldowns erzwingen.",
-      "Tank kurz vorm Tod → Flare: Gegner schaut dich an, du bist wieder weg."
+      "Team pokt → ruhig bleiben: schießen, verstecken, schießen, verstecken.",
+      "Team geht rein → mitgehen: in Reichweite, Aufmerksamkeit ziehen, Cooldowns erzwingen.",
+      "Dein Tank fast tot → kurz zeigen: Der Gegner schaut zu dir, und du bist sofort wieder weg."
     ],
     "videos": [
-      { "label": "15:30", "url": "https://www.youtube.com/watch?v=GhsnF6mqMV0&t=930s" },
-      { "label": "5:30", "url": "https://www.youtube.com/watch?v=GhsnF6mqMV0&t=330s" },
-      { "label": "15:00", "url": "https://www.youtube.com/watch?v=j9g1tiOvd88&t=900s" },
-      { "label": "16:30", "url": "https://www.youtube.com/watch?v=i2XOfuzcZGE&t=990s" }
+      {
+        "label": "15:30",
+        "url": "https://www.youtube.com/watch?v=GhsnF6mqMV0&t=930s"
+      },
+      {
+        "label": "5:30",
+        "url": "https://www.youtube.com/watch?v=GhsnF6mqMV0&t=330s"
+      },
+      {
+        "label": "15:00",
+        "url": "https://www.youtube.com/watch?v=j9g1tiOvd88&t=900s"
+      },
+      {
+        "label": "16:30",
+        "url": "https://www.youtube.com/watch?v=i2XOfuzcZGE&t=990s"
+      }
     ]
   }
 ]

@@ -6,63 +6,331 @@
     {
       "title": "Aufgabe",
       "rules": [
-        { "text": "Mittlere Distanz, sehr flexibel, aber nur mit Overload ein starker Duellant.", "videos": [{ "label": "Masters 0:00", "url": "https://www.youtube.com/watch?v=Fy6n5gvYTjY&t=0s" }] },
-        { "text": "300 HP plus Overload: Du kannst Lanes und Räume halten, die anderen DPS zu riskant sind. Survivability ist deine Mobility.", "videos": [{ "label": "Gold 3:00", "url": "https://www.youtube.com/watch?v=EhzSArLzaMc&t=180s" }, { "label": "GM 27:30", "url": "https://www.youtube.com/watch?v=s_Na9l95B5M&t=1650s" }] }
+        {
+          "text": "Mittlere Distanz und sehr flexibel. Stark im Duell aber nur mit Overload.",
+          "videos": [
+            {
+              "label": "Masters 0:00",
+              "url": "https://www.youtube.com/watch?v=Fy6n5gvYTjY&t=0s"
+            }
+          ]
+        },
+        {
+          "text": "300 HP plus Overload: Du hältst Lanes und Räume, die anderen DPS zu riskant sind. Deine Lebenspunkte sind deine Mobilität.",
+          "videos": [
+            {
+              "label": "Gold 3:00",
+              "url": "https://www.youtube.com/watch?v=EhzSArLzaMc&t=180s"
+            },
+            {
+              "label": "GM 27:30",
+              "url": "https://www.youtube.com/watch?v=s_Na9l95B5M&t=1650s"
+            }
+          ]
+        }
       ]
     },
     {
       "title": "Positionierung",
       "rules": [
-        { "text": "Ecke halten, kein W ins Offene. Die Angles scheitern, wenn du nach vorn läufst.", "videos": [{ "label": "Gold 40:30", "url": "https://www.youtube.com/watch?v=EhzSArLzaMc&t=2430s" }, { "label": "Gold 43:00", "url": "https://www.youtube.com/watch?v=EhzSArLzaMc&t=2580s" }] },
-        { "text": "Nie zweimal gleich peeken: andere Seite der Kante, crouch, Höhe oder nächste Ecke auf derselben Lane. Der Turret hält die alte Ecke.", "videos": [{ "label": "GM 52:00", "url": "https://www.youtube.com/watch?v=s_Na9l95B5M&t=3120s" }] },
-        { "text": "Auch mit Overload kein Face-Tanking im Offenen.", "videos": [{ "label": "Masters 28:00", "url": "https://www.youtube.com/watch?v=Fy6n5gvYTjY&t=1680s" }] },
-        { "text": "Lane halten. Nach Overload nicht quer durchs Offene einem Kill hinterher.", "videos": [{ "label": "Gold 10:30", "url": "https://www.youtube.com/watch?v=EhzSArLzaMc&t=630s" }] },
-        { "text": "Nicht stacken. Team auf Main → du auf die Seite.", "videos": [{ "label": "Gold 14:30", "url": "https://www.youtube.com/watch?v=EhzSArLzaMc&t=870s" }, { "label": "Gold 35:00", "url": "https://www.youtube.com/watch?v=EhzSArLzaMc&t=2100s" }] },
-        { "text": "Lane genommen → dort bleiben, statt wieder auf der längsten Sightline zu spammen.", "videos": [{ "label": "GM 13:00", "url": "https://www.youtube.com/watch?v=s_Na9l95B5M&t=780s" }] },
-        { "text": "Früh da sein. Dieselbe Lane 8–10 s später ist viel schwerer zu nehmen.", "videos": [{ "label": "GM 23:00", "url": "https://www.youtube.com/watch?v=s_Na9l95B5M&t=1380s" }] }
+        {
+          "text": "Ecke halten, nicht ins Offene laufen. Deine Winkel scheitern meist dann, wenn du nach vorn gehst.",
+          "videos": [
+            {
+              "label": "Gold 40:30",
+              "url": "https://www.youtube.com/watch?v=EhzSArLzaMc&t=2430s"
+            },
+            {
+              "label": "Gold 43:00",
+              "url": "https://www.youtube.com/watch?v=EhzSArLzaMc&t=2580s"
+            }
+          ]
+        },
+        {
+          "text": "Nie zweimal am selben Fleck peeken: andere Seite der Kante, ducken, höher oder die nächste Ecke derselben Lane. Der Turret hält die alte Ecke.",
+          "videos": [
+            {
+              "label": "GM 52:00",
+              "url": "https://www.youtube.com/watch?v=s_Na9l95B5M&t=3120s"
+            }
+          ]
+        },
+        {
+          "text": "Auch mit Overload nicht im Offenen stehen und alles einstecken.",
+          "videos": [
+            {
+              "label": "Masters 28:00",
+              "url": "https://www.youtube.com/watch?v=Fy6n5gvYTjY&t=1680s"
+            }
+          ]
+        },
+        {
+          "text": "Lane halten. Nach Overload nicht quer durchs Offene einem Kill hinterherlaufen.",
+          "videos": [
+            {
+              "label": "Gold 10:30",
+              "url": "https://www.youtube.com/watch?v=EhzSArLzaMc&t=630s"
+            }
+          ]
+        },
+        {
+          "text": "Nicht mit dem Team auf einem Fleck stehen. Team auf Main → du auf die Seite.",
+          "videos": [
+            {
+              "label": "Gold 14:30",
+              "url": "https://www.youtube.com/watch?v=EhzSArLzaMc&t=870s"
+            },
+            {
+              "label": "Gold 35:00",
+              "url": "https://www.youtube.com/watch?v=EhzSArLzaMc&t=2100s"
+            }
+          ]
+        },
+        {
+          "text": "Lane genommen → dort bleiben, statt wieder von der längsten Sichtlinie zu spammen.",
+          "videos": [
+            {
+              "label": "GM 13:00",
+              "url": "https://www.youtube.com/watch?v=s_Na9l95B5M&t=780s"
+            }
+          ]
+        },
+        {
+          "text": "Früh da sein. Dieselbe Lane ist 8–10 s später viel schwerer zu nehmen.",
+          "videos": [
+            {
+              "label": "GM 23:00",
+              "url": "https://www.youtube.com/watch?v=s_Na9l95B5M&t=1380s"
+            }
+          ]
+        }
       ]
     },
     {
       "title": "Kit · Turret",
       "rules": [
-        { "text": "Drei Arten: Setup vor dem Fight auf anderem Winkel · halbes Setup, wenn die Zeit fehlt · Meat Shield, wenn du gedivet wirst.", "videos": [{ "label": "GM 2:00", "url": "https://www.youtube.com/watch?v=s_Na9l95B5M&t=120s" }] },
-        { "text": "Später Wert schlägt frühen Wert. Ein Turret, der erst mitten im Fight schießt, kostet sie mehr als einer, der sofort stirbt.", "videos": [{ "label": "Masters 2:30", "url": "https://www.youtube.com/watch?v=Fy6n5gvYTjY&t=150s" }, { "label": "Gold 6:30", "url": "https://www.youtube.com/watch?v=EhzSArLzaMc&t=390s" }] },
-        { "text": "Scout first. Ohne Info Turret halten, sonst droht ein langer Cooldown.", "videos": [{ "label": "Masters 6:00", "url": "https://www.youtube.com/watch?v=Fy6n5gvYTjY&t=360s" }] },
-        { "text": "Weg von dir, hinter Ecken. Sie müssen dich oder ihn wählen.", "videos": [{ "label": "Gold 7:58", "url": "https://www.youtube.com/watch?v=EhzSArLzaMc&t=478s" }, { "label": "Gold 26:00", "url": "https://www.youtube.com/watch?v=EhzSArLzaMc&t=1560s" }] },
-        { "text": "Fight zieht weg → Turret halten, statt ihn irgendwo hinzuwerfen.", "videos": [{ "label": "Masters 15:30", "url": "https://www.youtube.com/watch?v=Fy6n5gvYTjY&t=930s" }] }
+        {
+          "text": "Drei Arten: vor dem Fight auf einem anderen Winkel aufbauen · halb aufbauen, wenn die Zeit fehlt · als Ablenkung hinwerfen, wenn du gedivet wirst.",
+          "videos": [
+            {
+              "label": "GM 2:00",
+              "url": "https://www.youtube.com/watch?v=s_Na9l95B5M&t=120s"
+            }
+          ]
+        },
+        {
+          "text": "Später Wert schlägt frühen. Ein Turret, der erst mitten im Fight schießt, kostet den Gegner mehr als einer, der sofort zerstört wird.",
+          "videos": [
+            {
+              "label": "Masters 2:30",
+              "url": "https://www.youtube.com/watch?v=Fy6n5gvYTjY&t=150s"
+            },
+            {
+              "label": "Gold 6:30",
+              "url": "https://www.youtube.com/watch?v=EhzSArLzaMc&t=390s"
+            }
+          ]
+        },
+        {
+          "text": "Erst scouten. Ohne Info den Turret behalten, sonst wartest du lange auf den Cooldown.",
+          "videos": [
+            {
+              "label": "Masters 6:00",
+              "url": "https://www.youtube.com/watch?v=Fy6n5gvYTjY&t=360s"
+            }
+          ]
+        },
+        {
+          "text": "Weg von dir, hinter Ecken. Der Gegner muss sich zwischen dir und ihm entscheiden.",
+          "videos": [
+            {
+              "label": "Gold 7:58",
+              "url": "https://www.youtube.com/watch?v=EhzSArLzaMc&t=478s"
+            },
+            {
+              "label": "Gold 26:00",
+              "url": "https://www.youtube.com/watch?v=EhzSArLzaMc&t=1560s"
+            }
+          ]
+        },
+        {
+          "text": "Fight zieht weiter → Turret behalten, statt ihn irgendwo hinzuwerfen.",
+          "videos": [
+            {
+              "label": "Masters 15:30",
+              "url": "https://www.youtube.com/watch?v=Fy6n5gvYTjY&t=930s"
+            }
+          ]
+        }
       ]
     },
     {
       "title": "Kit · Overload",
       "rules": [
-        { "text": "Overload ist HP, nicht Feuerrate. Im Duell langsam weiterschießen. Feuerrate nur gegen Tank, Schild oder Choke.", "videos": [{ "label": "GM 11:30", "url": "https://www.youtube.com/watch?v=s_Na9l95B5M&t=690s" }, { "label": "Masters 8:00", "url": "https://www.youtube.com/watch?v=Fy6n5gvYTjY&t=480s" }] },
-        { "text": "Zwei Wege: gezielt für Schaden (dann musst du treffen) oder als Versicherung fürs Duell.", "videos": [{ "label": "Masters 9:11", "url": "https://www.youtube.com/watch?v=Fy6n5gvYTjY&t=551s" }] },
-        { "text": "Aus dem Spawn zünden für Speed, er ist wieder da, wenn du ankommst.", "videos": [{ "label": "Masters 33:30", "url": "https://www.youtube.com/watch?v=Fy6n5gvYTjY&t=2010s" }] }
+        {
+          "text": "Overload ist Leben, nicht Feuerrate. Im Duell weiter langsam schießen; volle Feuerrate nur gegen Tank, Schild oder Engstelle.",
+          "videos": [
+            {
+              "label": "GM 11:30",
+              "url": "https://www.youtube.com/watch?v=s_Na9l95B5M&t=690s"
+            },
+            {
+              "label": "Masters 8:00",
+              "url": "https://www.youtube.com/watch?v=Fy6n5gvYTjY&t=480s"
+            }
+          ]
+        },
+        {
+          "text": "Zwei Arten: gezielt für Schaden (dann musst du treffen) oder als Versicherung fürs Duell.",
+          "videos": [
+            {
+              "label": "Masters 9:11",
+              "url": "https://www.youtube.com/watch?v=Fy6n5gvYTjY&t=551s"
+            }
+          ]
+        },
+        {
+          "text": "Schon im Spawn zünden für mehr Tempo – er ist wieder bereit, wenn du ankommst.",
+          "videos": [
+            {
+              "label": "Masters 33:30",
+              "url": "https://www.youtube.com/watch?v=Fy6n5gvYTjY&t=2010s"
+            }
+          ]
+        }
       ]
     },
     {
       "title": "Kit · Aim",
       "rules": [
-        { "text": "Kopfhöhe. Langsames Projektil, also muss es ein Kopftreffer sein. Auf Distanz über den Kopf zielen.", "videos": [{ "label": "Masters 11:30", "url": "https://www.youtube.com/watch?v=Fy6n5gvYTjY&t=690s" }] },
-        { "text": "Langsam schießen. Torb gewinnt Duelle durch Treffen, nicht durch Ausweichen. Lange Strafes statt A-D-Spam.", "videos": [{ "label": "Masters 30:00", "url": "https://www.youtube.com/watch?v=Fy6n5gvYTjY&t=1800s" }, { "label": "GM 18:00", "url": "https://www.youtube.com/watch?v=s_Na9l95B5M&t=1080s" }] },
-        { "text": "Shotgun nur nah, der Schaden fällt stark ab. Hammer nur für den Speed-Perk.", "videos": [{ "label": "Gold 21:30", "url": "https://www.youtube.com/watch?v=EhzSArLzaMc&t=1290s" }, { "label": "Gold 4:00", "url": "https://www.youtube.com/watch?v=EhzSArLzaMc&t=240s" }] },
-        { "text": "Übung: Deathmatch, nur Primärfeuer, jeder Schuss einzeln gezielt, gewinnen egal.", "videos": [{ "label": "Gold 22:00", "url": "https://www.youtube.com/watch?v=EhzSArLzaMc&t=1320s" }, { "label": "Gold 43:30", "url": "https://www.youtube.com/watch?v=EhzSArLzaMc&t=2610s" }] }
+        {
+          "text": "Auf Kopfhöhe zielen. Das Projektil ist langsam, also muss jeder Treffer zählen. Auf Distanz etwas über den Kopf.",
+          "videos": [
+            {
+              "label": "Masters 11:30",
+              "url": "https://www.youtube.com/watch?v=Fy6n5gvYTjY&t=690s"
+            }
+          ]
+        },
+        {
+          "text": "Langsam schießen. Torb gewinnt Duelle durch Treffen, nicht durch Ausweichen. Lange Seitwärtsbewegungen statt hektischem A-D.",
+          "videos": [
+            {
+              "label": "Masters 30:00",
+              "url": "https://www.youtube.com/watch?v=Fy6n5gvYTjY&t=1800s"
+            },
+            {
+              "label": "GM 18:00",
+              "url": "https://www.youtube.com/watch?v=s_Na9l95B5M&t=1080s"
+            }
+          ]
+        },
+        {
+          "text": "Schrotflinte nur aus der Nähe, der Schaden fällt stark ab. Hammer nur mit dem Tempo-Perk.",
+          "videos": [
+            {
+              "label": "Gold 21:30",
+              "url": "https://www.youtube.com/watch?v=EhzSArLzaMc&t=1290s"
+            },
+            {
+              "label": "Gold 4:00",
+              "url": "https://www.youtube.com/watch?v=EhzSArLzaMc&t=240s"
+            }
+          ]
+        },
+        {
+          "text": "Übung: Deathmatch, nur Primärfeuer, jeden Schuss einzeln zielen. Gewinnen ist egal.",
+          "videos": [
+            {
+              "label": "Gold 22:00",
+              "url": "https://www.youtube.com/watch?v=EhzSArLzaMc&t=1320s"
+            },
+            {
+              "label": "Gold 43:30",
+              "url": "https://www.youtube.com/watch?v=EhzSArLzaMc&t=2610s"
+            }
+          ]
+        }
       ]
     },
     {
       "title": "Kit · Molten Core",
       "rules": [
-        { "text": "Erste Ult früh, sie macht Platz und stirbt fast nie.", "videos": [{ "label": "Masters 17:00", "url": "https://www.youtube.com/watch?v=Fy6n5gvYTjY&t=1020s" }, { "label": "GM 59:00", "url": "https://www.youtube.com/watch?v=s_Na9l95B5M&t=3540s" }] },
-        { "text": "Vom Winkel aus, breit verteilen, Bounce nutzen. Ziel ist Raum, nicht ein Kill.", "videos": [{ "label": "Masters 16:30", "url": "https://www.youtube.com/watch?v=Fy6n5gvYTjY&t=990s" }, { "label": "GM 25:00", "url": "https://www.youtube.com/watch?v=s_Na9l95B5M&t=1500s" }] }
+        {
+          "text": "Erste Ult früh einsetzen. Sie schafft Platz und ist fast nie verschwendet.",
+          "videos": [
+            {
+              "label": "Masters 17:00",
+              "url": "https://www.youtube.com/watch?v=Fy6n5gvYTjY&t=1020s"
+            },
+            {
+              "label": "GM 59:00",
+              "url": "https://www.youtube.com/watch?v=s_Na9l95B5M&t=3540s"
+            }
+          ]
+        },
+        {
+          "text": "Vom Winkel aus, breit verteilen, Abpraller nutzen. Ziel ist Raum, nicht ein Kill.",
+          "videos": [
+            {
+              "label": "Masters 16:30",
+              "url": "https://www.youtube.com/watch?v=Fy6n5gvYTjY&t=990s"
+            },
+            {
+              "label": "GM 25:00",
+              "url": "https://www.youtube.com/watch?v=s_Na9l95B5M&t=1500s"
+            }
+          ]
+        }
       ]
     },
     {
       "title": "Matchups",
       "rules": [
-        { "text": "Sojourn: im Offenen auf Distanz kaum zu gewinnen, auf 10–15 m leicht. Über Räume nah ran, nicht auf langer Linie peeken.", "videos": [{ "label": "GM 9:30", "url": "https://www.youtube.com/watch?v=s_Na9l95B5M&t=570s" }, { "label": "GM 24:00", "url": "https://www.youtube.com/watch?v=s_Na9l95B5M&t=1440s" }] },
-        { "text": "Widow, Freja, Ana auf offenen Maps: nicht outpoken, sondern einen Raum kontrollieren.", "videos": [{ "label": "GM 38:00", "url": "https://www.youtube.com/watch?v=s_Na9l95B5M&t=2280s" }] },
-        { "text": "Junkrat im kleinen Raum: dort nicht hinein, andere Lane nehmen.", "videos": [{ "label": "GM 23:00", "url": "https://www.youtube.com/watch?v=s_Na9l95B5M&t=1380s" }] },
-        { "text": "Genji, Tracer, Dive-DPS: du bist im Vorteil. Mit Overload dagegenhalten, Turret als zweites Ziel.", "videos": [{ "label": "GM 3:30", "url": "https://www.youtube.com/watch?v=s_Na9l95B5M&t=210s" }, { "label": "GM 56:00", "url": "https://www.youtube.com/watch?v=s_Na9l95B5M&t=3360s" }] }
+        {
+          "text": "Sojourn: auf Distanz im Offenen kaum zu schlagen, auf 10–15 m leicht. Über Räume nah rangehen, nicht auf langer Linie peeken.",
+          "videos": [
+            {
+              "label": "GM 9:30",
+              "url": "https://www.youtube.com/watch?v=s_Na9l95B5M&t=570s"
+            },
+            {
+              "label": "GM 24:00",
+              "url": "https://www.youtube.com/watch?v=s_Na9l95B5M&t=1440s"
+            }
+          ]
+        },
+        {
+          "text": "Widow, Freja, Ana auf offenen Maps: nicht aus der Ferne duellieren, sondern einen Raum kontrollieren.",
+          "videos": [
+            {
+              "label": "GM 38:00",
+              "url": "https://www.youtube.com/watch?v=s_Na9l95B5M&t=2280s"
+            }
+          ]
+        },
+        {
+          "text": "Junkrat im kleinen Raum: nicht hineingehen, eine andere Lane nehmen.",
+          "videos": [
+            {
+              "label": "GM 23:00",
+              "url": "https://www.youtube.com/watch?v=s_Na9l95B5M&t=1380s"
+            }
+          ]
+        },
+        {
+          "text": "Genji, Tracer, Dive-DPS: Du bist im Vorteil. Mit Overload dagegenhalten, der Turret ist ihr zweites Problem.",
+          "videos": [
+            {
+              "label": "GM 3:30",
+              "url": "https://www.youtube.com/watch?v=s_Na9l95B5M&t=210s"
+            },
+            {
+              "label": "GM 56:00",
+              "url": "https://www.youtube.com/watch?v=s_Na9l95B5M&t=3360s"
+            }
+          ]
+        }
       ]
     }
   ],
@@ -72,15 +340,27 @@
       "title": "Overload-Leine",
       "question": "Habe ich Overload?",
       "points": [
-        "Ja → Winkel halten, Duell annehmen. Overload ist HP, nicht Feuerrate: weiter langsam auf Kopfhöhe schießen.",
-        "Nein → gleiche Lane, eine Ecke weiter zurück. Nur poken, kein Duell.",
-        "Overload für Schaden gezündet und nichts getroffen → sofort raus. Dein Überlebens-Cooldown ist weg."
+        "Ja → Winkel halten, Duell annehmen. Overload ist Leben, nicht Feuerrate: weiter langsam auf Kopfhöhe schießen.",
+        "Nein → gleiche Lane, eine Ecke weiter hinten. Nur poken, kein Duell.",
+        "Overload für Schaden gezündet und nichts getroffen → sofort raus, dein Überlebens-Cooldown ist weg."
       ],
       "videos": [
-        { "label": "Masters 9:11", "url": "https://www.youtube.com/watch?v=Fy6n5gvYTjY&t=551s" },
-        { "label": "Masters 22:30", "url": "https://www.youtube.com/watch?v=Fy6n5gvYTjY&t=1350s" },
-        { "label": "GM 11:30", "url": "https://www.youtube.com/watch?v=s_Na9l95B5M&t=690s" },
-        { "label": "Gold 28:30", "url": "https://www.youtube.com/watch?v=EhzSArLzaMc&t=1710s" }
+        {
+          "label": "Masters 9:11",
+          "url": "https://www.youtube.com/watch?v=Fy6n5gvYTjY&t=551s"
+        },
+        {
+          "label": "Masters 22:30",
+          "url": "https://www.youtube.com/watch?v=Fy6n5gvYTjY&t=1350s"
+        },
+        {
+          "label": "GM 11:30",
+          "url": "https://www.youtube.com/watch?v=s_Na9l95B5M&t=690s"
+        },
+        {
+          "label": "Gold 28:30",
+          "url": "https://www.youtube.com/watch?v=EhzSArLzaMc&t=1710s"
+        }
       ]
     },
     {
@@ -88,15 +368,27 @@
       "title": "Erst Winkel, dann Turret",
       "question": "Weiß ich schon, wo der Fight ist und wo meine Ecke ist?",
       "points": [
-        "Nein → Turret in der Hand behalten. Erst scouten, dann werfen.",
-        "Ja → erst deine Ecke wählen, dann den Turret passend dazu. Später Wert schlägt frühen Wert.",
-        "Keine Zeit → Meat Shield: hinwerfen, Overload, sie müssen zwischen dir und Turret wählen."
+        "Nein → Turret behalten. Erst scouten, dann werfen.",
+        "Ja → erst deine Ecke wählen, dann den Turret passend dazu. Später Wert schlägt frühen.",
+        "Keine Zeit → als Ablenkung hinwerfen und Overload zünden. Sie müssen zwischen dir und dem Turret wählen."
       ],
       "videos": [
-        { "label": "Masters 6:00", "url": "https://www.youtube.com/watch?v=Fy6n5gvYTjY&t=360s" },
-        { "label": "Masters 2:30", "url": "https://www.youtube.com/watch?v=Fy6n5gvYTjY&t=150s" },
-        { "label": "Gold 6:30", "url": "https://www.youtube.com/watch?v=EhzSArLzaMc&t=390s" },
-        { "label": "GM 21:30", "url": "https://www.youtube.com/watch?v=s_Na9l95B5M&t=1290s" }
+        {
+          "label": "Masters 6:00",
+          "url": "https://www.youtube.com/watch?v=Fy6n5gvYTjY&t=360s"
+        },
+        {
+          "label": "Masters 2:30",
+          "url": "https://www.youtube.com/watch?v=Fy6n5gvYTjY&t=150s"
+        },
+        {
+          "label": "Gold 6:30",
+          "url": "https://www.youtube.com/watch?v=EhzSArLzaMc&t=390s"
+        },
+        {
+          "label": "GM 21:30",
+          "url": "https://www.youtube.com/watch?v=s_Na9l95B5M&t=1290s"
+        }
       ]
     },
     {
@@ -104,33 +396,63 @@
       "title": "Turret-Kreuzfeuer",
       "question": "Muss der Gegner sich zwischen mir und meinem Turret entscheiden?",
       "points": [
-        "Anderer Winkel als du: seitlich versetzt, sodass ihr den Gegner von zwei Seiten seht. Neben dir ist er nur ein zweites Ziel am selben Fleck.",
-        "Unzerstörbar bis zum Commit: hinter der Kante, an der Decke, unter der Brücke, im Raum. Wer ihn brechen will, muss erst zu dir rein.",
-        "Vorm Werfen: Kann eine Widow oder Sojourn ihn von ihrer Linie aus sehen? Dann einen Schritt tiefer hinter die Ecke."
+        "Anderer Winkel als du: seitlich versetzt, damit ihr den Gegner von zwei Seiten trefft. Direkt neben dir ist er nur ein zweites Ziel am selben Fleck.",
+        "Sicher, bis der Gegner sich festlegt: hinter der Kante, an der Decke, unter der Brücke, im Raum. Wer ihn zerstören will, muss erst an dir vorbei.",
+        "Vor dem Werfen: Sieht eine Widow oder Sojourn ihn von ihrer Position aus? Dann einen Schritt tiefer hinter die Ecke."
       ],
       "videos": [
-        { "label": "Gold 7:58", "url": "https://www.youtube.com/watch?v=EhzSArLzaMc&t=478s" },
-        { "label": "Gold 12:30", "url": "https://www.youtube.com/watch?v=EhzSArLzaMc&t=750s" },
-        { "label": "Gold 26:00", "url": "https://www.youtube.com/watch?v=EhzSArLzaMc&t=1560s" },
-        { "label": "Masters 12:30", "url": "https://www.youtube.com/watch?v=Fy6n5gvYTjY&t=750s" },
-        { "label": "GM 19:00", "url": "https://www.youtube.com/watch?v=s_Na9l95B5M&t=1140s" }
+        {
+          "label": "Gold 7:58",
+          "url": "https://www.youtube.com/watch?v=EhzSArLzaMc&t=478s"
+        },
+        {
+          "label": "Gold 12:30",
+          "url": "https://www.youtube.com/watch?v=EhzSArLzaMc&t=750s"
+        },
+        {
+          "label": "Gold 26:00",
+          "url": "https://www.youtube.com/watch?v=EhzSArLzaMc&t=1560s"
+        },
+        {
+          "label": "Masters 12:30",
+          "url": "https://www.youtube.com/watch?v=Fy6n5gvYTjY&t=750s"
+        },
+        {
+          "label": "GM 19:00",
+          "url": "https://www.youtube.com/watch?v=s_Na9l95B5M&t=1140s"
+        }
       ]
     },
     {
       "id": "torb-room",
       "title": "Raum statt Freifeld",
-      "question": "Kann ich hier gewinnen, oder bete ich nur, dass ich treffe?",
+      "question": "Kann ich hier gewinnen, oder hoffe ich nur auf Glückstreffer?",
       "points": [
-        "Torb-Raum: enge Räume, Ecken, mittlere Distanz. Dort ist kein DPS besser als du.",
-        "Offene Straße gegen Sniper, Sojourn oder Freja = beten. Raum oder Ecke suchen, die näher dran ist.",
-        "300 HP plus Overload: Du kannst Räume halten, die für andere DPS zu riskant sind. Nutz das, mit Ecke im Rücken."
+        "Dein Gebiet: enge Räume, Ecken, mittlere Distanz. Dort ist kein DPS besser als du.",
+        "Offene Straße gegen Sniper, Sojourn oder Freja ist reines Glück. Such dir einen Raum oder eine Ecke näher dran.",
+        "300 HP plus Overload: Du hältst Räume, die für andere DPS zu riskant sind – immer mit einer Ecke im Rücken."
       ],
       "videos": [
-        { "label": "GM 8:31", "url": "https://www.youtube.com/watch?v=s_Na9l95B5M&t=511s" },
-        { "label": "GM 27:30", "url": "https://www.youtube.com/watch?v=s_Na9l95B5M&t=1650s" },
-        { "label": "GM 38:00", "url": "https://www.youtube.com/watch?v=s_Na9l95B5M&t=2280s" },
-        { "label": "GM 42:30", "url": "https://www.youtube.com/watch?v=s_Na9l95B5M&t=2550s" },
-        { "label": "Gold 9:00", "url": "https://www.youtube.com/watch?v=EhzSArLzaMc&t=540s" }
+        {
+          "label": "GM 8:31",
+          "url": "https://www.youtube.com/watch?v=s_Na9l95B5M&t=511s"
+        },
+        {
+          "label": "GM 27:30",
+          "url": "https://www.youtube.com/watch?v=s_Na9l95B5M&t=1650s"
+        },
+        {
+          "label": "GM 38:00",
+          "url": "https://www.youtube.com/watch?v=s_Na9l95B5M&t=2280s"
+        },
+        {
+          "label": "GM 42:30",
+          "url": "https://www.youtube.com/watch?v=s_Na9l95B5M&t=2550s"
+        },
+        {
+          "label": "Gold 9:00",
+          "url": "https://www.youtube.com/watch?v=EhzSArLzaMc&t=540s"
+        }
       ]
     },
     {
@@ -138,15 +460,27 @@
       "title": "Molten Core vom Winkel",
       "question": "Kann ich die Ult jetzt von der Seite werfen?",
       "points": [
-        "Erste Ult früh und ohne Zögern. Sie macht Platz.",
-        "Vom Winkel aus, nicht aus der Mitte. Breit verteilen, Gänge und Cover treffen, Bounce nutzen.",
-        "Keine gute Ult in Sicht → trotzdem werfen und Lärm machen, statt sie zu horten."
+        "Erste Ult früh und ohne Zögern, sie schafft Platz.",
+        "Vom Winkel aus werfen, nicht aus der Mitte. Breit verteilen, Gänge und Deckung treffen, Abpraller nutzen.",
+        "Keine gute Gelegenheit in Sicht → trotzdem werfen und Druck machen, statt sie zu horten."
       ],
       "videos": [
-        { "label": "Masters 16:30", "url": "https://www.youtube.com/watch?v=Fy6n5gvYTjY&t=990s" },
-        { "label": "GM 25:00", "url": "https://www.youtube.com/watch?v=s_Na9l95B5M&t=1500s" },
-        { "label": "GM 53:00", "url": "https://www.youtube.com/watch?v=s_Na9l95B5M&t=3180s" },
-        { "label": "GM 59:00", "url": "https://www.youtube.com/watch?v=s_Na9l95B5M&t=3540s" }
+        {
+          "label": "Masters 16:30",
+          "url": "https://www.youtube.com/watch?v=Fy6n5gvYTjY&t=990s"
+        },
+        {
+          "label": "GM 25:00",
+          "url": "https://www.youtube.com/watch?v=s_Na9l95B5M&t=1500s"
+        },
+        {
+          "label": "GM 53:00",
+          "url": "https://www.youtube.com/watch?v=s_Na9l95B5M&t=3180s"
+        },
+        {
+          "label": "GM 59:00",
+          "url": "https://www.youtube.com/watch?v=s_Na9l95B5M&t=3540s"
+        }
       ]
     }
   ]
