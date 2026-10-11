@@ -97,6 +97,7 @@ struct CardDetailView: View {
 }
 
 struct FindingRow: View {
+    @Environment(\.modelContext) private var context
     let finding: FindingRecord
 
     var body: some View {
@@ -113,5 +114,12 @@ struct FindingRow: View {
         }
         .padding(12)
         .glassEffect(.regular, in: .rect(cornerRadius: 16))
+        .contextMenu {
+            Button("Finding löschen", systemImage: "trash", role: .destructive) {
+                let key = finding.key
+                (try? context.fetch(FetchDescriptor<Finding>(predicate: #Predicate { $0.key == key })))?.forEach(context.delete)
+                try? context.save()
+            }
+        }
     }
 }

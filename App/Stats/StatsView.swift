@@ -53,7 +53,7 @@ struct StatsView: View {
     }
 
     private func cardsPanel(all: [GameRecord]) -> some View {
-        let masteredCount = progress.filter { $0.masteredAt != nil }.count
+        let masteredCount = Set(progress.filter { $0.masteredAt != nil }.map(\.cardID)).count
         let active = plans.first?.activeCardID
         let since = active.flatMap { Stats.firstUse(of: $0, in: all) }
         return HStack(spacing: 10) {
@@ -118,6 +118,9 @@ struct StatsView: View {
         let weeks = Stats.weeklyCauses(games)
         return VStack(alignment: .leading, spacing: 10) {
             Text("Todesursachen pro Woche").font(.headline)
+            if weeks.isEmpty {
+                Text("Kaum gestorben – nichts zu zeigen.").font(.subheadline).foregroundStyle(.secondary)
+            } else {
             Chart(weeks, id: \.self) { item in
                 BarMark(x: .value("Woche", item.weekStart, unit: .weekOfYear), y: .value("Games", item.count))
                     .foregroundStyle(by: .value("Ursache", item.cause.label))
@@ -126,6 +129,7 @@ struct StatsView: View {
             .chartForegroundStyleScale(domain: CauseColors.ordered.map(\.label), range: CauseColors.ordered.map(CauseColors.color))
             .chartLegend(position: .bottom, alignment: .leading)
             .frame(height: 200)
+            }
         }
         .glassPanel()
     }

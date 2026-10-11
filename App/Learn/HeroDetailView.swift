@@ -54,7 +54,7 @@ struct HeroDetailView: View {
                     ForEach(hero.guide) { section in
                         VStack(alignment: .leading, spacing: 10) {
                             Text(section.title).font(.title3.bold())
-                            ForEach(section.rules, id: \.text) { rule in
+                            ForEach(Array(section.rules.enumerated()), id: \.offset) { _, rule in
                                 VStack(alignment: .leading, spacing: 6) {
                                     HStack(alignment: .firstTextBaseline, spacing: 8) {
                                         Text("•").foregroundStyle(Theme.accent)

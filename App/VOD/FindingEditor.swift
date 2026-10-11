@@ -14,7 +14,8 @@ struct FindingEditor: View {
     @State private var starred = false
 
     var body: some View {
-        let cards = content.basics + (content.hero(heroID)?.path ?? [])
+        let offered = content.basics + (content.hero(heroID)?.path ?? [])
+        let cards = offered + (cardID.flatMap { id in offered.contains { $0.id == id } ? nil : content.card(id) }.map { [$0] } ?? [])
         NavigationStack {
             ScrollView {
                 VStack(alignment: .leading, spacing: 18) {
