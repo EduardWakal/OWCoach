@@ -77,7 +77,7 @@ struct TodayView: View {
             LogGameFlow { showSavedToast() }
         }
         .sheet(isPresented: $showFocusPicker) {
-            FocusPickerSheet(weekHeroIDs: weekHeroes, activeCardID: activeCardID, mastered: mastered) { setFocus($0) }
+            FocusPickerSheet(weekHeroIDs: weekHeroes, activeCardID: activeCardID, mastered: mastered) { FocusActions.setFocus($0, in: context) }
         }
         .sheet(isPresented: $showWeekHeroes, onDismiss: saveWeekHeroes) {
             WeekHeroesSheet(pool: settings?.poolHeroIDs ?? [], selection: $weekHeroDraft)
@@ -102,19 +102,13 @@ struct TodayView: View {
         try? context.save()
     }
 
-    private func setFocus(_ cardID: String?) {
-        FocusPlan.current(in: context).activeCardID = cardID
-        try? context.save()
-    }
-
     private func accept(_ suggestion: Suggestion) {
         switch suggestion {
         case .cardMastered(let id):
-            context.insert(CardProgress(cardID: id, masteredAt: .now))
-            setFocus(nil)
+            FocusActions.markMastered(id, in: context)
             showFocusPicker = true
         case .switchFocus(_, let id):
-            setFocus(id)
+            FocusActions.setFocus(id, in: context)
         case .moveOn:
             showFocusPicker = true
         }

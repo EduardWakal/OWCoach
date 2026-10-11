@@ -29,6 +29,13 @@ enum DemoSeed {
             )
             context.insert(GameEntry(record: record))
         }
+        let review = VODReview()
+        review.heroID = "torbjorn"
+        review.mapID = "kings-row"
+        review.replayCode = "7Q2KXA"
+        context.insert(review)
+        context.insert(Finding(reviewKey: review.key, cardID: "cover", text: "Nach dem Kill nach vorn ins Offene gelaufen, von der Widow erwischt.", moment: "R2 3:40", starred: true))
+        context.insert(Finding(reviewKey: review.key, cardID: "torb-turret-crossfire", text: "Turret direkt neben mir, beide in einem Ult erwischt.", moment: "R3 1:10", starred: false))
         try? context.save()
     }
 }

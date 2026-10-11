@@ -3,7 +3,7 @@ import SwiftData
 
 @MainActor
 enum Persistence {
-    static let schema = Schema([GameEntry.self, FocusPlan.self, CardProgress.self, AppSettings.self])
+    static let schema = Schema([GameEntry.self, FocusPlan.self, CardProgress.self, AppSettings.self, VODReview.self, Finding.self])
     private(set) static var isCloudBacked = false
     #if LOCAL_ONLY
     private static let localOnly = true
