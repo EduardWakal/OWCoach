@@ -1,1 +1,419 @@
-{ "id": "domina", "name": "Domina", "role": "tank", "guide": [], "path": [] }
+{
+  "id": "domina",
+  "name": "Domina",
+  "role": "tank",
+  "guide": [
+    {
+      "title": "Aufgabe",
+      "rules": [
+        {
+          "text": "Mid-Range-Tank. Gegen Tanks pokst du auf Distanz, gegen Squishies bist du auf kurze Distanz tödlich, solange Schild, Slam und Crystal bereit sind.",
+          "videos": [
+            {
+              "label": "Guide 0:00",
+              "url": "https://www.youtube.com/watch?v=Ke3YI-bopPs&t=0s"
+            },
+            {
+              "label": "Guide 2:00",
+              "url": "https://www.youtube.com/watch?v=Ke3YI-bopPs&t=120s"
+            }
+          ]
+        },
+        {
+          "text": "Du schützt dein Team nicht direkt. Du kontrollierst einen Bereich der Map und machst von dort Druck. Einen Bereich, nicht mehrere.",
+          "videos": [
+            {
+              "label": "Guide 6:30",
+              "url": "https://www.youtube.com/watch?v=Ke3YI-bopPs&t=390s"
+            }
+          ]
+        },
+        {
+          "text": "Löse die Probleme auf deinem Winkel selbst und vertrau deinem Team bei den anderen. Wer überall aushelfen will, frisst nur Schaden.",
+          "videos": [
+            {
+              "label": "Guide 50:00",
+              "url": "https://www.youtube.com/watch?v=Ke3YI-bopPs&t=3000s"
+            },
+            {
+              "label": "Guide 56:00",
+              "url": "https://www.youtube.com/watch?v=Ke3YI-bopPs&t=3360s"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Positionierung",
+      "rules": [
+        {
+          "text": "Such dir einen Anker-Winkel: eine Ecke mit Deckung, leicht seitlich vom Team, damit ihr ein Kreuzfeuer habt.",
+          "videos": [
+            {
+              "label": "Guide 2:00",
+              "url": "https://www.youtube.com/watch?v=Ke3YI-bopPs&t=120s"
+            },
+            {
+              "label": "Guide 6:30",
+              "url": "https://www.youtube.com/watch?v=Ke3YI-bopPs&t=390s"
+            }
+          ]
+        },
+        {
+          "text": "Seitlich heißt nicht allein. Kämpf gleichzeitig mit deinem Team, und deine Supports müssen dich sehen können.",
+          "videos": [
+            {
+              "label": "Guide 8:00",
+              "url": "https://www.youtube.com/watch?v=Ke3YI-bopPs&t=480s"
+            },
+            {
+              "label": "Guide 58:30",
+              "url": "https://www.youtube.com/watch?v=Ke3YI-bopPs&t=3510s"
+            }
+          ]
+        },
+        {
+          "text": "Lieber etwas näher an einer guten Ecke als weit weg im Offenen. Distanz ersetzt keine Deckung.",
+          "videos": [
+            {
+              "label": "Guide 16:00",
+              "url": "https://www.youtube.com/watch?v=Ke3YI-bopPs&t=960s"
+            }
+          ]
+        },
+        {
+          "text": "Du bist langsam. Entscheide früh, wo du hinwillst, und bleib dort. Wer quer über die Map jagt, kommt zu spät und verliert seinen Winkel.",
+          "videos": [
+            {
+              "label": "Guide 26:00",
+              "url": "https://www.youtube.com/watch?v=Ke3YI-bopPs&t=1560s"
+            },
+            {
+              "label": "Guide 52:00",
+              "url": "https://www.youtube.com/watch?v=Ke3YI-bopPs&t=3120s"
+            }
+          ]
+        },
+        {
+          "text": "Bei zwei möglichen Winkeln: Nimm den mit der längeren Sichtlinie und der festeren Deckung. Ein Raum hält länger als der Payload.",
+          "videos": [
+            {
+              "label": "Guide 36:30",
+              "url": "https://www.youtube.com/watch?v=Ke3YI-bopPs&t=2190s"
+            },
+            {
+              "label": "Guide 44:00",
+              "url": "https://www.youtube.com/watch?v=Ke3YI-bopPs&t=2640s"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Kit · Schild",
+      "rules": [
+        {
+          "text": "Schild setzen, wenn du dich auf eine Ecke festlegst und dein Team mitkämpft oder der Gegner committet. Nicht als Ersatz für fehlende Deckung.",
+          "videos": [
+            {
+              "label": "Guide 22:00",
+              "url": "https://www.youtube.com/watch?v=Ke3YI-bopPs&t=1320s"
+            },
+            {
+              "label": "Guide 42:30",
+              "url": "https://www.youtube.com/watch?v=Ke3YI-bopPs&t=2550s"
+            },
+            {
+              "label": "Guide 44:00",
+              "url": "https://www.youtube.com/watch?v=Ke3YI-bopPs&t=2640s"
+            }
+          ]
+        },
+        {
+          "text": "Lass niemanden durch deinen Schild laufen. Wer dich davon wegdrückt, bekommt sofort den Slam.",
+          "videos": [
+            {
+              "label": "Guide 10:00",
+              "url": "https://www.youtube.com/watch?v=Ke3YI-bopPs&t=600s"
+            }
+          ]
+        },
+        {
+          "text": "Ohne Schild vorsichtiger peeken: Deckung nutzen, Tank beschießen, keine Sniper anschauen.",
+          "videos": [
+            {
+              "label": "Guide 22:00",
+              "url": "https://www.youtube.com/watch?v=Ke3YI-bopPs&t=1320s"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Kit · Slam",
+      "rules": [
+        {
+          "text": "Läuft dir jemand ins Gesicht, schlag ihn sofort weg. Am besten an eine Wand, dann ist er gestunnt.",
+          "videos": [
+            {
+              "label": "Guide 8:00",
+              "url": "https://www.youtube.com/watch?v=Ke3YI-bopPs&t=480s"
+            },
+            {
+              "label": "Guide 16:30",
+              "url": "https://www.youtube.com/watch?v=Ke3YI-bopPs&t=990s"
+            }
+          ]
+        },
+        {
+          "text": "Combo: Slam an die Wand, Crystal so legen, dass er platzt, wenn der Stun endet.",
+          "videos": [
+            {
+              "label": "Guide 36:30",
+              "url": "https://www.youtube.com/watch?v=Ke3YI-bopPs&t=2190s"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Kit · Crystal",
+      "rules": [
+        {
+          "text": "Crystal ruhig und gezielt werfen. Ein Ziel, direkt ins Gesicht, und Richtung Deckung vorhalten, weil der Gegner dorthin geht.",
+          "videos": [
+            {
+              "label": "Guide 12:00",
+              "url": "https://www.youtube.com/watch?v=Ke3YI-bopPs&t=720s"
+            },
+            {
+              "label": "Guide 22:00",
+              "url": "https://www.youtube.com/watch?v=Ke3YI-bopPs&t=1320s"
+            }
+          ]
+        },
+        {
+          "text": "Der Crystal ist deine Antwort darauf, wie der Gegner auf deinen Schild reagiert. Er holt Leute aus der Deckung. Direkt vor dem Schild geworfen verpufft er.",
+          "videos": [
+            {
+              "label": "Guide 38:00",
+              "url": "https://www.youtube.com/watch?v=Ke3YI-bopPs&t=2280s"
+            },
+            {
+              "label": "Guide 48:00",
+              "url": "https://www.youtube.com/watch?v=Ke3YI-bopPs&t=2880s"
+            }
+          ]
+        },
+        {
+          "text": "Fähigkeitsschaden lädt deine Schilde auf. Ein guter Crystal heilt den Schaden, den du beim Vorgehen genommen hast.",
+          "videos": [
+            {
+              "label": "Guide 2:00",
+              "url": "https://www.youtube.com/watch?v=Ke3YI-bopPs&t=120s"
+            },
+            {
+              "label": "Guide 48:00",
+              "url": "https://www.youtube.com/watch?v=Ke3YI-bopPs&t=2880s"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Kit · Ult",
+      "rules": [
+        {
+          "text": "Ult braucht Nähe. Nicht quer über die Map werfen. Mehrere Gegner treffen, sonst ein nahes Squishy.",
+          "videos": [
+            {
+              "label": "Guide 32:00",
+              "url": "https://www.youtube.com/watch?v=Ke3YI-bopPs&t=1920s"
+            }
+          ]
+        },
+        {
+          "text": "Die Ult schützt dich auch: Wer im Käfig steckt, kann dich nicht beschießen, bis er ihn kaputt hat.",
+          "videos": [
+            {
+              "label": "Guide 4:00",
+              "url": "https://www.youtube.com/watch?v=Ke3YI-bopPs&t=240s"
+            }
+          ]
+        },
+        {
+          "text": "Erst Slam, dann Ult. Wenn die Ult ausläuft, ist der Slam wieder bereit.",
+          "videos": [
+            {
+              "label": "Guide 40:30",
+              "url": "https://www.youtube.com/watch?v=Ke3YI-bopPs&t=2430s"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Matchups",
+      "rules": [
+        {
+          "text": "Gegen D.Va und andere Brawl-Tanks: Distanz halten und den Slam immer bereit haben.",
+          "videos": [
+            {
+              "label": "Guide 8:00",
+              "url": "https://www.youtube.com/watch?v=Ke3YI-bopPs&t=480s"
+            }
+          ]
+        },
+        {
+          "text": "Gegen Squishies wie Cassidy: keine Angst, mit Schild ranrücken und Druck machen.",
+          "videos": [
+            {
+              "label": "Guide 12:30",
+              "url": "https://www.youtube.com/watch?v=Ke3YI-bopPs&t=750s"
+            }
+          ]
+        },
+        {
+          "text": "Bei freier Wahl auf Squishies schießen. Ein Treffer ändert ihr Verhalten mehr als beim Tank.",
+          "videos": [
+            {
+              "label": "Guide 10:30",
+              "url": "https://www.youtube.com/watch?v=Ke3YI-bopPs&t=630s"
+            }
+          ]
+        },
+        {
+          "text": "Gegen Mauga: nicht hinterherlaufen, er ist nie wirklich low. Lieber die Squishies hinter ihm.",
+          "videos": [
+            {
+              "label": "Guide 42:30",
+              "url": "https://www.youtube.com/watch?v=Ke3YI-bopPs&t=2550s"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "path": [
+    {
+      "id": "domina-anchor",
+      "title": "Anker-Winkel",
+      "question": "Stehe ich an einer Ecke, seitlich von meinem Team?",
+      "points": [
+        "Erst Team checken, dann Ecke mit Deckung seitlich davon nehmen.",
+        "Nah an guter Deckung schlägt weit weg im Offenen.",
+        "Gleichzeitig mit dem Team kämpfen, nicht vorher."
+      ],
+      "videos": [
+        {
+          "label": "Guide 6:30",
+          "url": "https://www.youtube.com/watch?v=Ke3YI-bopPs&t=390s"
+        },
+        {
+          "label": "Guide 16:00",
+          "url": "https://www.youtube.com/watch?v=Ke3YI-bopPs&t=960s"
+        },
+        {
+          "label": "Guide 20:00",
+          "url": "https://www.youtube.com/watch?v=Ke3YI-bopPs&t=1200s"
+        }
+      ]
+    },
+    {
+      "id": "domina-shield",
+      "title": "Schild-Timing",
+      "question": "Legt sich gerade jemand fest – mein Team oder der Gegner?",
+      "points": [
+        "Ja → Schild auf die Ecke und von dort schießen.",
+        "Nein → aus der Deckung poken und warten.",
+        "Kein Schild für fehlende Deckung."
+      ],
+      "videos": [
+        {
+          "label": "Guide 22:00",
+          "url": "https://www.youtube.com/watch?v=Ke3YI-bopPs&t=1320s"
+        },
+        {
+          "label": "Guide 42:30",
+          "url": "https://www.youtube.com/watch?v=Ke3YI-bopPs&t=2550s"
+        },
+        {
+          "label": "Guide 44:00",
+          "url": "https://www.youtube.com/watch?v=Ke3YI-bopPs&t=2640s"
+        }
+      ]
+    },
+    {
+      "id": "domina-slam",
+      "title": "Sofort wegschlagen",
+      "question": "Steht jemand in meinem Gesicht?",
+      "points": [
+        "Sofort Slam, am besten an die Wand.",
+        "Wer dich vom Schild wegdrückt, wird bestraft.",
+        "Slam zuerst, dann Crystal, wenn der Stun endet."
+      ],
+      "videos": [
+        {
+          "label": "Guide 8:00",
+          "url": "https://www.youtube.com/watch?v=Ke3YI-bopPs&t=480s"
+        },
+        {
+          "label": "Guide 10:00",
+          "url": "https://www.youtube.com/watch?v=Ke3YI-bopPs&t=600s"
+        },
+        {
+          "label": "Guide 36:30",
+          "url": "https://www.youtube.com/watch?v=Ke3YI-bopPs&t=2190s"
+        }
+      ]
+    },
+    {
+      "id": "domina-crystal",
+      "title": "Crystal mit Absicht",
+      "question": "Wen holt dieser Crystal aus der Deckung?",
+      "points": [
+        "Ein Ziel, direkt ins Gesicht.",
+        "Richtung Deckung vorhalten.",
+        "Nach dem Schild werfen, nicht direkt davor."
+      ],
+      "videos": [
+        {
+          "label": "Guide 12:00",
+          "url": "https://www.youtube.com/watch?v=Ke3YI-bopPs&t=720s"
+        },
+        {
+          "label": "Guide 38:00",
+          "url": "https://www.youtube.com/watch?v=Ke3YI-bopPs&t=2280s"
+        },
+        {
+          "label": "Guide 48:00",
+          "url": "https://www.youtube.com/watch?v=Ke3YI-bopPs&t=2880s"
+        }
+      ]
+    },
+    {
+      "id": "domina-own-problems",
+      "title": "Eigene Probleme lösen",
+      "question": "Welches Problem gehört zu meinem Winkel?",
+      "points": [
+        "Das löst du, der Rest gehört dem Team.",
+        "Nicht hin und her rotieren.",
+        "Vertrauen kostet weniger als Face-Tanken."
+      ],
+      "videos": [
+        {
+          "label": "Guide 50:00",
+          "url": "https://www.youtube.com/watch?v=Ke3YI-bopPs&t=3000s"
+        },
+        {
+          "label": "Guide 52:00",
+          "url": "https://www.youtube.com/watch?v=Ke3YI-bopPs&t=3120s"
+        },
+        {
+          "label": "Guide 56:00",
+          "url": "https://www.youtube.com/watch?v=Ke3YI-bopPs&t=3360s"
+        }
+      ]
+    }
+  ]
+}
