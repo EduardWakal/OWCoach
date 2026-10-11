@@ -1,1 +1,256 @@
-{ "id": "zarya", "name": "Zarya", "role": "tank", "guide": [], "path": [] }
+{
+  "id": "zarya",
+  "name": "Zarya",
+  "role": "tank",
+  "guide": [
+    {
+      "title": "Aufgabe",
+      "rules": [
+        {
+          "text": "Zarya lebt von Schaden und Energie. Wer nicht schießt, lädt nicht auf und macht keinen Druck.",
+          "videos": [
+            {
+              "label": "Damage 0:00",
+              "url": "https://www.youtube.com/watch?v=oBPhDHjtugg&t=0s"
+            }
+          ]
+        },
+        {
+          "text": "Du bist kein Frontschild. Du nimmst einen Bereich ein, wenn deine Bubbles bereit sind, und gibst ihn auf, wenn sie weg sind.",
+          "videos": [
+            {
+              "label": "Positionierung 0:00",
+              "url": "https://www.youtube.com/watch?v=IY2wZotoURg&t=0s"
+            },
+            {
+              "label": "3 Schritte 0:00",
+              "url": "https://www.youtube.com/watch?v=k9Vyst8eAKw&t=0s"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Positionierung",
+      "rules": [
+        {
+          "text": "Nah genug am Team, dass deine Ally-Bubble jemanden erreicht, nah genug am Gegner, dass dein Strahl trifft.",
+          "videos": [
+            {
+              "label": "Spacing 0:00",
+              "url": "https://www.youtube.com/watch?v=4Fs1wFDR0p4&t=0s"
+            }
+          ]
+        },
+        {
+          "text": "Ohne Bubble hinter Deckung warten. Mit Bubble vorgehen. Dein Cooldown entscheidet, wo du stehst.",
+          "videos": [
+            {
+              "label": "3 Schritte 0:00",
+              "url": "https://www.youtube.com/watch?v=k9Vyst8eAKw&t=0s"
+            }
+          ]
+        },
+        {
+          "text": "Nicht in die Gegner-Backline laufen, wenn dein Team nicht nachkommt. Vorne allein ist ohne Bubble tot.",
+          "videos": [
+            {
+              "label": "Peel vs Pressure 0:00",
+              "url": "https://www.youtube.com/watch?v=pHysGycPwUA&t=0s"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Kit · Bubbles",
+      "rules": [
+        {
+          "text": "Bubble dann, wenn Schaden kommt, nicht vorher. Eine Bubble, die nichts frisst, bringt keine Energie.",
+          "videos": [
+            {
+              "label": "Bubble 0:00",
+              "url": "https://www.youtube.com/watch?v=NN2SA1Q6_MU&t=0s"
+            },
+            {
+              "label": "Bubble Earning 0:00",
+              "url": "https://www.youtube.com/watch?v=NPPrD6_pcng&t=0s"
+            }
+          ]
+        },
+        {
+          "text": "Eigene Bubble zum Reingehen, Ally-Bubble für den, der gerade angegriffen wird oder gleich reingeht.",
+          "videos": [
+            {
+              "label": "Bubble 0:00",
+              "url": "https://www.youtube.com/watch?v=NN2SA1Q6_MU&t=0s"
+            }
+          ]
+        },
+        {
+          "text": "Zähle deine Bubbles. Sind beide weg, bist du ein großes Ziel ohne Ausweg: zurück in Deckung, bis eine wieder da ist.",
+          "videos": [
+            {
+              "label": "3 Schritte 0:00",
+              "url": "https://www.youtube.com/watch?v=k9Vyst8eAKw&t=0s"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Kit · Strahl",
+      "rules": [
+        {
+          "text": "Hohe Energie heißt jetzt kämpfen. Nicht warten, bis sie wieder abfällt.",
+          "videos": [
+            {
+              "label": "Damage 0:00",
+              "url": "https://www.youtube.com/watch?v=oBPhDHjtugg&t=0s"
+            },
+            {
+              "label": "Bubble Earning 0:00",
+              "url": "https://www.youtube.com/watch?v=NPPrD6_pcng&t=0s"
+            }
+          ]
+        },
+        {
+          "text": "Granaten (Rechtsklick) für Ziele hinter Deckung und in Gruppen, Strahl für alles in Reichweite.",
+          "videos": [
+            {
+              "label": "Damage 0:00",
+              "url": "https://www.youtube.com/watch?v=oBPhDHjtugg&t=0s"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Kit · Ult",
+      "rules": [
+        {
+          "text": "Graviton dann, wenn dein Team schießen kann. Allein geworfen ist sie verschenkt.",
+          "videos": [
+            {
+              "label": "Peel vs Pressure 0:00",
+              "url": "https://www.youtube.com/watch?v=pHysGycPwUA&t=0s"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Matchups",
+      "rules": [
+        {
+          "text": "Gegen Tanks mit Brawl-Stil wie Ramattra oder Rein: Bubble frisst ihren Schaden, dann zurückschlagen.",
+          "videos": [
+            {
+              "label": "Bubble 0:00",
+              "url": "https://www.youtube.com/watch?v=NN2SA1Q6_MU&t=0s"
+            }
+          ]
+        },
+        {
+          "text": "Gegen Dive: Ally-Bubble auf den Support, den sie anspringen. Peel ist hier dein Druck.",
+          "videos": [
+            {
+              "label": "Peel vs Pressure 0:00",
+              "url": "https://www.youtube.com/watch?v=pHysGycPwUA&t=0s"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "path": [
+    {
+      "id": "zarya-bubble-timing",
+      "title": "Bubble auf Schaden",
+      "question": "Kommt gerade wirklich Schaden?",
+      "points": [
+        "Ja → Bubble, Energie mitnehmen.",
+        "Nein → aufheben, Bubble zu früh bringt nichts.",
+        "Ally-Bubble für den, der angegriffen wird."
+      ],
+      "videos": [
+        {
+          "label": "Bubble 0:00",
+          "url": "https://www.youtube.com/watch?v=NN2SA1Q6_MU&t=0s"
+        },
+        {
+          "label": "Bubble Earning 0:00",
+          "url": "https://www.youtube.com/watch?v=NPPrD6_pcng&t=0s"
+        }
+      ]
+    },
+    {
+      "id": "zarya-cooldown-position",
+      "title": "Position nach Cooldown",
+      "question": "Habe ich eine Bubble bereit?",
+      "points": [
+        "Ja → vorgehen und Raum nehmen.",
+        "Nein → Deckung, warten bis sie da ist.",
+        "Beide weg → kein neuer Kampf."
+      ],
+      "videos": [
+        {
+          "label": "3 Schritte 0:00",
+          "url": "https://www.youtube.com/watch?v=k9Vyst8eAKw&t=0s"
+        },
+        {
+          "label": "Positionierung 0:00",
+          "url": "https://www.youtube.com/watch?v=IY2wZotoURg&t=0s"
+        }
+      ]
+    },
+    {
+      "id": "zarya-damage",
+      "title": "Schießen, schießen",
+      "question": "Habe ich gerade ein Ziel im Strahl?",
+      "points": [
+        "Wer nicht schießt, lädt nicht.",
+        "Hohe Energie jetzt nutzen.",
+        "Granaten hinter Deckung."
+      ],
+      "videos": [
+        {
+          "label": "Damage 0:00",
+          "url": "https://www.youtube.com/watch?v=oBPhDHjtugg&t=0s"
+        }
+      ]
+    },
+    {
+      "id": "zarya-peel-pressure",
+      "title": "Peel oder Druck",
+      "question": "Wird mein Support gerade angesprungen?",
+      "points": [
+        "Ja → Ally-Bubble und zurück drehen.",
+        "Nein → vorne Druck auf den Tank.",
+        "Nicht beides gleichzeitig wollen."
+      ],
+      "videos": [
+        {
+          "label": "Peel vs Pressure 0:00",
+          "url": "https://www.youtube.com/watch?v=pHysGycPwUA&t=0s"
+        }
+      ]
+    },
+    {
+      "id": "zarya-graviton",
+      "title": "Graviton mit Team",
+      "question": "Kann mein Team jetzt in die Grav schießen?",
+      "points": [
+        "Ja → werfen.",
+        "Nein → aufheben.",
+        "Nie allein vorne werfen."
+      ],
+      "videos": [
+        {
+          "label": "Peel vs Pressure 0:00",
+          "url": "https://www.youtube.com/watch?v=pHysGycPwUA&t=0s"
+        }
+      ]
+    }
+  ]
+}

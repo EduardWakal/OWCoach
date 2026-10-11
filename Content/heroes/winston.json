@@ -1,1 +1,222 @@
-{ "id": "winston", "name": "Winston", "role": "tank", "guide": [], "path": [] }
+{
+  "id": "winston",
+  "name": "Winston",
+  "role": "tank",
+  "guide": [
+    {
+      "title": "Aufgabe",
+      "rules": [
+        {
+          "text": "Dive-Tank. Du springst auf Ziele, die dein Team gleichzeitig angreifen kann, und zwingst die Backline zu reagieren.",
+          "videos": [
+            {
+              "label": "Fundamentals 0:00",
+              "url": "https://www.youtube.com/watch?v=z0K56TujTIs&t=0s"
+            }
+          ]
+        },
+        {
+          "text": "Nicht jeder Sprung muss töten. Ein Sprung, der die Backline wegdrückt, schafft Raum für dein Team.",
+          "videos": [
+            {
+              "label": "Space vs Kill 0:00",
+              "url": "https://www.youtube.com/watch?v=hsOWYK6m5zU&t=0s"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Positionierung",
+      "rules": [
+        {
+          "text": "Vor dem Sprung staging: an einer Ecke nah am Ziel warten, bis dein Team bereit ist.",
+          "videos": [
+            {
+              "label": "Staging 0:00",
+              "url": "https://www.youtube.com/watch?v=Kxz-DhlqjQk&t=0s"
+            }
+          ]
+        },
+        {
+          "text": "Kenn die Linie: Wie weit kannst du rein, bevor du ohne Hilfe stirbst? Bleib davor oder geh mit Cooldowns drüber.",
+          "videos": [
+            {
+              "label": "The Line 0:00",
+              "url": "https://www.youtube.com/watch?v=ZgMTice9r-0&t=0s"
+            }
+          ]
+        },
+        {
+          "text": "Winkel statt Ziele: Spring auf eine Position, von der aus du mehrere Gegner bedrohst.",
+          "videos": [
+            {
+              "label": "Angles 0:00",
+              "url": "https://www.youtube.com/watch?v=q_2RxjCBNSU&t=0s"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Kit · Sprung",
+      "rules": [
+        {
+          "text": "Zwei Wege: Mit dem Sprung rein, dann zu Fuß raus, oder zu Fuß rein und mit dem Sprung raus. Nie ohne Plan für den Rückweg.",
+          "videos": [
+            {
+              "label": "Fundamentals 0:00",
+              "url": "https://www.youtube.com/watch?v=z0K56TujTIs&t=0s"
+            },
+            {
+              "label": "The Line 0:00",
+              "url": "https://www.youtube.com/watch?v=ZgMTice9r-0&t=0s"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Kit · Bubble",
+      "rules": [
+        {
+          "text": "Bubble trennt: Werf sie so, dass Gegner nicht mehr auf dich oder dein Ziel schießen können.",
+          "videos": [
+            {
+              "label": "Bubble 0:00",
+              "url": "https://www.youtube.com/watch?v=UEv84cgxOaE&t=0s"
+            }
+          ]
+        },
+        {
+          "text": "Bubble nicht sofort beim Landen werfen, wenn noch niemand schießt. Erst wenn der Schaden kommt.",
+          "videos": [
+            {
+              "label": "Bubble 0:00",
+              "url": "https://www.youtube.com/watch?v=UEv84cgxOaE&t=0s"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Kit · Ult",
+      "rules": [
+        {
+          "text": "Primal Rage zum Retten oder für den Neustart eines verlorenen Kampfes. Wegschlagen ist oft mehr wert als Schaden.",
+          "videos": [
+            {
+              "label": "Space vs Kill 0:00",
+              "url": "https://www.youtube.com/watch?v=hsOWYK6m5zU&t=0s"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Matchups",
+      "rules": [
+        {
+          "text": "Gegen viel Burst-Schaden (Reaper, Bastion): nicht reinsprinten, sondern Seitenwinkel suchen.",
+          "videos": [
+            {
+              "label": "Angles 0:00",
+              "url": "https://www.youtube.com/watch?v=q_2RxjCBNSU&t=0s"
+            }
+          ]
+        },
+        {
+          "text": "Gegen D.Va: deine Kanone geht durch die Matrix, deine Bubble blockt ihren Schaden.",
+          "videos": [
+            {
+              "label": "The Line 0:00",
+              "url": "https://www.youtube.com/watch?v=ZgMTice9r-0&t=0s"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "path": [
+    {
+      "id": "winston-staging",
+      "title": "Staging",
+      "question": "Kann mein Team gerade mit reingehen?",
+      "points": [
+        "Ja → springen.",
+        "Nein → nah an der Ecke warten.",
+        "Warten heißt nicht wegstehen."
+      ],
+      "videos": [
+        {
+          "label": "Staging 0:00",
+          "url": "https://www.youtube.com/watch?v=Kxz-DhlqjQk&t=0s"
+        }
+      ]
+    },
+    {
+      "id": "winston-the-line",
+      "title": "Die Linie",
+      "question": "Wie weit kann ich gerade rein, ohne allein zu sterben?",
+      "points": [
+        "Mit Sprung und Bubble darfst du weiter.",
+        "Ohne Cooldowns bleib vor der Linie.",
+        "Rückweg vor dem Sprung planen."
+      ],
+      "videos": [
+        {
+          "label": "The Line 0:00",
+          "url": "https://www.youtube.com/watch?v=ZgMTice9r-0&t=0s"
+        }
+      ]
+    },
+    {
+      "id": "winston-bubble",
+      "title": "Bubble zum Trennen",
+      "question": "Wen trennt diese Bubble gerade?",
+      "points": [
+        "Erst werfen, wenn Schaden kommt.",
+        "Gegner aus deinem Fight ausschließen.",
+        "Nicht blind beim Landen."
+      ],
+      "videos": [
+        {
+          "label": "Bubble 0:00",
+          "url": "https://www.youtube.com/watch?v=UEv84cgxOaE&t=0s"
+        }
+      ]
+    },
+    {
+      "id": "winston-angles",
+      "title": "Winkel statt Ziele",
+      "question": "Bedroht mein Landepunkt mehr als einen Gegner?",
+      "points": [
+        "Auf Positionen springen, nicht auf Köpfe.",
+        "Mehrere Gegner gleichzeitig unter Druck.",
+        "Hohe Ebenen nutzen."
+      ],
+      "videos": [
+        {
+          "label": "Angles 0:00",
+          "url": "https://www.youtube.com/watch?v=q_2RxjCBNSU&t=0s"
+        }
+      ]
+    },
+    {
+      "id": "winston-space-kill",
+      "title": "Raum oder Kill",
+      "question": "Will ich gerade töten oder nur Raum schaffen?",
+      "points": [
+        "Kill → nur mit Team und Cooldowns.",
+        "Raum → reinspringen, Druck, wieder raus.",
+        "Ein Sprung muss nicht töten."
+      ],
+      "videos": [
+        {
+          "label": "Space vs Kill 0:00",
+          "url": "https://www.youtube.com/watch?v=hsOWYK6m5zU&t=0s"
+        }
+      ]
+    }
+  ]
+}

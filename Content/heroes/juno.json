@@ -1,1 +1,135 @@
-{ "id": "juno", "name": "Juno", "role": "support", "guide": [], "path": [] }
+{
+  "id": "juno",
+  "name": "Juno",
+  "role": "support",
+  "guide": [
+    {
+      "title": "Aufgabe",
+      "rules": [
+        {
+          "text": "Mobile Support mit Heilung und Schaden. Deine Torpedos heilen dein Team und treffen Gegner gleichzeitig.",
+          "videos": [
+            {
+              "label": "Emerald 0:00",
+              "url": "https://www.youtube.com/watch?v=2BZPGqazWxM&t=0s"
+            }
+          ]
+        },
+        {
+          "text": "Du kannst Gegner nicht allein töten. Dein Wert ist Heilung zur richtigen Zeit und Schaden auf die Ziele, die dein Team gerade angreift.",
+          "videos": [
+            {
+              "label": "Emerald 0:00",
+              "url": "https://www.youtube.com/watch?v=2BZPGqazWxM&t=0s"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Positionierung",
+      "rules": [
+        {
+          "text": "Bleib in Sichtlinie zu deinem Tank, aber hinter Deckung. Heilen geht nicht durch Wände.",
+          "videos": [
+            {
+              "label": "Emerald 0:00",
+              "url": "https://www.youtube.com/watch?v=2BZPGqazWxM&t=0s"
+            }
+          ]
+        },
+        {
+          "text": "Glide Boost ist dein Fluchtweg. Benutz ihn nicht für Wege, die du auch laufen kannst.",
+          "videos": [
+            {
+              "label": "Emerald 0:00",
+              "url": "https://www.youtube.com/watch?v=2BZPGqazWxM&t=0s"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Kit",
+      "rules": [
+        {
+          "text": "Torpedos auf mehrere Ziele zugleich, am besten Mitspieler und Gegner in einem Zug.",
+          "videos": [
+            {
+              "label": "Emerald 0:00",
+              "url": "https://www.youtube.com/watch?v=2BZPGqazWxM&t=0s"
+            }
+          ]
+        },
+        {
+          "text": "Hyper Ring vor einem Push oder zum Rückzug für das ganze Team, nicht nur für dich.",
+          "videos": [
+            {
+              "label": "Emerald 0:00",
+              "url": "https://www.youtube.com/watch?v=2BZPGqazWxM&t=0s"
+            }
+          ]
+        },
+        {
+          "text": "Orbital Ray auf die Stelle, an der dein Team den Kampf führt. Er heilt und gibt Schaden-Bonus.",
+          "videos": [
+            {
+              "label": "Emerald 0:00",
+              "url": "https://www.youtube.com/watch?v=2BZPGqazWxM&t=0s"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "path": [
+    {
+      "id": "juno-sightline",
+      "title": "Sichtlinie zum Tank",
+      "question": "Sehe ich meinen Tank, ohne selbst offen zu stehen?",
+      "points": [
+        "Deckung neben der Sichtlinie suchen.",
+        "Schaut der Tank weg, folgst du.",
+        "Nicht für Heilung ins Offene."
+      ],
+      "videos": [
+        {
+          "label": "Emerald 0:00",
+          "url": "https://www.youtube.com/watch?v=2BZPGqazWxM&t=0s"
+        }
+      ]
+    },
+    {
+      "id": "juno-glide",
+      "title": "Glide aufheben",
+      "question": "Brauche ich den Glide gleich zur Flucht?",
+      "points": [
+        "Ja → laufen statt fliegen.",
+        "Nur als Fluchtweg oder für ein Rettungsheilen.",
+        "Ohne Glide vorsichtig stehen."
+      ],
+      "videos": [
+        {
+          "label": "Emerald 0:00",
+          "url": "https://www.youtube.com/watch?v=2BZPGqazWxM&t=0s"
+        }
+      ]
+    },
+    {
+      "id": "juno-torpedo",
+      "title": "Torpedos verteilen",
+      "question": "Erwischt diese Salve Mitspieler und Gegner?",
+      "points": [
+        "Mehrere Ziele in einem Zug.",
+        "Torpedos auf das Fokusziel deines Teams.",
+        "Nicht auf volle HP-Leute verschwenden."
+      ],
+      "videos": [
+        {
+          "label": "Emerald 0:00",
+          "url": "https://www.youtube.com/watch?v=2BZPGqazWxM&t=0s"
+        }
+      ]
+    }
+  ]
+}
