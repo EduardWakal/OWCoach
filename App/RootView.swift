@@ -15,7 +15,7 @@ struct RootView: View {
                 LearnView()
             }
             Tab("VOD", systemImage: "play.rectangle.fill") {
-                ComingSoon(title: "VOD")
+                VODListView()
             }
             Tab("Stats", systemImage: "chart.bar.fill") {
                 ComingSoon(title: "Stats")
