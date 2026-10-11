@@ -55,4 +55,18 @@ struct RealContentTests {
         let keys = (lib.basics + lib.heroes.flatMap(\.path)).flatMap { ($0.rolePoints ?? [:]).keys }
         for key in keys { #expect(Role(rawValue: key) != nil, "bad role key \(key)") }
     }
+
+    @Test func mapsAreLoaded() throws {
+        let lib = try Self.repoContent()
+        #expect(lib.maps.count >= 30)
+        #expect(lib.map("kings-row")?.name == "King's Row")
+        #expect(lib.map("paraiso")?.mode == .hybrid)
+        #expect(Set(lib.maps.map(\.mode)) == Set(MapMode.allCases))
+    }
+
+    @Test func everyHeroAndMapHasAnImage() throws {
+        let lib = try Self.repoContent()
+        let catalog = Self.repoRoot.appending(path: "App/Assets.xcassets")
+        #expect(ContentValidator.missingAssets(in: lib, assetCatalog: catalog) == [])
+    }
 }

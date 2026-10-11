@@ -1,1 +1,152 @@
-[]
+[
+  {
+    "id": "antarctic-peninsula",
+    "name": "Antarctic Peninsula",
+    "mode": "control"
+  },
+  {
+    "id": "busan",
+    "name": "Busan",
+    "mode": "control"
+  },
+  {
+    "id": "ilios",
+    "name": "Ilios",
+    "mode": "control"
+  },
+  {
+    "id": "lijiang-tower",
+    "name": "Lijiang Tower",
+    "mode": "control"
+  },
+  {
+    "id": "nepal",
+    "name": "Nepal",
+    "mode": "control"
+  },
+  {
+    "id": "oasis",
+    "name": "Oasis",
+    "mode": "control"
+  },
+  {
+    "id": "samoa",
+    "name": "Samoa",
+    "mode": "control"
+  },
+  {
+    "id": "circuit-royal",
+    "name": "Circuit Royal",
+    "mode": "escort"
+  },
+  {
+    "id": "dorado",
+    "name": "Dorado",
+    "mode": "escort"
+  },
+  {
+    "id": "havana",
+    "name": "Havana",
+    "mode": "escort"
+  },
+  {
+    "id": "junkertown",
+    "name": "Junkertown",
+    "mode": "escort"
+  },
+  {
+    "id": "rialto",
+    "name": "Rialto",
+    "mode": "escort"
+  },
+  {
+    "id": "route-66",
+    "name": "Route 66",
+    "mode": "escort"
+  },
+  {
+    "id": "shambali-monastery",
+    "name": "Shambali Monastery",
+    "mode": "escort"
+  },
+  {
+    "id": "watchpoint-gibraltar",
+    "name": "Watchpoint: Gibraltar",
+    "mode": "escort"
+  },
+  {
+    "id": "aatlis",
+    "name": "Aatlis",
+    "mode": "flashpoint"
+  },
+  {
+    "id": "new-junk-city",
+    "name": "New Junk City",
+    "mode": "flashpoint"
+  },
+  {
+    "id": "suravasa",
+    "name": "Suravasa",
+    "mode": "flashpoint"
+  },
+  {
+    "id": "blizzard-world",
+    "name": "Blizzard World",
+    "mode": "hybrid"
+  },
+  {
+    "id": "eichenwalde",
+    "name": "Eichenwalde",
+    "mode": "hybrid"
+  },
+  {
+    "id": "hollywood",
+    "name": "Hollywood",
+    "mode": "hybrid"
+  },
+  {
+    "id": "kings-row",
+    "name": "King's Row",
+    "mode": "hybrid"
+  },
+  {
+    "id": "midtown",
+    "name": "Midtown",
+    "mode": "hybrid"
+  },
+  {
+    "id": "neon-junction",
+    "name": "Neon Junction",
+    "mode": "hybrid"
+  },
+  {
+    "id": "numbani",
+    "name": "Numbani",
+    "mode": "hybrid"
+  },
+  {
+    "id": "paraiso",
+    "name": "Paraíso",
+    "mode": "hybrid"
+  },
+  {
+    "id": "colosseo",
+    "name": "Colosseo",
+    "mode": "push"
+  },
+  {
+    "id": "esperanca",
+    "name": "Esperança",
+    "mode": "push"
+  },
+  {
+    "id": "new-queen-street",
+    "name": "New Queen Street",
+    "mode": "push"
+  },
+  {
+    "id": "runasapi",
+    "name": "Runasapi",
+    "mode": "push"
+  }
+]
