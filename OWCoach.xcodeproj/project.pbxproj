@@ -8,17 +8,35 @@
 
 /* Begin PBXBuildFile section */
 		00CC861FD1CDD882EB09DE44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F39464DE9F13B854B0E93C57 /* Assets.xcassets */; };
+		0826BEBEA9B472F5097A0A90 /* GameEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD5FB5A1E5FD18E1C1784E6 /* GameEntry.swift */; };
+		18070A7637EF69ECEA5F6E45 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C06A223A30AC4B5E700ADCB /* Persistence.swift */; };
+		2CB5D84B8F402378312B08A5 /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71859A89DDEC7979B3BAE5CA /* AppSettings.swift */; };
+		3C80559C1F2085DABBA7DBF5 /* HeroIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 108F7AF47D7047DEC2B2FDB7 /* HeroIcon.swift */; };
 		45AC6C886D56B88EE41E20C7 /* OWCoachApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726610C0E12469D2B2175897 /* OWCoachApp.swift */; };
+		5224E3820A7CB3AA3FFAF5E0 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 604B1ABAC2766AB01D63DB35 /* Theme.swift */; };
 		7190AAF1288DEC0CF1BA3CB7 /* Content in Resources */ = {isa = PBXBuildFile; fileRef = 1B75FC7B1DC42101F09226D5 /* Content */; };
+		8ECE19CF6B1ED9F7E70C9053 /* CardProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22322899C24BA6E506E768B /* CardProgress.swift */; };
 		91048B0CEBD8C62D58AF9A47 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974316139431A1E5F12F38FB /* RootView.swift */; };
+		A13B3A2B9AC855F7FDA950CD /* ContentEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51A645D8ADD0F2FCD60E2E64 /* ContentEnvironment.swift */; };
+		A491AF209FCB20C5983C8288 /* MapThumb.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5A5940A910B34BB0441533 /* MapThumb.swift */; };
+		CCF41F16DFD4A2E55959DFC8 /* FocusPlan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F27F44022C4DD04B0B93B1F /* FocusPlan.swift */; };
 		E743A6535B0077222CC28E5B /* OWCoachKit in Frameworks */ = {isa = PBXBuildFile; productRef = ED737102E2332568C3F1B94B /* OWCoachKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		108F7AF47D7047DEC2B2FDB7 /* HeroIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroIcon.swift; sourceTree = "<group>"; };
 		17B006FCC5C1DE03D8545F78 /* OWCoachKit */ = {isa = PBXFileReference; lastKnownFileType = folder; name = OWCoachKit; path = OWCoachKit; sourceTree = SOURCE_ROOT; };
 		1B75FC7B1DC42101F09226D5 /* Content */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Content; sourceTree = SOURCE_ROOT; };
+		1F27F44022C4DD04B0B93B1F /* FocusPlan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusPlan.swift; sourceTree = "<group>"; };
+		51A645D8ADD0F2FCD60E2E64 /* ContentEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentEnvironment.swift; sourceTree = "<group>"; };
+		604B1ABAC2766AB01D63DB35 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		6BD5FB5A1E5FD18E1C1784E6 /* GameEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameEntry.swift; sourceTree = "<group>"; };
+		71859A89DDEC7979B3BAE5CA /* AppSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettings.swift; sourceTree = "<group>"; };
 		726610C0E12469D2B2175897 /* OWCoachApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OWCoachApp.swift; sourceTree = "<group>"; };
+		7C06A223A30AC4B5E700ADCB /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		974316139431A1E5F12F38FB /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		A22322899C24BA6E506E768B /* CardProgress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardProgress.swift; sourceTree = "<group>"; };
+		BC5A5940A910B34BB0441533 /* MapThumb.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapThumb.swift; sourceTree = "<group>"; };
 		C1A439832C7BF9858759A5F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		D8C54FCE97281B83BAE22D53 /* OWCoach.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = OWCoach.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F39464DE9F13B854B0E93C57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -36,12 +54,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		36628C42BBE4C9386302FE7B /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				71859A89DDEC7979B3BAE5CA /* AppSettings.swift */,
+				A22322899C24BA6E506E768B /* CardProgress.swift */,
+				1F27F44022C4DD04B0B93B1F /* FocusPlan.swift */,
+				6BD5FB5A1E5FD18E1C1784E6 /* GameEntry.swift */,
+				7C06A223A30AC4B5E700ADCB /* Persistence.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
 		400697E9A7BA6C906D4CEAA5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
 				D8C54FCE97281B83BAE22D53 /* OWCoach.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		57C1037CC73276FB739815E5 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				51A645D8ADD0F2FCD60E2E64 /* ContentEnvironment.swift */,
+				108F7AF47D7047DEC2B2FDB7 /* HeroIcon.swift */,
+				BC5A5940A910B34BB0441533 /* MapThumb.swift */,
+				604B1ABAC2766AB01D63DB35 /* Theme.swift */,
+			);
+			path = Support;
 			sourceTree = "<group>";
 		};
 		7DCDDA431A461782A86F0B89 /* App */ = {
@@ -51,6 +92,8 @@
 				C1A439832C7BF9858759A5F5 /* Info.plist */,
 				726610C0E12469D2B2175897 /* OWCoachApp.swift */,
 				974316139431A1E5F12F38FB /* RootView.swift */,
+				36628C42BBE4C9386302FE7B /* Data */,
+				57C1037CC73276FB739815E5 /* Support */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -150,8 +193,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CB5D84B8F402378312B08A5 /* AppSettings.swift in Sources */,
+				8ECE19CF6B1ED9F7E70C9053 /* CardProgress.swift in Sources */,
+				A13B3A2B9AC855F7FDA950CD /* ContentEnvironment.swift in Sources */,
+				CCF41F16DFD4A2E55959DFC8 /* FocusPlan.swift in Sources */,
+				0826BEBEA9B472F5097A0A90 /* GameEntry.swift in Sources */,
+				3C80559C1F2085DABBA7DBF5 /* HeroIcon.swift in Sources */,
+				A491AF209FCB20C5983C8288 /* MapThumb.swift in Sources */,
 				45AC6C886D56B88EE41E20C7 /* OWCoachApp.swift in Sources */,
+				18070A7637EF69ECEA5F6E45 /* Persistence.swift in Sources */,
 				91048B0CEBD8C62D58AF9A47 /* RootView.swift in Sources */,
+				5224E3820A7CB3AA3FFAF5E0 /* Theme.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
