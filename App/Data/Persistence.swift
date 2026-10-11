@@ -5,10 +5,15 @@ import SwiftData
 enum Persistence {
     static let schema = Schema([GameEntry.self, FocusPlan.self, CardProgress.self, AppSettings.self])
     private(set) static var isCloudBacked = false
+    #if LOCAL_ONLY
+    private static let localOnly = true
+    #else
+    private static let localOnly = false
+    #endif
     private static let log = Logger(subsystem: "de.schakal.OWCoach", category: "Persistence")
 
     static func makeContainer(inMemory: Bool) -> ModelContainer {
-        if !inMemory {
+        if !inMemory, !localOnly {
             let cloud = ModelConfiguration(schema: schema, cloudKitDatabase: .private("iCloud.de.schakal.OWCoach"))
             do {
                 let container = try ModelContainer(for: schema, configurations: cloud)

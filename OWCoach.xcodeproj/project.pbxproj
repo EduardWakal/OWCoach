@@ -8,31 +8,59 @@
 
 /* Begin PBXBuildFile section */
 		00CC861FD1CDD882EB09DE44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F39464DE9F13B854B0E93C57 /* Assets.xcassets */; };
+		02A9E3C5F91486E69B1FC565 /* OWCoachApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726610C0E12469D2B2175897 /* OWCoachApp.swift */; };
 		0826BEBEA9B472F5097A0A90 /* GameEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD5FB5A1E5FD18E1C1784E6 /* GameEntry.swift */; };
+		0C09DC8ADAD27DA2CB96EC31 /* Content in Resources */ = {isa = PBXBuildFile; fileRef = 1B75FC7B1DC42101F09226D5 /* Content */; };
 		18070A7637EF69ECEA5F6E45 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C06A223A30AC4B5E700ADCB /* Persistence.swift */; };
 		1E358AFB172E0599EDF99E2C /* WeekHeroesSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7835859356400CED31213B8B /* WeekHeroesSheet.swift */; };
+		23CFB8E107CFEF9935BA0955 /* FocusPickerSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60E1583CEF0B7346E95F2511 /* FocusPickerSheet.swift */; };
+		2C1D1E2AA1DF83E5D4D199BA /* Singletons.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A86C4BC1200525C1D94957 /* Singletons.swift */; };
 		2CB5D84B8F402378312B08A5 /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71859A89DDEC7979B3BAE5CA /* AppSettings.swift */; };
 		2F90FB296B90BED5AB23DCF5 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3738C1A05B918274FC6BEA /* SettingsView.swift */; };
+		3737210A366060DECE77CDE9 /* HeroIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 108F7AF47D7047DEC2B2FDB7 /* HeroIcon.swift */; };
+		39DB37ABBF6FC069FC4D7207 /* CardProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22322899C24BA6E506E768B /* CardProgress.swift */; };
 		3C80559C1F2085DABBA7DBF5 /* HeroIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 108F7AF47D7047DEC2B2FDB7 /* HeroIcon.swift */; };
 		45AC6C886D56B88EE41E20C7 /* OWCoachApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726610C0E12469D2B2175897 /* OWCoachApp.swift */; };
 		5224E3820A7CB3AA3FFAF5E0 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 604B1ABAC2766AB01D63DB35 /* Theme.swift */; };
+		5D6EB4B85906EE14CC25D8F6 /* LogGameFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C7A610AFC4DD990B9DB6C64 /* LogGameFlow.swift */; };
+		5F5AF34EB706F56193CCE552 /* FocusPlan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F27F44022C4DD04B0B93B1F /* FocusPlan.swift */; };
+		63D51DE8CB8B8E05DF591FAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F39464DE9F13B854B0E93C57 /* Assets.xcassets */; };
+		6A7185D268721B60982596D6 /* GameEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD5FB5A1E5FD18E1C1784E6 /* GameEntry.swift */; };
 		6AC2519C8ED97A2618C244FD /* WeekHeroesBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4199E666182316E75A26CBC /* WeekHeroesBar.swift */; };
 		7190AAF1288DEC0CF1BA3CB7 /* Content in Resources */ = {isa = PBXBuildFile; fileRef = 1B75FC7B1DC42101F09226D5 /* Content */; };
+		74AC7E64CFD50E631C816943 /* MapThumb.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5A5940A910B34BB0441533 /* MapThumb.swift */; };
+		769F14C82F4F66AF9B303A10 /* DemoSeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA34E0D4B0980C848F36879A /* DemoSeed.swift */; };
+		76ACD3990085071E066F32C3 /* TodayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E5399B51EA99B1F47C5214 /* TodayView.swift */; };
+		77569003B87F016A37B244EE /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 604B1ABAC2766AB01D63DB35 /* Theme.swift */; };
+		78DA7D1CA15EC74C95C47E6E /* WeekHeroesSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7835859356400CED31213B8B /* WeekHeroesSheet.swift */; };
+		79CA66BF85521DB5D8CF2F8D /* FocusCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9752BF41A5168219875D66C /* FocusCardView.swift */; };
+		8A7337B4CA7D8665CCE03FC2 /* OWCoachKit in Frameworks */ = {isa = PBXBuildFile; productRef = B74577B57AAB2220413F3BD1 /* OWCoachKit */; };
 		8B7C851A8C7611556E39E283 /* TodayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E5399B51EA99B1F47C5214 /* TodayView.swift */; };
 		8ECE19CF6B1ED9F7E70C9053 /* CardProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22322899C24BA6E506E768B /* CardProgress.swift */; };
 		91048B0CEBD8C62D58AF9A47 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974316139431A1E5F12F38FB /* RootView.swift */; };
+		9248FA0DA79DD5CA2CE60CF2 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3738C1A05B918274FC6BEA /* SettingsView.swift */; };
+		96F01B4683B11D4847A4012F /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974316139431A1E5F12F38FB /* RootView.swift */; };
+		9B1EFD8CBF00F5A583AA8DEA /* ContentEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51A645D8ADD0F2FCD60E2E64 /* ContentEnvironment.swift */; };
+		9F42AC1452A91CBD1386E045 /* LogSteps.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC15C4C55A4A101F991F7B1C /* LogSteps.swift */; };
 		A13B3A2B9AC855F7FDA950CD /* ContentEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51A645D8ADD0F2FCD60E2E64 /* ContentEnvironment.swift */; };
 		A16E3D904D4B3C2C3084557B /* LogGameFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C7A610AFC4DD990B9DB6C64 /* LogGameFlow.swift */; };
 		A491AF209FCB20C5983C8288 /* MapThumb.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5A5940A910B34BB0441533 /* MapThumb.swift */; };
+		B4343AC07B20FE725AAA90D3 /* SuggestionBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4D2CFF110CC55A085FB7A4 /* SuggestionBanner.swift */; };
 		B8768876A8BE3E2E303C6E13 /* StatTiles.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D7E3D4745C7226C6059168 /* StatTiles.swift */; };
+		C11F1A23BEFEDCE4A622729E /* StatTiles.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D7E3D4745C7226C6059168 /* StatTiles.swift */; };
 		C216DBF10F54E813A15F2BC4 /* FocusCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9752BF41A5168219875D66C /* FocusCardView.swift */; };
+		CCAA59D639BBD3D20CF7375F /* TodayGamesList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E45E3D63E1B62140EA1C77 /* TodayGamesList.swift */; };
 		CCF41F16DFD4A2E55959DFC8 /* FocusPlan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F27F44022C4DD04B0B93B1F /* FocusPlan.swift */; };
 		CDE01F73D2DCF801F97D2F52 /* Singletons.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A86C4BC1200525C1D94957 /* Singletons.swift */; };
 		CE3C3CEF10C15D7D9F2B4A5A /* SuggestionBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4D2CFF110CC55A085FB7A4 /* SuggestionBanner.swift */; };
+		D58562AFF48BA7565A0E2150 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C06A223A30AC4B5E700ADCB /* Persistence.swift */; };
+		D66AEC32946F58CD24A20CAD /* ChoiceButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590421D61B67A98355E1EFB7 /* ChoiceButton.swift */; };
 		D69FA007623A893CFBBFFBE5 /* FocusPickerSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60E1583CEF0B7346E95F2511 /* FocusPickerSheet.swift */; };
 		DA229DD7A17FD2FF9D0A4261 /* ChoiceButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590421D61B67A98355E1EFB7 /* ChoiceButton.swift */; };
 		DD0558EAF63E80E1395895CE /* LogSteps.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC15C4C55A4A101F991F7B1C /* LogSteps.swift */; };
+		E0EBB73063A7D71E016901E1 /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71859A89DDEC7979B3BAE5CA /* AppSettings.swift */; };
 		E743A6535B0077222CC28E5B /* OWCoachKit in Frameworks */ = {isa = PBXBuildFile; productRef = ED737102E2332568C3F1B94B /* OWCoachKit */; };
+		EA4C3C4F8D7CED659FAFB687 /* WeekHeroesBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4199E666182316E75A26CBC /* WeekHeroesBar.swift */; };
 		EC4D9AED798453FCE68995AF /* DemoSeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA34E0D4B0980C848F36879A /* DemoSeed.swift */; };
 		ECB7BC1B9672F3C66BD2D4DA /* TodayGamesList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E45E3D63E1B62140EA1C77 /* TodayGamesList.swift */; };
 /* End PBXBuildFile section */
@@ -50,6 +78,7 @@
 		604B1ABAC2766AB01D63DB35 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		60E1583CEF0B7346E95F2511 /* FocusPickerSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusPickerSheet.swift; sourceTree = "<group>"; };
 		6BD5FB5A1E5FD18E1C1784E6 /* GameEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameEntry.swift; sourceTree = "<group>"; };
+		6E11188EB6990A128F46032E /* OWCoachLocal.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = OWCoachLocal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		71859A89DDEC7979B3BAE5CA /* AppSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettings.swift; sourceTree = "<group>"; };
 		726610C0E12469D2B2175897 /* OWCoachApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OWCoachApp.swift; sourceTree = "<group>"; };
 		7835859356400CED31213B8B /* WeekHeroesSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekHeroesSheet.swift; sourceTree = "<group>"; };
@@ -63,7 +92,6 @@
 		B9752BF41A5168219875D66C /* FocusCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusCardView.swift; sourceTree = "<group>"; };
 		BA34E0D4B0980C848F36879A /* DemoSeed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoSeed.swift; sourceTree = "<group>"; };
 		BC5A5940A910B34BB0441533 /* MapThumb.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapThumb.swift; sourceTree = "<group>"; };
-		C1A439832C7BF9858759A5F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		D8C54FCE97281B83BAE22D53 /* OWCoach.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = OWCoach.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2D7E3D4745C7226C6059168 /* StatTiles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatTiles.swift; sourceTree = "<group>"; };
 		EC15C4C55A4A101F991F7B1C /* LogSteps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogSteps.swift; sourceTree = "<group>"; };
@@ -71,6 +99,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		25643546FDEB0EF6C29B7495 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A7337B4CA7D8665CCE03FC2 /* OWCoachKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8EC456AF713ABA0322E86424 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -99,6 +135,7 @@
 			isa = PBXGroup;
 			children = (
 				D8C54FCE97281B83BAE22D53 /* OWCoach.app */,
+				6E11188EB6990A128F46032E /* OWCoachLocal.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -129,7 +166,6 @@
 			isa = PBXGroup;
 			children = (
 				F39464DE9F13B854B0E93C57 /* Assets.xcassets */,
-				C1A439832C7BF9858759A5F5 /* Info.plist */,
 				726610C0E12469D2B2175897 /* OWCoachApp.swift */,
 				974316139431A1E5F12F38FB /* RootView.swift */,
 				36628C42BBE4C9386302FE7B /* Data */,
@@ -185,6 +221,26 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		3627A3EC6619DD6A484FE10D /* OWCoachLocal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 640879092F577748DD6EFCB3 /* Build configuration list for PBXNativeTarget "OWCoachLocal" */;
+			buildPhases = (
+				A4C25748A53879C35306B3AC /* Sources */,
+				6D591B8C474BE7DAB4EB88C7 /* Resources */,
+				25643546FDEB0EF6C29B7495 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OWCoachLocal;
+			packageProductDependencies = (
+				B74577B57AAB2220413F3BD1 /* OWCoachKit */,
+			);
+			productName = OWCoachLocal;
+			productReference = 6E11188EB6990A128F46032E /* OWCoachLocal.app */;
+			productType = "com.apple.product-type.application";
+		};
 		949FC8F722AB10C6CFD2B383 /* OWCoach */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 19AB526193971650F595C42B /* Build configuration list for PBXNativeTarget "OWCoach" */;
@@ -214,6 +270,10 @@
 				BuildIndependentTargetsInParallel = YES;
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
+					3627A3EC6619DD6A484FE10D = {
+						DevelopmentTeam = XU2P9PWM29;
+						ProvisioningStyle = Automatic;
+					};
 					949FC8F722AB10C6CFD2B383 = {
 						DevelopmentTeam = XU2P9PWM29;
 						ProvisioningStyle = Automatic;
@@ -238,6 +298,7 @@
 			projectRoot = "";
 			targets = (
 				949FC8F722AB10C6CFD2B383 /* OWCoach */,
+				3627A3EC6619DD6A484FE10D /* OWCoachLocal */,
 			);
 		};
 /* End PBXProject section */
@@ -249,6 +310,15 @@
 			files = (
 				00CC861FD1CDD882EB09DE44 /* Assets.xcassets in Resources */,
 				7190AAF1288DEC0CF1BA3CB7 /* Content in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D591B8C474BE7DAB4EB88C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63D51DE8CB8B8E05DF591FAD /* Assets.xcassets in Resources */,
+				0C09DC8ADAD27DA2CB96EC31 /* Content in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,9 +357,89 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A4C25748A53879C35306B3AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0EBB73063A7D71E016901E1 /* AppSettings.swift in Sources */,
+				39DB37ABBF6FC069FC4D7207 /* CardProgress.swift in Sources */,
+				D66AEC32946F58CD24A20CAD /* ChoiceButton.swift in Sources */,
+				9B1EFD8CBF00F5A583AA8DEA /* ContentEnvironment.swift in Sources */,
+				769F14C82F4F66AF9B303A10 /* DemoSeed.swift in Sources */,
+				79CA66BF85521DB5D8CF2F8D /* FocusCardView.swift in Sources */,
+				23CFB8E107CFEF9935BA0955 /* FocusPickerSheet.swift in Sources */,
+				5F5AF34EB706F56193CCE552 /* FocusPlan.swift in Sources */,
+				6A7185D268721B60982596D6 /* GameEntry.swift in Sources */,
+				3737210A366060DECE77CDE9 /* HeroIcon.swift in Sources */,
+				5D6EB4B85906EE14CC25D8F6 /* LogGameFlow.swift in Sources */,
+				9F42AC1452A91CBD1386E045 /* LogSteps.swift in Sources */,
+				74AC7E64CFD50E631C816943 /* MapThumb.swift in Sources */,
+				02A9E3C5F91486E69B1FC565 /* OWCoachApp.swift in Sources */,
+				D58562AFF48BA7565A0E2150 /* Persistence.swift in Sources */,
+				96F01B4683B11D4847A4012F /* RootView.swift in Sources */,
+				9248FA0DA79DD5CA2CE60CF2 /* SettingsView.swift in Sources */,
+				2C1D1E2AA1DF83E5D4D199BA /* Singletons.swift in Sources */,
+				C11F1A23BEFEDCE4A622729E /* StatTiles.swift in Sources */,
+				B4343AC07B20FE725AAA90D3 /* SuggestionBanner.swift in Sources */,
+				77569003B87F016A37B244EE /* Theme.swift in Sources */,
+				CCAA59D639BBD3D20CF7375F /* TodayGamesList.swift in Sources */,
+				76ACD3990085071E066F32C3 /* TodayView.swift in Sources */,
+				EA4C3C4F8D7CED659FAFB687 /* WeekHeroesBar.swift in Sources */,
+				78DA7D1CA15EC74C95C47E6E /* WeekHeroesSheet.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		2679CBC3003119516637663A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XU2P9PWM29;
+				INFOPLIST_FILE = "App/Info-Local.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = de.schakal.OWCoach.local;
+				PRODUCT_MODULE_NAME = OWCoach;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) LOCAL_ONLY";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		50F56A26111B8A508889CA73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XU2P9PWM29;
+				INFOPLIST_FILE = "App/Info-Local.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = de.schakal.OWCoach.local;
+				PRODUCT_MODULE_NAME = OWCoach;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) LOCAL_ONLY";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
 		639C711D37F1D5A364582462 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -467,6 +617,15 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
+		640879092F577748DD6EFCB3 /* Build configuration list for PBXNativeTarget "OWCoachLocal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2679CBC3003119516637663A /* Debug */,
+				50F56A26111B8A508889CA73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
 		D1225F5C1044E777C79BEF9F /* Build configuration list for PBXProject "OWCoach" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -486,6 +645,10 @@
 /* End XCLocalSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		B74577B57AAB2220413F3BD1 /* OWCoachKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = OWCoachKit;
+		};
 		ED737102E2332568C3F1B94B /* OWCoachKit */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = OWCoachKit;

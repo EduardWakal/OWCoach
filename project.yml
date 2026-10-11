@@ -7,17 +7,32 @@ options:
 packages:
   OWCoachKit:
     path: OWCoachKit
-targets:
-  OWCoach:
+targetTemplates:
+  App:
     type: application
     platform: iOS
     sources:
-      - App
+      - path: App
+        excludes:
+          - "Info*.plist"
       - path: Content
         type: folder
         buildPhase: resources
     dependencies:
       - package: OWCoachKit
+    settings:
+      base:
+        TARGETED_DEVICE_FAMILY: "1"
+        CODE_SIGN_STYLE: Automatic
+        DEVELOPMENT_TEAM: XU2P9PWM29
+        SWIFT_VERSION: "5.0"
+        CURRENT_PROJECT_VERSION: 1
+        MARKETING_VERSION: 0.1.0
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME: AccentColor
+targets:
+  OWCoach:
+    templates: [App]
     info:
       path: App/Info.plist
       properties:
@@ -29,17 +44,27 @@ targets:
     settings:
       base:
         PRODUCT_BUNDLE_IDENTIFIER: de.schakal.OWCoach
-        TARGETED_DEVICE_FAMILY: "1"
-        CODE_SIGN_STYLE: Automatic
-        DEVELOPMENT_TEAM: XU2P9PWM29
-        SWIFT_VERSION: "5.0"
-        CURRENT_PROJECT_VERSION: 1
-        MARKETING_VERSION: 0.1.0
-        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
-        ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME: AccentColor
         CODE_SIGN_ENTITLEMENTS: OWCoach.entitlements
+  OWCoachLocal:
+    templates: [App]
+    info:
+      path: App/Info-Local.plist
+      properties:
+        CFBundleDisplayName: OWCoach
+        CFBundleLocalizations: [de]
+        UILaunchScreen: {}
+        UISupportedInterfaceOrientations: [UIInterfaceOrientationPortrait]
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: de.schakal.OWCoach.local
+        PRODUCT_MODULE_NAME: OWCoach
+        SWIFT_ACTIVE_COMPILATION_CONDITIONS: "$(inherited) LOCAL_ONLY"
 schemes:
   OWCoach:
     build:
       targets:
         OWCoach: all
+  OWCoach Local:
+    build:
+      targets:
+        OWCoachLocal: all
