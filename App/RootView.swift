@@ -18,7 +18,7 @@ struct RootView: View {
                 VODListView()
             }
             Tab("Stats", systemImage: "chart.bar.fill") {
-                ComingSoon(title: "Stats")
+                StatsView()
             }
         }
         .onAppear { Singletons.consolidate(in: context) }
@@ -28,13 +28,5 @@ struct RootView: View {
         .onReceive(NotificationCenter.default.publisher(for: .NSPersistentStoreRemoteChange).receive(on: RunLoop.main)) { _ in
             Singletons.consolidate(in: context)
         }
-    }
-}
-
-struct ComingSoon: View {
-    let title: String
-
-    var body: some View {
-        ContentUnavailableView(title, systemImage: "hammer", description: Text("Kommt im nächsten Update."))
     }
 }
