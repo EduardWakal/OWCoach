@@ -76,8 +76,8 @@ struct TodayView: View {
         .sheet(isPresented: $showWeekHeroes, onDismiss: saveWeekHeroes) {
             WeekHeroesSheet(pool: settings?.poolHeroIDs ?? [], selection: $weekHeroes)
         }
-        .sheet(isPresented: $showSettings) {
-            ComingSoon(title: "Einstellungen")
+        .sheet(isPresented: $showSettings, onDismiss: load) {
+            SettingsView()
         }
     }
 

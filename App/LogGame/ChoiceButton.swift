@@ -11,6 +11,7 @@ struct ChoiceButton<Label: View>: View {
             label()
                 .frame(maxWidth: .infinity, minHeight: 56)
                 .padding(.horizontal, 12)
+                .contentShape(.rect(cornerRadius: 18))
         }
         .buttonStyle(.plain)
         .glassEffect(selected ? .regular.tint(tint.opacity(0.55)).interactive() : .regular.interactive(), in: .rect(cornerRadius: 18))

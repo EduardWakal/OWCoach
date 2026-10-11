@@ -9,6 +9,9 @@ struct OWCoachApp: App {
     init() {
         let arguments = ProcessInfo.processInfo.arguments
         container = Persistence.makeContainer(inMemory: arguments.contains("-inMemory"))
+        if arguments.contains("-seedDemo") {
+            MainActor.assumeIsolated { DemoSeed.seed(into: container.mainContext) }
+        }
     }
 
     var body: some Scene {

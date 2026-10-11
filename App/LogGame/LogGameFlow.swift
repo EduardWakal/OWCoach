@@ -102,7 +102,7 @@ struct LogGameFlow: View {
             Button {
                 draft.advance()
             } label: {
-                Label("Weiter", systemImage: "chevron.right").frame(maxWidth: .infinity, minHeight: 52)
+                HStack(spacing: 6) { Text("Weiter"); Image(systemName: "chevron.right") }.frame(maxWidth: .infinity, minHeight: 52)
             }
             .buttonStyle(.glassProminent)
             .disabled(!draft.canAdvance)

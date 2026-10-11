@@ -12,6 +12,7 @@
 		18070A7637EF69ECEA5F6E45 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C06A223A30AC4B5E700ADCB /* Persistence.swift */; };
 		1E358AFB172E0599EDF99E2C /* WeekHeroesSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7835859356400CED31213B8B /* WeekHeroesSheet.swift */; };
 		2CB5D84B8F402378312B08A5 /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71859A89DDEC7979B3BAE5CA /* AppSettings.swift */; };
+		2F90FB296B90BED5AB23DCF5 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3738C1A05B918274FC6BEA /* SettingsView.swift */; };
 		3C80559C1F2085DABBA7DBF5 /* HeroIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 108F7AF47D7047DEC2B2FDB7 /* HeroIcon.swift */; };
 		45AC6C886D56B88EE41E20C7 /* OWCoachApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726610C0E12469D2B2175897 /* OWCoachApp.swift */; };
 		5224E3820A7CB3AA3FFAF5E0 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 604B1ABAC2766AB01D63DB35 /* Theme.swift */; };
@@ -31,6 +32,7 @@
 		DA229DD7A17FD2FF9D0A4261 /* ChoiceButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590421D61B67A98355E1EFB7 /* ChoiceButton.swift */; };
 		DD0558EAF63E80E1395895CE /* LogSteps.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC15C4C55A4A101F991F7B1C /* LogSteps.swift */; };
 		E743A6535B0077222CC28E5B /* OWCoachKit in Frameworks */ = {isa = PBXBuildFile; productRef = ED737102E2332568C3F1B94B /* OWCoachKit */; };
+		EC4D9AED798453FCE68995AF /* DemoSeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA34E0D4B0980C848F36879A /* DemoSeed.swift */; };
 		ECB7BC1B9672F3C66BD2D4DA /* TodayGamesList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E45E3D63E1B62140EA1C77 /* TodayGamesList.swift */; };
 /* End PBXBuildFile section */
 
@@ -40,6 +42,7 @@
 		17B006FCC5C1DE03D8545F78 /* OWCoachKit */ = {isa = PBXFileReference; lastKnownFileType = folder; name = OWCoachKit; path = OWCoachKit; sourceTree = SOURCE_ROOT; };
 		1B75FC7B1DC42101F09226D5 /* Content */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Content; sourceTree = SOURCE_ROOT; };
 		1F27F44022C4DD04B0B93B1F /* FocusPlan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusPlan.swift; sourceTree = "<group>"; };
+		2F3738C1A05B918274FC6BEA /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		51A645D8ADD0F2FCD60E2E64 /* ContentEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentEnvironment.swift; sourceTree = "<group>"; };
 		590421D61B67A98355E1EFB7 /* ChoiceButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoiceButton.swift; sourceTree = "<group>"; };
 		5C4D2CFF110CC55A085FB7A4 /* SuggestionBanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuggestionBanner.swift; sourceTree = "<group>"; };
@@ -56,6 +59,7 @@
 		A22322899C24BA6E506E768B /* CardProgress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardProgress.swift; sourceTree = "<group>"; };
 		B4199E666182316E75A26CBC /* WeekHeroesBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekHeroesBar.swift; sourceTree = "<group>"; };
 		B9752BF41A5168219875D66C /* FocusCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusCardView.swift; sourceTree = "<group>"; };
+		BA34E0D4B0980C848F36879A /* DemoSeed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoSeed.swift; sourceTree = "<group>"; };
 		BC5A5940A910B34BB0441533 /* MapThumb.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapThumb.swift; sourceTree = "<group>"; };
 		C1A439832C7BF9858759A5F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		D8C54FCE97281B83BAE22D53 /* OWCoach.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = OWCoach.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -110,6 +114,7 @@
 			isa = PBXGroup;
 			children = (
 				51A645D8ADD0F2FCD60E2E64 /* ContentEnvironment.swift */,
+				BA34E0D4B0980C848F36879A /* DemoSeed.swift */,
 				108F7AF47D7047DEC2B2FDB7 /* HeroIcon.swift */,
 				BC5A5940A910B34BB0441533 /* MapThumb.swift */,
 				604B1ABAC2766AB01D63DB35 /* Theme.swift */,
@@ -126,6 +131,7 @@
 				974316139431A1E5F12F38FB /* RootView.swift */,
 				36628C42BBE4C9386302FE7B /* Data */,
 				44476A4C844143D3CCCE2D8A /* LogGame */,
+				BF6D87D2689514EEE0923CB2 /* Settings */,
 				57C1037CC73276FB739815E5 /* Support */,
 				B876AB381CBF2338ACCB24D0 /* Today */,
 			);
@@ -155,6 +161,14 @@
 				7835859356400CED31213B8B /* WeekHeroesSheet.swift */,
 			);
 			path = Today;
+			sourceTree = "<group>";
+		};
+		BF6D87D2689514EEE0923CB2 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				2F3738C1A05B918274FC6BEA /* SettingsView.swift */,
+			);
+			path = Settings;
 			sourceTree = "<group>";
 		};
 		C3CE88865EC7957FE8DE7BE5 /* Packages */ = {
@@ -246,6 +260,7 @@
 				8ECE19CF6B1ED9F7E70C9053 /* CardProgress.swift in Sources */,
 				DA229DD7A17FD2FF9D0A4261 /* ChoiceButton.swift in Sources */,
 				A13B3A2B9AC855F7FDA950CD /* ContentEnvironment.swift in Sources */,
+				EC4D9AED798453FCE68995AF /* DemoSeed.swift in Sources */,
 				C216DBF10F54E813A15F2BC4 /* FocusCardView.swift in Sources */,
 				D69FA007623A893CFBBFFBE5 /* FocusPickerSheet.swift in Sources */,
 				CCF41F16DFD4A2E55959DFC8 /* FocusPlan.swift in Sources */,
@@ -257,6 +272,7 @@
 				45AC6C886D56B88EE41E20C7 /* OWCoachApp.swift in Sources */,
 				18070A7637EF69ECEA5F6E45 /* Persistence.swift in Sources */,
 				91048B0CEBD8C62D58AF9A47 /* RootView.swift in Sources */,
+				2F90FB296B90BED5AB23DCF5 /* SettingsView.swift in Sources */,
 				B8768876A8BE3E2E303C6E13 /* StatTiles.swift in Sources */,
 				CE3C3CEF10C15D7D9F2B4A5A /* SuggestionBanner.swift in Sources */,
 				5224E3820A7CB3AA3FFAF5E0 /* Theme.swift in Sources */,

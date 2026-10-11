@@ -65,25 +65,23 @@ struct MapStep: View {
             .padding(14)
             .glassEffect(.regular, in: .capsule)
 
-            ScrollView {
-                LazyVStack(alignment: .leading, spacing: 8, pinnedViews: [.sectionHeaders]) {
-                    ForEach(MapMode.allCases) { mode in
-                        let inMode = maps.filter { $0.mode == mode }
-                        if !inMode.isEmpty {
-                            Section {
-                                ForEach(inMode) { map in
-                                    ChoiceButton(selected: selected == map.id, action: { choose(map.id) }) {
-                                        HStack(spacing: 12) {
-                                            MapThumb(mapID: map.id)
-                                            Text(map.name).font(.headline)
-                                            Spacer()
-                                        }
-                                        .padding(.vertical, 6)
+            LazyVStack(alignment: .leading, spacing: 8, pinnedViews: [.sectionHeaders]) {
+                ForEach(MapMode.allCases) { mode in
+                    let inMode = maps.filter { $0.mode == mode }
+                    if !inMode.isEmpty {
+                        Section {
+                            ForEach(inMode) { map in
+                                ChoiceButton(selected: selected == map.id, action: { choose(map.id) }) {
+                                    HStack(spacing: 12) {
+                                        MapThumb(mapID: map.id)
+                                        Text(map.name).font(.headline)
+                                        Spacer()
                                     }
+                                    .padding(.vertical, 6)
                                 }
-                            } header: {
-                                Text(mode.label).font(.caption.bold()).foregroundStyle(.secondary).padding(.top, 6)
                             }
+                        } header: {
+                            Text(mode.label).font(.caption.bold()).foregroundStyle(.secondary).padding(.top, 6)
                         }
                     }
                 }
