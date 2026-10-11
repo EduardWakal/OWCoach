@@ -5,19 +5,20 @@ import SwiftUI
 struct RootView: View {
     @Environment(\.modelContext) private var context
     @Environment(\.scenePhase) private var scenePhase
+    @State private var tab = UserDefaults.standard.string(forKey: "startTab") ?? "today"
 
     var body: some View {
-        TabView {
-            Tab("Heute", systemImage: "flame.fill") {
+        TabView(selection: $tab) {
+            Tab("Heute", systemImage: "flame.fill", value: "today") {
                 TodayView()
             }
-            Tab("Lernen", systemImage: "book.fill") {
+            Tab("Lernen", systemImage: "book.fill", value: "learn") {
                 LearnView()
             }
-            Tab("VOD", systemImage: "play.rectangle.fill") {
+            Tab("VOD", systemImage: "play.rectangle.fill", value: "vod") {
                 VODListView()
             }
-            Tab("Stats", systemImage: "chart.bar.fill") {
+            Tab("Stats", systemImage: "chart.bar.fill", value: "stats") {
                 StatsView()
             }
         }

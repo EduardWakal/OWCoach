@@ -102,6 +102,12 @@ struct StatsView: View {
                 }
             }
             .chartYScale(domain: domain)
+            .chartYAxis {
+                AxisMarks { value in
+                    AxisGridLine()
+                    AxisValueLabel { Text(value.as(Double.self).map(format) ?? "") }
+                }
+            }
             .chartXSelection(value: selection)
             .frame(height: 160)
         }
