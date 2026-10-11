@@ -1,12 +1,22 @@
+import OSLog
 import SwiftData
 
+@MainActor
 enum Persistence {
     static let schema = Schema([GameEntry.self, FocusPlan.self, CardProgress.self, AppSettings.self])
+    private(set) static var isCloudBacked = false
+    private static let log = Logger(subsystem: "de.schakal.OWCoach", category: "Persistence")
 
     static func makeContainer(inMemory: Bool) -> ModelContainer {
         if !inMemory {
             let cloud = ModelConfiguration(schema: schema, cloudKitDatabase: .private("iCloud.de.schakal.OWCoach"))
-            if let container = try? ModelContainer(for: schema, configurations: cloud) { return container }
+            do {
+                let container = try ModelContainer(for: schema, configurations: cloud)
+                isCloudBacked = true
+                return container
+            } catch {
+                log.error("CloudKit store failed, falling back to local: \(error.localizedDescription, privacy: .public)")
+            }
         }
         let local = ModelConfiguration(schema: schema, isStoredInMemoryOnly: inMemory, cloudKitDatabase: .none)
         do {

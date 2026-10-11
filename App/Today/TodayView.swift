@@ -8,14 +8,17 @@ struct TodayView: View {
     @Query(sort: \GameEntry.date) private var entries: [GameEntry]
     @Query private var progress: [CardProgress]
     @Query(sort: \AppSettings.createdAt) private var allSettings: [AppSettings]
+    @Query(sort: \FocusPlan.createdAt) private var plans: [FocusPlan]
 
     @State private var showLog = false
     @State private var showFocusPicker = false
     @State private var showWeekHeroes = false
     @State private var showSettings = false
     @State private var savedToast = false
-    @State private var weekHeroes: [String] = []
-    @State private var activeCardID: String?
+    @State private var weekHeroDraft: [String] = []
+
+    private var weekHeroes: [String] { plans.first?.weekHeroIDs ?? [] }
+    private var activeCardID: String? { plans.first?.activeCardID }
 
     var body: some View {
         let records = entries.map(\.record)
@@ -27,7 +30,10 @@ struct TodayView: View {
         NavigationStack {
             ScrollView {
                 VStack(alignment: .leading, spacing: 16) {
-                    WeekHeroesBar(heroIDs: weekHeroes) { showWeekHeroes = true }
+                    WeekHeroesBar(heroIDs: weekHeroes) {
+                        weekHeroDraft = weekHeroes
+                        showWeekHeroes = true
+                    }
                     if let suggestion {
                         SuggestionBanner(suggestion: suggestion, accept: { accept(suggestion) }, dismiss: { dismissSuggestion(suggestion, gameCount: records.count) })
                     }
@@ -74,7 +80,7 @@ struct TodayView: View {
             FocusPickerSheet(weekHeroIDs: weekHeroes, activeCardID: activeCardID, mastered: mastered) { setFocus($0) }
         }
         .sheet(isPresented: $showWeekHeroes, onDismiss: saveWeekHeroes) {
-            WeekHeroesSheet(pool: settings?.poolHeroIDs ?? [], selection: $weekHeroes)
+            WeekHeroesSheet(pool: settings?.poolHeroIDs ?? [], selection: $weekHeroDraft)
         }
         .sheet(isPresented: $showSettings, onDismiss: load) {
             SettingsView()
@@ -88,20 +94,16 @@ struct TodayView: View {
 
     private func load() {
         _ = AppSettings.current(in: context)
-        let focus = FocusPlan.current(in: context)
-        weekHeroes = focus.weekHeroIDs
-        activeCardID = focus.activeCardID
+        _ = FocusPlan.current(in: context)
     }
 
     private func saveWeekHeroes() {
-        FocusPlan.current(in: context).weekHeroIDs = weekHeroes
+        FocusPlan.current(in: context).weekHeroIDs = weekHeroDraft
         try? context.save()
     }
 
     private func setFocus(_ cardID: String?) {
-        let focus = FocusPlan.current(in: context)
-        focus.activeCardID = cardID
-        activeCardID = cardID
+        FocusPlan.current(in: context).activeCardID = cardID
         try? context.save()
     }
 

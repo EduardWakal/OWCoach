@@ -27,6 +27,7 @@
 		B8768876A8BE3E2E303C6E13 /* StatTiles.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D7E3D4745C7226C6059168 /* StatTiles.swift */; };
 		C216DBF10F54E813A15F2BC4 /* FocusCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9752BF41A5168219875D66C /* FocusCardView.swift */; };
 		CCF41F16DFD4A2E55959DFC8 /* FocusPlan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F27F44022C4DD04B0B93B1F /* FocusPlan.swift */; };
+		CDE01F73D2DCF801F97D2F52 /* Singletons.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A86C4BC1200525C1D94957 /* Singletons.swift */; };
 		CE3C3CEF10C15D7D9F2B4A5A /* SuggestionBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4D2CFF110CC55A085FB7A4 /* SuggestionBanner.swift */; };
 		D69FA007623A893CFBBFFBE5 /* FocusPickerSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60E1583CEF0B7346E95F2511 /* FocusPickerSheet.swift */; };
 		DA229DD7A17FD2FF9D0A4261 /* ChoiceButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590421D61B67A98355E1EFB7 /* ChoiceButton.swift */; };
@@ -57,6 +58,7 @@
 		974316139431A1E5F12F38FB /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
 		9C7A610AFC4DD990B9DB6C64 /* LogGameFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogGameFlow.swift; sourceTree = "<group>"; };
 		A22322899C24BA6E506E768B /* CardProgress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardProgress.swift; sourceTree = "<group>"; };
+		B1A86C4BC1200525C1D94957 /* Singletons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Singletons.swift; sourceTree = "<group>"; };
 		B4199E666182316E75A26CBC /* WeekHeroesBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekHeroesBar.swift; sourceTree = "<group>"; };
 		B9752BF41A5168219875D66C /* FocusCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusCardView.swift; sourceTree = "<group>"; };
 		BA34E0D4B0980C848F36879A /* DemoSeed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoSeed.swift; sourceTree = "<group>"; };
@@ -88,6 +90,7 @@
 				1F27F44022C4DD04B0B93B1F /* FocusPlan.swift */,
 				6BD5FB5A1E5FD18E1C1784E6 /* GameEntry.swift */,
 				7C06A223A30AC4B5E700ADCB /* Persistence.swift */,
+				B1A86C4BC1200525C1D94957 /* Singletons.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -273,6 +276,7 @@
 				18070A7637EF69ECEA5F6E45 /* Persistence.swift in Sources */,
 				91048B0CEBD8C62D58AF9A47 /* RootView.swift in Sources */,
 				2F90FB296B90BED5AB23DCF5 /* SettingsView.swift in Sources */,
+				CDE01F73D2DCF801F97D2F52 /* Singletons.swift in Sources */,
 				B8768876A8BE3E2E303C6E13 /* StatTiles.swift in Sources */,
 				CE3C3CEF10C15D7D9F2B4A5A /* SuggestionBanner.swift in Sources */,
 				5224E3820A7CB3AA3FFAF5E0 /* Theme.swift in Sources */,

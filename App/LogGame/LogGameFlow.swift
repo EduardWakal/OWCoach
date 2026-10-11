@@ -13,6 +13,8 @@ struct LogGameFlow: View {
     @State private var focusCard: Card?
     @State private var tick = 0
     @State private var prepared = false
+    @State private var saving = false
+    @State private var pendingStep: Task<Void, Never>?
 
     var body: some View {
         NavigationStack {
@@ -92,7 +94,7 @@ struct LogGameFlow: View {
     private var navigationButtons: some View {
         HStack(spacing: 12) {
             Button {
-                draft.goBack()
+                move { draft.goBack() }
             } label: {
                 Label("Zurück", systemImage: "chevron.left").frame(maxWidth: .infinity, minHeight: 52)
             }
@@ -100,7 +102,7 @@ struct LogGameFlow: View {
             .disabled(!draft.canGoBack)
 
             Button {
-                draft.advance()
+                move { draft.advance() }
             } label: {
                 HStack(spacing: 6) { Text("Weiter"); Image(systemName: "chevron.right") }.frame(maxWidth: .infinity, minHeight: 52)
             }
@@ -114,19 +116,27 @@ struct LogGameFlow: View {
     private var swipe: some Gesture {
         DragGesture(minimumDistance: 40).onEnded { value in
             guard abs(value.translation.width) > abs(value.translation.height) else { return }
-            if value.translation.width < 0 { draft.advance() } else { draft.goBack() }
+            move { if value.translation.width < 0 { draft.advance() } else { draft.goBack() } }
         }
+    }
+
+    private func move(_ change: () -> Void) {
+        pendingStep?.cancel()
+        pendingStep = nil
+        change()
     }
 
     private func pick(_ change: () -> Void) {
         tick += 1
+        pendingStep?.cancel()
         let before = draft.step
         change()
         guard draft.step != before else { return }
         let target = draft.step
         draft.step = before
-        Task { @MainActor in
+        pendingStep = Task { @MainActor in
             try? await Task.sleep(for: .milliseconds(150))
+            guard !Task.isCancelled, draft.step == before else { return }
             draft.step = target
         }
     }
@@ -142,8 +152,13 @@ struct LogGameFlow: View {
     }
 
     private func save() {
+        guard !saving else { return }
+        saving = true
         let focus = FocusPlan.current(in: context)
-        guard let record = draft.record(date: .now, focusCardID: focus.activeCardID) else { return }
+        guard let record = draft.record(date: .now, focusCardID: focus.activeCardID) else {
+            saving = false
+            return
+        }
         context.insert(GameEntry(record: record))
         try? context.save()
         onSaved()

@@ -42,10 +42,10 @@ struct SettingsView: View {
                 }
 
                 Section("Sicherung") {
-                    if FileManager.default.ubiquityIdentityToken != nil {
+                    if Persistence.isCloudBacked, FileManager.default.ubiquityIdentityToken != nil {
                         Label("iCloud aktiv – deine Daten werden gesichert.", systemImage: "icloud.fill")
                     } else {
-                        Label("Nicht bei iCloud angemeldet – Daten nur auf diesem iPhone.", systemImage: "icloud.slash")
+                        Label("iCloud-Sync aus – Daten nur auf diesem iPhone.", systemImage: "icloud.slash")
                             .foregroundStyle(.orange)
                     }
                 }
@@ -53,9 +53,10 @@ struct SettingsView: View {
             .navigationTitle("Einstellungen")
             .navigationBarTitleDisplayMode(.inline)
             .toolbar {
-                ToolbarItem(placement: .confirmationAction) { Button("Fertig") { save(); dismiss() } }
+                ToolbarItem(placement: .confirmationAction) { Button("Fertig") { dismiss() } }
             }
             .onAppear(perform: load)
+            .onDisappear(perform: save)
         }
     }
 
