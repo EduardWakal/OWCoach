@@ -7,20 +7,33 @@
       "title": "Aufgabe",
       "rules": [
         {
-          "text": "Mobile Support mit Heilung und Schaden. Deine Torpedos heilen dein Team und treffen Gegner gleichzeitig.",
+          "text": "Juno ist nie die beste Heldin für eine Position, aber auch nie die schlechteste. Sie kann fast überall stehen.",
           "videos": [
             {
-              "label": "Emerald 0:00",
-              "url": "https://www.youtube.com/watch?v=2BZPGqazWxM&t=0s"
+              "label": "Emerald 7:00",
+              "url": "https://www.youtube.com/watch?v=2BZPGqazWxM&t=420s"
             }
           ]
         },
         {
-          "text": "Du kannst Gegner nicht allein töten. Dein Wert ist Heilung zur richtigen Zeit und Schaden auf die Ziele, die dein Team gerade angreift.",
+          "text": "Du gewinnst Duelle nicht schnell, sondern auf Dauer: Crits, Torpedos, Distanz halten, Health Packs nutzen.",
           "videos": [
             {
-              "label": "Emerald 0:00",
-              "url": "https://www.youtube.com/watch?v=2BZPGqazWxM&t=0s"
+              "label": "Emerald 9:00",
+              "url": "https://www.youtube.com/watch?v=2BZPGqazWxM&t=540s"
+            }
+          ]
+        },
+        {
+          "text": "Viele kleine Beiträge statt großer Momente. Sie zählen trotzdem.",
+          "videos": [
+            {
+              "label": "Emerald 25:40",
+              "url": "https://www.youtube.com/watch?v=2BZPGqazWxM&t=1540s"
+            },
+            {
+              "label": "Emerald 39:00",
+              "url": "https://www.youtube.com/watch?v=2BZPGqazWxM&t=2340s"
             }
           ]
         }
@@ -30,20 +43,50 @@
       "title": "Positionierung",
       "rules": [
         {
-          "text": "Bleib in Sichtlinie zu deinem Tank, aber hinter Deckung. Heilen geht nicht durch Wände.",
+          "text": "Hält niemand aus deinem Team einen Seitenwinkel, nimm du ihn. Langsam und geduldig, nicht gierig.",
           "videos": [
             {
-              "label": "Emerald 0:00",
-              "url": "https://www.youtube.com/watch?v=2BZPGqazWxM&t=0s"
+              "label": "Emerald 6:30",
+              "url": "https://www.youtube.com/watch?v=2BZPGqazWxM&t=390s"
+            },
+            {
+              "label": "Emerald 9:30",
+              "url": "https://www.youtube.com/watch?v=2BZPGqazWxM&t=570s"
             }
           ]
         },
         {
-          "text": "Glide Boost ist dein Fluchtweg. Benutz ihn nicht für Wege, die du auch laufen kannst.",
+          "text": "Heilt der andere Support schon auf Main, geh zur Seite. Doppelte Heilung auf einer Lane verschenkt Raum.",
           "videos": [
             {
-              "label": "Emerald 0:00",
-              "url": "https://www.youtube.com/watch?v=2BZPGqazWxM&t=0s"
+              "label": "Emerald 16:40",
+              "url": "https://www.youtube.com/watch?v=2BZPGqazWxM&t=1000s"
+            },
+            {
+              "label": "Emerald 19:30",
+              "url": "https://www.youtube.com/watch?v=2BZPGqazWxM&t=1170s"
+            }
+          ]
+        },
+        {
+          "text": "Lass einen Mitspieler auf seinem Winkel nicht allein. Wo du stehst, entscheidest du vor dem Fight, nicht mittendrin.",
+          "videos": [
+            {
+              "label": "Emerald 11:30",
+              "url": "https://www.youtube.com/watch?v=2BZPGqazWxM&t=690s"
+            },
+            {
+              "label": "Emerald 13:40",
+              "url": "https://www.youtube.com/watch?v=2BZPGqazWxM&t=820s"
+            }
+          ]
+        },
+        {
+          "text": "Nicht ohne Grund zum Punkt laufen. Bleib auf deiner Lane.",
+          "videos": [
+            {
+              "label": "Emerald 38:40",
+              "url": "https://www.youtube.com/watch?v=2BZPGqazWxM&t=2320s"
             }
           ]
         }
@@ -53,29 +96,38 @@
       "title": "Kit",
       "rules": [
         {
-          "text": "Torpedos auf mehrere Ziele zugleich, am besten Mitspieler und Gegner in einem Zug.",
+          "text": "Mit Abstand und Zeit kannst du fast allem ausweichen: hochspringen, gleiten, weg.",
           "videos": [
             {
-              "label": "Emerald 0:00",
-              "url": "https://www.youtube.com/watch?v=2BZPGqazWxM&t=0s"
+              "label": "Emerald 16:20",
+              "url": "https://www.youtube.com/watch?v=2BZPGqazWxM&t=980s"
             }
           ]
         },
         {
-          "text": "Hyper Ring vor einem Push oder zum Rückzug für das ganze Team, nicht nur für dich.",
+          "text": "Torpedo lieber auf das eine Ziel, das ein Duell entscheidet, als auf mehrere Tanks mit Schild.",
           "videos": [
             {
-              "label": "Emerald 0:00",
-              "url": "https://www.youtube.com/watch?v=2BZPGqazWxM&t=0s"
+              "label": "Emerald 21:15",
+              "url": "https://www.youtube.com/watch?v=2BZPGqazWxM&t=1275s"
             }
           ]
         },
         {
-          "text": "Orbital Ray auf die Stelle, an der dein Team den Kampf führt. Er heilt und gibt Schaden-Bonus.",
+          "text": "Ult früh und oft nutzen. Speed Ring direkt dazu.",
           "videos": [
             {
-              "label": "Emerald 0:00",
-              "url": "https://www.youtube.com/watch?v=2BZPGqazWxM&t=0s"
+              "label": "Emerald 19:00",
+              "url": "https://www.youtube.com/watch?v=2BZPGqazWxM&t=1140s"
+            }
+          ]
+        },
+        {
+          "text": "Belohn deine DPS: Wer High Ground nimmt, bekommt sofort Heilung, sonst geht er nicht mehr hin.",
+          "videos": [
+            {
+              "label": "Emerald 31:20",
+              "url": "https://www.youtube.com/watch?v=2BZPGqazWxM&t=1880s"
             }
           ]
         }
@@ -84,50 +136,66 @@
   ],
   "path": [
     {
-      "id": "juno-sightline",
-      "title": "Sichtlinie zum Tank",
-      "question": "Sehe ich meinen Tank, ohne selbst offen zu stehen?",
+      "id": "juno-angle",
+      "title": "Winkel übernehmen",
+      "question": "Hält mein Team gerade einen Seitenwinkel?",
       "points": [
-        "Deckung neben der Sichtlinie suchen.",
-        "Schaut der Tank weg, folgst du.",
-        "Nicht für Heilung ins Offene."
+        "Nein → nimm ihn selbst.",
+        "Langsam spielen, Distanz halten.",
+        "Nicht auf die große Torpedo-Salve warten."
       ],
       "videos": [
         {
-          "label": "Emerald 0:00",
-          "url": "https://www.youtube.com/watch?v=2BZPGqazWxM&t=0s"
+          "label": "Emerald 6:30",
+          "url": "https://www.youtube.com/watch?v=2BZPGqazWxM&t=390s"
+        },
+        {
+          "label": "Emerald 9:30",
+          "url": "https://www.youtube.com/watch?v=2BZPGqazWxM&t=570s"
         }
       ]
     },
     {
-      "id": "juno-glide",
-      "title": "Glide aufheben",
-      "question": "Brauche ich den Glide gleich zur Flucht?",
+      "id": "juno-no-double",
+      "title": "Keine doppelte Heilung",
+      "question": "Heilt der andere Support schon dasselbe Ziel?",
       "points": [
-        "Ja → laufen statt fliegen.",
-        "Nur als Fluchtweg oder für ein Rettungsheilen.",
-        "Ohne Glide vorsichtig stehen."
+        "Ja → zur Seite, anderen Raum halten.",
+        "Von dort trotzdem den Tank heilen.",
+        "Wo du stehst, schützt du."
       ],
       "videos": [
         {
-          "label": "Emerald 0:00",
-          "url": "https://www.youtube.com/watch?v=2BZPGqazWxM&t=0s"
+          "label": "Emerald 16:40",
+          "url": "https://www.youtube.com/watch?v=2BZPGqazWxM&t=1000s"
+        },
+        {
+          "label": "Emerald 19:30",
+          "url": "https://www.youtube.com/watch?v=2BZPGqazWxM&t=1170s"
         }
       ]
     },
     {
-      "id": "juno-torpedo",
-      "title": "Torpedos verteilen",
-      "question": "Erwischt diese Salve Mitspieler und Gegner?",
+      "id": "juno-stay",
+      "title": "Auf der Lane bleiben",
+      "question": "Laufe ich gerade ohne Grund weg?",
       "points": [
-        "Mehrere Ziele in einem Zug.",
-        "Torpedos auf das Fokusziel deines Teams.",
-        "Nicht auf volle HP-Leute verschwenden."
+        "Nicht vom Teammate weggehen.",
+        "Nicht zum Punkt rennen.",
+        "Erst Position wählen, dann heilen."
       ],
       "videos": [
         {
-          "label": "Emerald 0:00",
-          "url": "https://www.youtube.com/watch?v=2BZPGqazWxM&t=0s"
+          "label": "Emerald 11:30",
+          "url": "https://www.youtube.com/watch?v=2BZPGqazWxM&t=690s"
+        },
+        {
+          "label": "Emerald 38:40",
+          "url": "https://www.youtube.com/watch?v=2BZPGqazWxM&t=2320s"
+        },
+        {
+          "label": "Emerald 41:20",
+          "url": "https://www.youtube.com/watch?v=2BZPGqazWxM&t=2480s"
         }
       ]
     }

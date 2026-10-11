@@ -7,20 +7,41 @@
       "title": "Aufgabe",
       "rules": [
         {
-          "text": "Dive-Tank. Du springst auf Ziele, die dein Team gleichzeitig angreifen kann, und zwingst die Backline zu reagieren.",
+          "text": "Dive-Tank. Mit Sprung und Bubble bist du der stärkste Tank im Spiel, ohne sie der schwächste.",
           "videos": [
             {
-              "label": "Fundamentals 0:00",
-              "url": "https://www.youtube.com/watch?v=z0K56TujTIs&t=0s"
+              "label": "Plat Grundlagen 12:00",
+              "url": "https://www.youtube.com/watch?v=z0K56TujTIs&t=720s"
             }
           ]
         },
         {
-          "text": "Nicht jeder Sprung muss töten. Ein Sprung, der die Backline wegdrückt, schafft Raum für dein Team.",
+          "text": "Dein Ziel sind die Squishies, nicht der gegnerische Tank. Bedrohst du ihre Leben, müssen sie Cooldowns ziehen und sich umdrehen.",
           "videos": [
             {
-              "label": "Space vs Kill 0:00",
-              "url": "https://www.youtube.com/watch?v=hsOWYK6m5zU&t=0s"
+              "label": "Plat Grundlagen 8:00",
+              "url": "https://www.youtube.com/watch?v=z0K56TujTIs&t=480s"
+            },
+            {
+              "label": "Plat Grundlagen 14:00",
+              "url": "https://www.youtube.com/watch?v=z0K56TujTIs&t=840s"
+            },
+            {
+              "label": "Plat Grundlagen 16:00",
+              "url": "https://www.youtube.com/watch?v=z0K56TujTIs&t=960s"
+            }
+          ]
+        },
+        {
+          "text": "Manchmal ist nichts tun richtig. Ohne Team-Engage nicht allein Cooldowns verbrennen.",
+          "videos": [
+            {
+              "label": "Plat Grundlagen 24:30",
+              "url": "https://www.youtube.com/watch?v=z0K56TujTIs&t=1470s"
+            },
+            {
+              "label": "Plat Grundlagen 26:00",
+              "url": "https://www.youtube.com/watch?v=z0K56TujTIs&t=1560s"
             }
           ]
         }
@@ -30,29 +51,37 @@
       "title": "Positionierung",
       "rules": [
         {
-          "text": "Vor dem Sprung staging: an einer Ecke nah am Ziel warten, bis dein Team bereit ist.",
+          "text": "Vor dem Fight aufstellen: High Ground, Deckung, nah an den Squishies. Hinter ihnen landen statt frontal.",
           "videos": [
             {
-              "label": "Staging 0:00",
-              "url": "https://www.youtube.com/watch?v=Kxz-DhlqjQk&t=0s"
+              "label": "Plat Grundlagen 16:30",
+              "url": "https://www.youtube.com/watch?v=z0K56TujTIs&t=990s"
+            },
+            {
+              "label": "Plat Grundlagen 18:00",
+              "url": "https://www.youtube.com/watch?v=z0K56TujTIs&t=1080s"
+            },
+            {
+              "label": "Plat Grundlagen 21:30",
+              "url": "https://www.youtube.com/watch?v=z0K56TujTIs&t=1290s"
             }
           ]
         },
         {
-          "text": "Kenn die Linie: Wie weit kannst du rein, bevor du ohne Hilfe stirbst? Bleib davor oder geh mit Cooldowns drüber.",
+          "text": "Wer sich gut aufstellt, findet nebenbei den gefährlichsten Gegner auf seinem Off-Angle.",
           "videos": [
             {
-              "label": "The Line 0:00",
-              "url": "https://www.youtube.com/watch?v=ZgMTice9r-0&t=0s"
+              "label": "Plat Grundlagen 32:00",
+              "url": "https://www.youtube.com/watch?v=z0K56TujTIs&t=1920s"
             }
           ]
         },
         {
-          "text": "Winkel statt Ziele: Spring auf eine Position, von der aus du mehrere Gegner bedrohst.",
+          "text": "Payload nur blockieren, wenn es nötig ist. Sonst lieber das beste Engage vorbereiten.",
           "videos": [
             {
-              "label": "Angles 0:00",
-              "url": "https://www.youtube.com/watch?v=q_2RxjCBNSU&t=0s"
+              "label": "Plat Grundlagen 18:00",
+              "url": "https://www.youtube.com/watch?v=z0K56TujTIs&t=1080s"
             }
           ]
         }
@@ -62,15 +91,85 @@
       "title": "Kit · Sprung",
       "rules": [
         {
-          "text": "Zwei Wege: Mit dem Sprung rein, dann zu Fuß raus, oder zu Fuß rein und mit dem Sprung raus. Nie ohne Plan für den Rückweg.",
+          "text": "Sprung nur mit Bubble bereit und wenn dein Team gleichzeitig angreifen kann.",
           "videos": [
             {
-              "label": "Fundamentals 0:00",
-              "url": "https://www.youtube.com/watch?v=z0K56TujTIs&t=0s"
+              "label": "Plat Grundlagen 8:30",
+              "url": "https://www.youtube.com/watch?v=z0K56TujTIs&t=510s"
             },
             {
-              "label": "The Line 0:00",
-              "url": "https://www.youtube.com/watch?v=ZgMTice9r-0&t=0s"
+              "label": "Plat Grundlagen 20:00",
+              "url": "https://www.youtube.com/watch?v=z0K56TujTIs&t=1200s"
+            },
+            {
+              "label": "Plat Grundlagen 38:00",
+              "url": "https://www.youtube.com/watch?v=z0K56TujTIs&t=2280s"
+            }
+          ]
+        },
+        {
+          "text": "Direkt auf dem Gegner landen: Das gibt deutlich mehr Landeschaden.",
+          "videos": [
+            {
+              "label": "Plat Grundlagen 4:00",
+              "url": "https://www.youtube.com/watch?v=z0K56TujTIs&t=240s"
+            },
+            {
+              "label": "Plat Grundlagen 34:00",
+              "url": "https://www.youtube.com/watch?v=z0K56TujTIs&t=2040s"
+            }
+          ]
+        },
+        {
+          "text": "Ohne Cooldowns raus, heilen lassen und das nächste Engage aufstellen. Nicht ohne alles weiterkämpfen.",
+          "videos": [
+            {
+              "label": "Plat Grundlagen 11:00",
+              "url": "https://www.youtube.com/watch?v=z0K56TujTIs&t=660s"
+            },
+            {
+              "label": "Plat Grundlagen 12:00",
+              "url": "https://www.youtube.com/watch?v=z0K56TujTIs&t=720s"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Kit · Waffe",
+      "rules": [
+        {
+          "text": "Combo: Landen, zappen, Melee-Cancel, weiter zappen. Spart Munition.",
+          "videos": [
+            {
+              "label": "Plat Grundlagen 2:00",
+              "url": "https://www.youtube.com/watch?v=z0K56TujTIs&t=120s"
+            },
+            {
+              "label": "Plat Grundlagen 4:00",
+              "url": "https://www.youtube.com/watch?v=z0K56TujTIs&t=240s"
+            }
+          ]
+        },
+        {
+          "text": "Rechtsklick-Poke nur, wenn du Supports hast. Ist der Gegner gepocket und du nicht, kostet Poke dich mehr als ihn.",
+          "videos": [
+            {
+              "label": "Plat Grundlagen 9:30",
+              "url": "https://www.youtube.com/watch?v=z0K56TujTIs&t=570s"
+            },
+            {
+              "label": "Plat Grundlagen 10:00",
+              "url": "https://www.youtube.com/watch?v=z0K56TujTIs&t=600s"
+            }
+          ]
+        },
+        {
+          "text": "Vor dem Sprung nachladen.",
+          "videos": [
+            {
+              "label": "Plat Grundlagen 22:00",
+              "url": "https://www.youtube.com/watch?v=z0K56TujTIs&t=1320s"
             }
           ]
         }
@@ -80,20 +179,24 @@
       "title": "Kit · Bubble",
       "rules": [
         {
-          "text": "Bubble trennt: Werf sie so, dass Gegner nicht mehr auf dich oder dein Ziel schießen können.",
+          "text": "Bubble erst, wenn du wirklich Schaden nimmst.",
           "videos": [
             {
-              "label": "Bubble 0:00",
-              "url": "https://www.youtube.com/watch?v=UEv84cgxOaE&t=0s"
+              "label": "Plat Grundlagen 26:00",
+              "url": "https://www.youtube.com/watch?v=z0K56TujTIs&t=1560s"
             }
           ]
         },
         {
-          "text": "Bubble nicht sofort beim Landen werfen, wenn noch niemand schießt. Erst wenn der Schaden kommt.",
+          "text": "Gegen Reaper: ihn anschauen und um die Bubble tanzen. Am Rand der Bubble bleiben, damit du wieder rein kannst.",
           "videos": [
             {
-              "label": "Bubble 0:00",
-              "url": "https://www.youtube.com/watch?v=UEv84cgxOaE&t=0s"
+              "label": "Plat Grundlagen 14:00",
+              "url": "https://www.youtube.com/watch?v=z0K56TujTIs&t=840s"
+            },
+            {
+              "label": "Plat Grundlagen 32:00",
+              "url": "https://www.youtube.com/watch?v=z0K56TujTIs&t=1920s"
             }
           ]
         }
@@ -103,34 +206,15 @@
       "title": "Kit · Ult",
       "rules": [
         {
-          "text": "Primal Rage zum Retten oder für den Neustart eines verlorenen Kampfes. Wegschlagen ist oft mehr wert als Schaden.",
+          "text": "Primal ruhig spielen: ein Ziel wählen und festhalten, nicht wild herumschlagen.",
           "videos": [
             {
-              "label": "Space vs Kill 0:00",
-              "url": "https://www.youtube.com/watch?v=hsOWYK6m5zU&t=0s"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "title": "Matchups",
-      "rules": [
-        {
-          "text": "Gegen viel Burst-Schaden (Reaper, Bastion): nicht reinsprinten, sondern Seitenwinkel suchen.",
-          "videos": [
+              "label": "Plat Grundlagen 30:30",
+              "url": "https://www.youtube.com/watch?v=z0K56TujTIs&t=1830s"
+            },
             {
-              "label": "Angles 0:00",
-              "url": "https://www.youtube.com/watch?v=q_2RxjCBNSU&t=0s"
-            }
-          ]
-        },
-        {
-          "text": "Gegen D.Va: deine Kanone geht durch die Matrix, deine Bubble blockt ihren Schaden.",
-          "videos": [
-            {
-              "label": "The Line 0:00",
-              "url": "https://www.youtube.com/watch?v=ZgMTice9r-0&t=0s"
+              "label": "Plat Grundlagen 40:00",
+              "url": "https://www.youtube.com/watch?v=z0K56TujTIs&t=2400s"
             }
           ]
         }
@@ -139,82 +223,118 @@
   ],
   "path": [
     {
-      "id": "winston-staging",
-      "title": "Staging",
-      "question": "Kann mein Team gerade mit reingehen?",
+      "id": "winston-setup",
+      "title": "Aufstellen",
+      "question": "Stehe ich vor dem Fight hoch, in Deckung und nah an den Squishies?",
+      "points": [
+        "High Ground und Deckung suchen.",
+        "Hinter den Squishies landen.",
+        "Unterwegs triffst du den gefährlichsten Gegner."
+      ],
+      "videos": [
+        {
+          "label": "Plat Grundlagen 16:30",
+          "url": "https://www.youtube.com/watch?v=z0K56TujTIs&t=990s"
+        },
+        {
+          "label": "Plat Grundlagen 18:00",
+          "url": "https://www.youtube.com/watch?v=z0K56TujTIs&t=1080s"
+        },
+        {
+          "label": "Plat Grundlagen 32:00",
+          "url": "https://www.youtube.com/watch?v=z0K56TujTIs&t=1920s"
+        }
+      ]
+    },
+    {
+      "id": "winston-timing",
+      "title": "Mit dem Team springen",
+      "question": "Greift mein Team gerade an?",
       "points": [
         "Ja → springen.",
-        "Nein → nah an der Ecke warten.",
-        "Warten heißt nicht wegstehen."
+        "Nein → warten, auch wenn die Bubble bereit ist.",
+        "Nichts tun ist manchmal richtig."
       ],
       "videos": [
         {
-          "label": "Staging 0:00",
-          "url": "https://www.youtube.com/watch?v=Kxz-DhlqjQk&t=0s"
+          "label": "Plat Grundlagen 20:00",
+          "url": "https://www.youtube.com/watch?v=z0K56TujTIs&t=1200s"
+        },
+        {
+          "label": "Plat Grundlagen 24:30",
+          "url": "https://www.youtube.com/watch?v=z0K56TujTIs&t=1470s"
+        },
+        {
+          "label": "Plat Grundlagen 38:00",
+          "url": "https://www.youtube.com/watch?v=z0K56TujTIs&t=2280s"
         }
       ]
     },
     {
-      "id": "winston-the-line",
-      "title": "Die Linie",
-      "question": "Wie weit kann ich gerade rein, ohne allein zu sterben?",
+      "id": "winston-squishies",
+      "title": "Squishies zuerst",
+      "question": "Springe ich gerade auf ein Squishy?",
       "points": [
-        "Mit Sprung und Bubble darfst du weiter.",
-        "Ohne Cooldowns bleib vor der Linie.",
-        "Rückweg vor dem Sprung planen."
+        "Squishies und Supports zuerst.",
+        "Den Tank fast nie.",
+        "Kill-Druck zwingt Cooldowns."
       ],
       "videos": [
         {
-          "label": "The Line 0:00",
-          "url": "https://www.youtube.com/watch?v=ZgMTice9r-0&t=0s"
+          "label": "Plat Grundlagen 8:00",
+          "url": "https://www.youtube.com/watch?v=z0K56TujTIs&t=480s"
+        },
+        {
+          "label": "Plat Grundlagen 14:00",
+          "url": "https://www.youtube.com/watch?v=z0K56TujTIs&t=840s"
+        },
+        {
+          "label": "Plat Grundlagen 26:00",
+          "url": "https://www.youtube.com/watch?v=z0K56TujTIs&t=1560s"
         }
       ]
     },
     {
-      "id": "winston-bubble",
-      "title": "Bubble zum Trennen",
-      "question": "Wen trennt diese Bubble gerade?",
+      "id": "winston-reset",
+      "title": "Ohne Cooldowns raus",
+      "question": "Habe ich noch Sprung oder Bubble?",
       "points": [
-        "Erst werfen, wenn Schaden kommt.",
-        "Gegner aus deinem Fight ausschließen.",
-        "Nicht blind beim Landen."
+        "Nein → raus, heilen, neu aufstellen.",
+        "Nicht ohne alles weiterkämpfen.",
+        "Erst mit Bubble wieder rein."
       ],
       "videos": [
         {
-          "label": "Bubble 0:00",
-          "url": "https://www.youtube.com/watch?v=UEv84cgxOaE&t=0s"
+          "label": "Plat Grundlagen 11:00",
+          "url": "https://www.youtube.com/watch?v=z0K56TujTIs&t=660s"
+        },
+        {
+          "label": "Plat Grundlagen 12:00",
+          "url": "https://www.youtube.com/watch?v=z0K56TujTIs&t=720s"
         }
       ]
     },
     {
-      "id": "winston-angles",
-      "title": "Winkel statt Ziele",
-      "question": "Bedroht mein Landepunkt mehr als einen Gegner?",
+      "id": "winston-landing",
+      "title": "Landen und zappen",
+      "question": "Lande ich direkt auf dem Gegner?",
       "points": [
-        "Auf Positionen springen, nicht auf Köpfe.",
-        "Mehrere Gegner gleichzeitig unter Druck.",
-        "Hohe Ebenen nutzen."
+        "Direkt drauf gibt mehr Landeschaden.",
+        "Landen, zappen, Melee-Cancel.",
+        "Vorher nachladen."
       ],
       "videos": [
         {
-          "label": "Angles 0:00",
-          "url": "https://www.youtube.com/watch?v=q_2RxjCBNSU&t=0s"
-        }
-      ]
-    },
-    {
-      "id": "winston-space-kill",
-      "title": "Raum oder Kill",
-      "question": "Will ich gerade töten oder nur Raum schaffen?",
-      "points": [
-        "Kill → nur mit Team und Cooldowns.",
-        "Raum → reinspringen, Druck, wieder raus.",
-        "Ein Sprung muss nicht töten."
-      ],
-      "videos": [
+          "label": "Plat Grundlagen 2:00",
+          "url": "https://www.youtube.com/watch?v=z0K56TujTIs&t=120s"
+        },
         {
-          "label": "Space vs Kill 0:00",
-          "url": "https://www.youtube.com/watch?v=hsOWYK6m5zU&t=0s"
+          "label": "Plat Grundlagen 4:00",
+          "url": "https://www.youtube.com/watch?v=z0K56TujTIs&t=240s"
+        },
+        {
+          "label": "Plat Grundlagen 22:00",
+          "url": "https://www.youtube.com/watch?v=z0K56TujTIs&t=1320s"
         }
       ]
     }

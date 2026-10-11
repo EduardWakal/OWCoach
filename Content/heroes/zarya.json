@@ -7,24 +7,33 @@
       "title": "Aufgabe",
       "rules": [
         {
-          "text": "Zarya lebt von Schaden und Energie. Wer nicht schießt, lädt nicht auf und macht keinen Druck.",
+          "text": "Du machst enorm viel Schaden und hast nur einen Cooldown: die Bubble. Wer die Bubble richtig nutzt, spielt Zarya richtig.",
           "videos": [
             {
-              "label": "Damage 0:00",
-              "url": "https://www.youtube.com/watch?v=oBPhDHjtugg&t=0s"
+              "label": "Plat Bubble 2:30",
+              "url": "https://www.youtube.com/watch?v=NN2SA1Q6_MU&t=150s"
             }
           ]
         },
         {
-          "text": "Du bist kein Frontschild. Du nimmst einen Bereich ein, wenn deine Bubbles bereit sind, und gibst ihn auf, wenn sie weg sind.",
+          "text": "Brenn alles, was in deine Reichweite kommt. Entkommt jemand mit Cooldowns, lass ihn ziehen und nimm das nächste Ziel. Nicht hinterherjagen.",
           "videos": [
             {
-              "label": "Positionierung 0:00",
-              "url": "https://www.youtube.com/watch?v=IY2wZotoURg&t=0s"
+              "label": "Plat Bubble 8:30",
+              "url": "https://www.youtube.com/watch?v=NN2SA1Q6_MU&t=510s"
             },
             {
-              "label": "3 Schritte 0:00",
-              "url": "https://www.youtube.com/watch?v=k9Vyst8eAKw&t=0s"
+              "label": "Plat Bubble 10:00",
+              "url": "https://www.youtube.com/watch?v=NN2SA1Q6_MU&t=600s"
+            }
+          ]
+        },
+        {
+          "text": "Meist erst das Tank-Duell gewinnen, dann die Leute dahinter verbrennen, die keinen Tank mehr vor sich haben.",
+          "videos": [
+            {
+              "label": "Plat Bubble 24:00",
+              "url": "https://www.youtube.com/watch?v=NN2SA1Q6_MU&t=1440s"
             }
           ]
         }
@@ -34,65 +43,99 @@
       "title": "Positionierung",
       "rules": [
         {
-          "text": "Nah genug am Team, dass deine Ally-Bubble jemanden erreicht, nah genug am Gegner, dass dein Strahl trifft.",
+          "text": "Immer an einer Deckung kleben. An der Deckung brauchst du keine Bubble, erst wenn du sie verlässt.",
           "videos": [
             {
-              "label": "Spacing 0:00",
-              "url": "https://www.youtube.com/watch?v=4Fs1wFDR0p4&t=0s"
+              "label": "Plat Bubble 36:00",
+              "url": "https://www.youtube.com/watch?v=NN2SA1Q6_MU&t=2160s"
             }
           ]
         },
         {
-          "text": "Ohne Bubble hinter Deckung warten. Mit Bubble vorgehen. Dein Cooldown entscheidet, wo du stehst.",
+          "text": "Nicht weiter vorgehen, als deine Bubbles dich zurückbringen. Ab und zu über die Schulter schauen, wo dein Team steht.",
           "videos": [
             {
-              "label": "3 Schritte 0:00",
-              "url": "https://www.youtube.com/watch?v=k9Vyst8eAKw&t=0s"
+              "label": "Plat Bubble 12:00",
+              "url": "https://www.youtube.com/watch?v=NN2SA1Q6_MU&t=720s"
             }
           ]
         },
         {
-          "text": "Nicht in die Gegner-Backline laufen, wenn dein Team nicht nachkommt. Vorne allein ist ohne Bubble tot.",
+          "text": "High Ground nicht freiwillig aufgeben. Zarya kommt schlecht wieder hoch.",
           "videos": [
             {
-              "label": "Peel vs Pressure 0:00",
-              "url": "https://www.youtube.com/watch?v=pHysGycPwUA&t=0s"
+              "label": "Plat Bubble 18:00",
+              "url": "https://www.youtube.com/watch?v=NN2SA1Q6_MU&t=1080s"
+            }
+          ]
+        },
+        {
+          "text": "Keine Lanes kreuzen, um einer D.Va hinterherzulaufen. Sie fliegt weg und du hast deine Lane verloren.",
+          "videos": [
+            {
+              "label": "Plat Bubble 32:00",
+              "url": "https://www.youtube.com/watch?v=NN2SA1Q6_MU&t=1920s"
             }
           ]
         }
       ]
     },
     {
-      "title": "Kit · Bubbles",
+      "title": "Kit · Bubble",
       "rules": [
         {
-          "text": "Bubble dann, wenn Schaden kommt, nicht vorher. Eine Bubble, die nichts frisst, bringt keine Energie.",
+          "text": "Bubble, um eine Aktion auszuführen (Raum nehmen, auf jemanden zugehen) oder um nicht zu sterben. Nicht, um Ladung zu sammeln.",
           "videos": [
             {
-              "label": "Bubble 0:00",
-              "url": "https://www.youtube.com/watch?v=NN2SA1Q6_MU&t=0s"
+              "label": "Plat Bubble 4:00",
+              "url": "https://www.youtube.com/watch?v=NN2SA1Q6_MU&t=240s"
             },
             {
-              "label": "Bubble Earning 0:00",
-              "url": "https://www.youtube.com/watch?v=NPPrD6_pcng&t=0s"
+              "label": "Plat Bubble 6:00",
+              "url": "https://www.youtube.com/watch?v=NN2SA1Q6_MU&t=360s"
             }
           ]
         },
         {
-          "text": "Eigene Bubble zum Reingehen, Ally-Bubble für den, der gerade angegriffen wird oder gleich reingeht.",
+          "text": "Bubble erst, wenn der Druck wirklich auf dir ist: Schilde weg, wichtiger Cooldown kommt. Volles Leben heißt noch warten.",
           "videos": [
             {
-              "label": "Bubble 0:00",
-              "url": "https://www.youtube.com/watch?v=NN2SA1Q6_MU&t=0s"
+              "label": "Plat Bubble 20:30",
+              "url": "https://www.youtube.com/watch?v=NN2SA1Q6_MU&t=1230s"
+            },
+            {
+              "label": "Plat Bubble 34:00",
+              "url": "https://www.youtube.com/watch?v=NN2SA1Q6_MU&t=2040s"
             }
           ]
         },
         {
-          "text": "Zähle deine Bubbles. Sind beide weg, bist du ein großes Ziel ohne Ausweg: zurück in Deckung, bis eine wieder da ist.",
+          "text": "Die Bubble auf dich ist 90 % deines Werts. Ally-Bubbles nur selten, bis du die eigene Bubble sicher beherrschst.",
           "videos": [
             {
-              "label": "3 Schritte 0:00",
-              "url": "https://www.youtube.com/watch?v=k9Vyst8eAKw&t=0s"
+              "label": "Plat Bubble 6:00",
+              "url": "https://www.youtube.com/watch?v=NN2SA1Q6_MU&t=360s"
+            },
+            {
+              "label": "Plat Bubble 28:00",
+              "url": "https://www.youtube.com/watch?v=NN2SA1Q6_MU&t=1680s"
+            },
+            {
+              "label": "Plat Bubble 30:00",
+              "url": "https://www.youtube.com/watch?v=NN2SA1Q6_MU&t=1800s"
+            }
+          ]
+        },
+        {
+          "text": "Mit zwei Bubbles bist du extrem stark. Kannst du aus der Deckung gratis schießen, spar sie für den großen Push.",
+          "videos": [
+            {
+              "label": "Plat Bubble 38:00",
+              "url": "https://www.youtube.com/watch?v=NN2SA1Q6_MU&t=2280s"
+            },
+            {
+              "label": "Plat Bubble 40:00",
+              "url": "https://www.youtube.com/watch?v=NN2SA1Q6_MU&t=2400s"
             }
           ]
         }
@@ -102,61 +145,15 @@
       "title": "Kit · Strahl",
       "rules": [
         {
-          "text": "Hohe Energie heißt jetzt kämpfen. Nicht warten, bis sie wieder abfällt.",
+          "text": "Ladung kommt von allein, wenn du Raum nimmst. Hohe Ladung plus Bubbles heißt jetzt reingehen.",
           "videos": [
             {
-              "label": "Damage 0:00",
-              "url": "https://www.youtube.com/watch?v=oBPhDHjtugg&t=0s"
+              "label": "Plat Bubble 4:00",
+              "url": "https://www.youtube.com/watch?v=NN2SA1Q6_MU&t=240s"
             },
             {
-              "label": "Bubble Earning 0:00",
-              "url": "https://www.youtube.com/watch?v=NPPrD6_pcng&t=0s"
-            }
-          ]
-        },
-        {
-          "text": "Granaten (Rechtsklick) für Ziele hinter Deckung und in Gruppen, Strahl für alles in Reichweite.",
-          "videos": [
-            {
-              "label": "Damage 0:00",
-              "url": "https://www.youtube.com/watch?v=oBPhDHjtugg&t=0s"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "title": "Kit · Ult",
-      "rules": [
-        {
-          "text": "Graviton dann, wenn dein Team schießen kann. Allein geworfen ist sie verschenkt.",
-          "videos": [
-            {
-              "label": "Peel vs Pressure 0:00",
-              "url": "https://www.youtube.com/watch?v=pHysGycPwUA&t=0s"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "title": "Matchups",
-      "rules": [
-        {
-          "text": "Gegen Tanks mit Brawl-Stil wie Ramattra oder Rein: Bubble frisst ihren Schaden, dann zurückschlagen.",
-          "videos": [
-            {
-              "label": "Bubble 0:00",
-              "url": "https://www.youtube.com/watch?v=NN2SA1Q6_MU&t=0s"
-            }
-          ]
-        },
-        {
-          "text": "Gegen Dive: Ally-Bubble auf den Support, den sie anspringen. Peel ist hier dein Druck.",
-          "videos": [
-            {
-              "label": "Peel vs Pressure 0:00",
-              "url": "https://www.youtube.com/watch?v=pHysGycPwUA&t=0s"
+              "label": "Plat Bubble 40:00",
+              "url": "https://www.youtube.com/watch?v=NN2SA1Q6_MU&t=2400s"
             }
           ]
         }
@@ -165,90 +162,118 @@
   ],
   "path": [
     {
-      "id": "zarya-bubble-timing",
-      "title": "Bubble auf Schaden",
-      "question": "Kommt gerade wirklich Schaden?",
+      "id": "zarya-bubble-pressure",
+      "title": "Bubble auf Druck",
+      "question": "Ist der Druck gerade wirklich auf mir?",
       "points": [
-        "Ja → Bubble, Energie mitnehmen.",
-        "Nein → aufheben, Bubble zu früh bringt nichts.",
-        "Ally-Bubble für den, der angegriffen wird."
+        "Ja (Schilde weg, Cooldown kommt) → Bubble.",
+        "Nein, volles Leben → weiter schießen, Bubble halten.",
+        "Nie Bubble nur für Ladung."
       ],
       "videos": [
         {
-          "label": "Bubble 0:00",
-          "url": "https://www.youtube.com/watch?v=NN2SA1Q6_MU&t=0s"
+          "label": "Plat Bubble 20:30",
+          "url": "https://www.youtube.com/watch?v=NN2SA1Q6_MU&t=1230s"
         },
         {
-          "label": "Bubble Earning 0:00",
-          "url": "https://www.youtube.com/watch?v=NPPrD6_pcng&t=0s"
+          "label": "Plat Bubble 34:00",
+          "url": "https://www.youtube.com/watch?v=NN2SA1Q6_MU&t=2040s"
         }
       ]
     },
     {
-      "id": "zarya-cooldown-position",
-      "title": "Position nach Cooldown",
-      "question": "Habe ich eine Bubble bereit?",
+      "id": "zarya-self-bubble",
+      "title": "Bubble für dich",
+      "question": "Brauche ich diese Bubble gleich selbst?",
       "points": [
-        "Ja → vorgehen und Raum nehmen.",
-        "Nein → Deckung, warten bis sie da ist.",
-        "Beide weg → kein neuer Kampf."
+        "Ally-Bubble kostet dich 10 Sekunden Handlungsfähigkeit.",
+        "Erst die eigene Bubble beherrschen.",
+        "Body-Block geht auch ohne Bubble."
       ],
       "videos": [
         {
-          "label": "3 Schritte 0:00",
-          "url": "https://www.youtube.com/watch?v=k9Vyst8eAKw&t=0s"
+          "label": "Plat Bubble 6:00",
+          "url": "https://www.youtube.com/watch?v=NN2SA1Q6_MU&t=360s"
         },
         {
-          "label": "Positionierung 0:00",
-          "url": "https://www.youtube.com/watch?v=IY2wZotoURg&t=0s"
+          "label": "Plat Bubble 26:00",
+          "url": "https://www.youtube.com/watch?v=NN2SA1Q6_MU&t=1560s"
+        },
+        {
+          "label": "Plat Bubble 30:00",
+          "url": "https://www.youtube.com/watch?v=NN2SA1Q6_MU&t=1800s"
         }
       ]
     },
     {
-      "id": "zarya-damage",
-      "title": "Schießen, schießen",
-      "question": "Habe ich gerade ein Ziel im Strahl?",
+      "id": "zarya-cover",
+      "title": "An der Deckung",
+      "question": "Stehe ich an einer Deckung?",
       "points": [
-        "Wer nicht schießt, lädt nicht.",
-        "Hohe Energie jetzt nutzen.",
-        "Granaten hinter Deckung."
+        "Ja → von dort ohne Bubble brennen.",
+        "Raus aus der Deckung → mit Bubble.",
+        "Nicht zu weit vor, als die Bubbles zurückreichen."
       ],
       "videos": [
         {
-          "label": "Damage 0:00",
-          "url": "https://www.youtube.com/watch?v=oBPhDHjtugg&t=0s"
+          "label": "Plat Bubble 12:00",
+          "url": "https://www.youtube.com/watch?v=NN2SA1Q6_MU&t=720s"
+        },
+        {
+          "label": "Plat Bubble 36:00",
+          "url": "https://www.youtube.com/watch?v=NN2SA1Q6_MU&t=2160s"
+        },
+        {
+          "label": "Plat Bubble 38:00",
+          "url": "https://www.youtube.com/watch?v=NN2SA1Q6_MU&t=2280s"
         }
       ]
     },
     {
-      "id": "zarya-peel-pressure",
-      "title": "Peel oder Druck",
-      "question": "Wird mein Support gerade angesprungen?",
+      "id": "zarya-burn",
+      "title": "Brennen statt jagen",
+      "question": "Ist jemand in meiner Reichweite?",
       "points": [
-        "Ja → Ally-Bubble und zurück drehen.",
-        "Nein → vorne Druck auf den Tank.",
-        "Nicht beides gleichzeitig wollen."
+        "Ja → brennen, bis er weg ist.",
+        "Entkommt er → nächstes Ziel, nicht hinterher.",
+        "Erst Tank-Duell, dann die dahinter."
       ],
       "videos": [
         {
-          "label": "Peel vs Pressure 0:00",
-          "url": "https://www.youtube.com/watch?v=pHysGycPwUA&t=0s"
+          "label": "Plat Bubble 8:30",
+          "url": "https://www.youtube.com/watch?v=NN2SA1Q6_MU&t=510s"
+        },
+        {
+          "label": "Plat Bubble 10:00",
+          "url": "https://www.youtube.com/watch?v=NN2SA1Q6_MU&t=600s"
+        },
+        {
+          "label": "Plat Bubble 24:00",
+          "url": "https://www.youtube.com/watch?v=NN2SA1Q6_MU&t=1440s"
         }
       ]
     },
     {
-      "id": "zarya-graviton",
-      "title": "Graviton mit Team",
-      "question": "Kann mein Team jetzt in die Grav schießen?",
+      "id": "zarya-double-bubble",
+      "title": "Zwei Bubbles",
+      "question": "Habe ich zwei Bubbles und Ladung?",
       "points": [
-        "Ja → werfen.",
-        "Nein → aufheben.",
-        "Nie allein vorne werfen."
+        "Ja → jetzt großer Push.",
+        "Nein und gratis Schaden möglich → aus der Deckung, Bubbles sparen.",
+        "Keine Lane wechseln für eine D.Va."
       ],
       "videos": [
         {
-          "label": "Peel vs Pressure 0:00",
-          "url": "https://www.youtube.com/watch?v=pHysGycPwUA&t=0s"
+          "label": "Plat Bubble 32:00",
+          "url": "https://www.youtube.com/watch?v=NN2SA1Q6_MU&t=1920s"
+        },
+        {
+          "label": "Plat Bubble 38:00",
+          "url": "https://www.youtube.com/watch?v=NN2SA1Q6_MU&t=2280s"
+        },
+        {
+          "label": "Plat Bubble 40:00",
+          "url": "https://www.youtube.com/watch?v=NN2SA1Q6_MU&t=2400s"
         }
       ]
     }
