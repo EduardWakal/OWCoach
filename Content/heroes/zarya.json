@@ -29,6 +29,15 @@
           ]
         },
         {
+          "text": "Zarya denkt an eine Sache: Schaden. Jede Sekunde ohne Schaden macht sie schwächer, jedes Zögern kostet.",
+          "videos": [
+            {
+              "label": "Diamond Damage 20:30",
+              "url": "https://www.youtube.com/watch?v=oBPhDHjtugg&t=1230s"
+            }
+          ]
+        },
+        {
           "text": "Meist erst das Tank-Duell gewinnen, dann die Leute dahinter verbrennen, die keinen Tank mehr vor sich haben.",
           "videos": [
             {
@@ -70,6 +79,45 @@
           ]
         },
         {
+          "text": "Ecke, Schaden, nichts mehr zu schießen, vorgehen, nächste Ecke. Wenn du gerade triffst, nicht weiter vorlaufen.",
+          "videos": [
+            {
+              "label": "Diamond Damage 40:00",
+              "url": "https://www.youtube.com/watch?v=oBPhDHjtugg&t=2400s"
+            },
+            {
+              "label": "Diamond Damage 46:00",
+              "url": "https://www.youtube.com/watch?v=oBPhDHjtugg&t=2760s"
+            },
+            {
+              "label": "Diamond Damage 48:30",
+              "url": "https://www.youtube.com/watch?v=oBPhDHjtugg&t=2910s"
+            }
+          ]
+        },
+        {
+          "text": "Umzingelt nicht einfrieren: entschieden einen Winkel wählen und dort Schaden machen.",
+          "videos": [
+            {
+              "label": "Diamond Damage 20:00",
+              "url": "https://www.youtube.com/watch?v=oBPhDHjtugg&t=1200s"
+            }
+          ]
+        },
+        {
+          "text": "Im Fight nicht umdrehen, um das Team zu suchen. Das checkst du beim Hinlaufen, nicht mittendrin.",
+          "videos": [
+            {
+              "label": "Diamond Damage 24:00",
+              "url": "https://www.youtube.com/watch?v=oBPhDHjtugg&t=1440s"
+            },
+            {
+              "label": "Diamond Damage 28:00",
+              "url": "https://www.youtube.com/watch?v=oBPhDHjtugg&t=1680s"
+            }
+          ]
+        },
+        {
           "text": "Keine Lanes kreuzen, um einer D.Va hinterherzulaufen. Sie fliegt weg und du hast deine Lane verloren.",
           "videos": [
             {
@@ -106,6 +154,23 @@
             {
               "label": "Plat Bubble 34:00",
               "url": "https://www.youtube.com/watch?v=NN2SA1Q6_MU&t=2040s"
+            },
+            {
+              "label": "Diamond Damage 22:00",
+              "url": "https://www.youtube.com/watch?v=oBPhDHjtugg&t=1320s"
+            }
+          ]
+        },
+        {
+          "text": "Nicht vorbeugend bubbeln, außer ein großer Burst kommt sicher. Reaktiv gebubbelt muss der Gegner seinen Cooldown verschwenden.",
+          "videos": [
+            {
+              "label": "Diamond Damage 16:30",
+              "url": "https://www.youtube.com/watch?v=oBPhDHjtugg&t=990s"
+            },
+            {
+              "label": "Diamond Damage 18:00",
+              "url": "https://www.youtube.com/watch?v=oBPhDHjtugg&t=1080s"
             }
           ]
         },
@@ -145,6 +210,19 @@
       "title": "Kit · Strahl",
       "rules": [
         {
+          "text": "Am Ende jedes Clips einen Rechtsklick werfen. Das erhöht deinen Schaden deutlich, später hörst du den Moment am Sound.",
+          "videos": [
+            {
+              "label": "Diamond Damage 14:30",
+              "url": "https://www.youtube.com/watch?v=oBPhDHjtugg&t=870s"
+            },
+            {
+              "label": "Diamond Damage 16:00",
+              "url": "https://www.youtube.com/watch?v=oBPhDHjtugg&t=960s"
+            }
+          ]
+        },
+        {
           "text": "Ladung kommt von allein, wenn du Raum nimmst. Hohe Ladung plus Bubbles heißt jetzt reingehen.",
           "videos": [
             {
@@ -154,6 +232,33 @@
             {
               "label": "Plat Bubble 40:00",
               "url": "https://www.youtube.com/watch?v=NN2SA1Q6_MU&t=2400s"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Kit · Ult",
+      "rules": [
+        {
+          "text": "Graviton nutzen, um einen Fight zu gewinnen. Es muss kein Teamwipe sein, ein Kill reicht oft.",
+          "videos": [
+            {
+              "label": "Diamond Damage 32:30",
+              "url": "https://www.youtube.com/watch?v=oBPhDHjtugg&t=1950s"
+            },
+            {
+              "label": "Diamond Damage 34:00",
+              "url": "https://www.youtube.com/watch?v=oBPhDHjtugg&t=2040s"
+            }
+          ]
+        },
+        {
+          "text": "Auch mit Graviton die Ecken-Regel nicht brechen und nicht mitten ins Gegnerteam laufen.",
+          "videos": [
+            {
+              "label": "Diamond Damage 44:00",
+              "url": "https://www.youtube.com/watch?v=oBPhDHjtugg&t=2640s"
             }
           ]
         }
@@ -250,6 +355,30 @@
         {
           "label": "Plat Bubble 24:00",
           "url": "https://www.youtube.com/watch?v=NN2SA1Q6_MU&t=1440s"
+        }
+      ]
+    },
+    {
+      "id": "zarya-corner-damage",
+      "title": "Ecke, Schaden, weiter",
+      "question": "Mache ich gerade von einer Ecke aus Schaden?",
+      "points": [
+        "Ja → bleiben, nicht vorlaufen.",
+        "Nichts zu schießen → zur nächsten Ecke.",
+        "Rechtsklick am Ende des Clips."
+      ],
+      "videos": [
+        {
+          "label": "Diamond Damage 14:30",
+          "url": "https://www.youtube.com/watch?v=oBPhDHjtugg&t=870s"
+        },
+        {
+          "label": "Diamond Damage 40:00",
+          "url": "https://www.youtube.com/watch?v=oBPhDHjtugg&t=2400s"
+        },
+        {
+          "label": "Diamond Damage 46:00",
+          "url": "https://www.youtube.com/watch?v=oBPhDHjtugg&t=2760s"
         }
       ]
     },

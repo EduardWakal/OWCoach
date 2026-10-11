@@ -77,6 +77,58 @@
           ]
         },
         {
+          "text": "Staging heißt: nah an die Gegner, ohne den Sprung zu verbrauchen. Spring auf eine Position, nicht auf ein Ziel, dann bleibt der Sprung für den Rückweg.",
+          "videos": [
+            {
+              "label": "GM Linie 10:30",
+              "url": "https://www.youtube.com/watch?v=ZgMTice9r-0&t=630s"
+            }
+          ]
+        },
+        {
+          "text": "Kämpf auf der Linie deines Teams. Steht du weiter hinten, lass den Gegner die Linie überqueren und geh dann von hinten rein.",
+          "videos": [
+            {
+              "label": "GM Linie 16:00",
+              "url": "https://www.youtube.com/watch?v=ZgMTice9r-0&t=960s"
+            },
+            {
+              "label": "GM Linie 42:00",
+              "url": "https://www.youtube.com/watch?v=ZgMTice9r-0&t=2520s"
+            }
+          ]
+        },
+        {
+          "text": "Lane vor dem Fight wählen und dabei bleiben. Nicht dem ersten Ziel hinterher, das du siehst.",
+          "videos": [
+            {
+              "label": "GM Linie 18:00",
+              "url": "https://www.youtube.com/watch?v=ZgMTice9r-0&t=1080s"
+            },
+            {
+              "label": "GM Linie 20:00",
+              "url": "https://www.youtube.com/watch?v=ZgMTice9r-0&t=1200s"
+            }
+          ]
+        },
+        {
+          "text": "Schlechtes Matchup (Mauga, Reaper): unbequem machen. Zur Seite springen, ihn zu dir laufen lassen, bis dein Sprung wieder da ist.",
+          "videos": [
+            {
+              "label": "GM Linie 26:00",
+              "url": "https://www.youtube.com/watch?v=ZgMTice9r-0&t=1560s"
+            },
+            {
+              "label": "GM Linie 28:30",
+              "url": "https://www.youtube.com/watch?v=ZgMTice9r-0&t=1710s"
+            },
+            {
+              "label": "GM Linie 34:30",
+              "url": "https://www.youtube.com/watch?v=ZgMTice9r-0&t=2070s"
+            }
+          ]
+        },
+        {
           "text": "Payload nur blockieren, wenn es nötig ist. Sonst lieber das beste Engage vorbereiten.",
           "videos": [
             {
@@ -188,6 +240,32 @@
           ]
         },
         {
+          "text": "Bubble-Trade: rein, Cooldowns ziehen, raus und Leben behalten. Wer zu lange für den Kill bleibt, war sicher und dann nicht mehr.",
+          "videos": [
+            {
+              "label": "GM Linie 32:30",
+              "url": "https://www.youtube.com/watch?v=ZgMTice9r-0&t=1950s"
+            },
+            {
+              "label": "GM Linie 44:00",
+              "url": "https://www.youtube.com/watch?v=ZgMTice9r-0&t=2640s"
+            }
+          ]
+        },
+        {
+          "text": "In der Verteidigung geduldig sein: warten, bis der Gegner die Linie überquert.",
+          "videos": [
+            {
+              "label": "GM Linie 42:00",
+              "url": "https://www.youtube.com/watch?v=ZgMTice9r-0&t=2520s"
+            },
+            {
+              "label": "GM Linie 46:30",
+              "url": "https://www.youtube.com/watch?v=ZgMTice9r-0&t=2790s"
+            }
+          ]
+        },
+        {
           "text": "Gegen Reaper: ihn anschauen und um die Bubble tanzen. Am Rand der Bubble bleiben, damit du wieder rein kannst.",
           "videos": [
             {
@@ -205,6 +283,15 @@
     {
       "title": "Kit · Ult",
       "rules": [
+        {
+          "text": "Primal nicht für einen Kill verschenken, wenn der Fight schon gewonnen ist und ihr Spawn nah ist.",
+          "videos": [
+            {
+              "label": "GM Linie 46:00",
+              "url": "https://www.youtube.com/watch?v=ZgMTice9r-0&t=2760s"
+            }
+          ]
+        },
         {
           "text": "Primal ruhig spielen: ein Ziel wählen und festhalten, nicht wild herumschlagen.",
           "videos": [
@@ -248,12 +335,12 @@
     },
     {
       "id": "winston-timing",
-      "title": "Mit dem Team springen",
-      "question": "Greift mein Team gerade an?",
+      "title": "Die Linie",
+      "question": "Hat der Gegner die Linie meines Teams überquert?",
       "points": [
-        "Ja → springen.",
-        "Nein → warten, auch wenn die Bubble bereit ist.",
-        "Nichts tun ist manchmal richtig."
+        "Ja → jetzt rein.",
+        "Nein → warten, auch mit Bubble bereit.",
+        "Auf der Lane bleiben, die du vor dem Fight gewählt hast."
       ],
       "videos": [
         {
@@ -261,12 +348,12 @@
           "url": "https://www.youtube.com/watch?v=z0K56TujTIs&t=1200s"
         },
         {
-          "label": "Plat Grundlagen 24:30",
-          "url": "https://www.youtube.com/watch?v=z0K56TujTIs&t=1470s"
+          "label": "GM Linie 16:00",
+          "url": "https://www.youtube.com/watch?v=ZgMTice9r-0&t=960s"
         },
         {
-          "label": "Plat Grundlagen 38:00",
-          "url": "https://www.youtube.com/watch?v=z0K56TujTIs&t=2280s"
+          "label": "GM Linie 42:00",
+          "url": "https://www.youtube.com/watch?v=ZgMTice9r-0&t=2520s"
         }
       ]
     },

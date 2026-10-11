@@ -13,6 +13,16 @@
         "Peeken, schießen, zurück hinter die Kante. Nicht ins Offene laufen – der Druck von deinem Winkel reicht.",
         "Nie zweimal am selben Fleck peeken: andere Seite der Kante, ducken, höher oder die nächste Ecke derselben Lane. Ein Sniper zielt schon dahin, wo du zuletzt warst.",
         "Weicht der Gegner zurück, nicht hinterher. Ecke halten, den Rest macht dein Team."
+      ],
+      "tank": [
+        "Ohne Cooldown an der Deckung kleben. Nur mit Bubble oder Schild raus ins Offene.",
+        "Von der Ecke aus Schaden machen, nicht auf Gegner zulaufen, die du schon triffst.",
+        "Nicht weiter vor, als dein Cooldown dich zurückbringt."
+      ],
+      "support": [
+        "Deckung neben der Sichtlinie zu deinem Tank. Heilen geht nicht durch Wände.",
+        "Nicht für Heilung ins Offene laufen.",
+        "Mit Abstand und Zeit kannst du fast allem ausweichen."
       ]
     },
     "videos": [
@@ -86,7 +96,14 @@
         "label": "15:30",
         "url": "https://www.youtube.com/watch?v=NYDmj4dE0Jc&t=930s"
       }
-    ]
+    ],
+    "rolePoints": {
+      "tank": [
+        "Grün → Cooldowns bereit, Team greift an: rein.",
+        "Rot → Bubble oder Schild weg: raus, heilen, neu aufstellen.",
+        "Nicht für einen Kill bleiben, wenn deine Cooldowns weg sind."
+      ]
+    }
   },
   {
     "id": "position-team",
@@ -102,6 +119,16 @@
         "Team auf Main → du nimmst links oder rechts, seitlich neben deiner Frontline (3 oder 9 Uhr).",
         "Entscheiden und hingehen. Nicht in der Mitte zögern – eine schlechte Wahl ist besser als keine.",
         "Früh hingehen und nach dem Fight auf deiner Lane bleiben, nicht quer durchs Offene."
+      ],
+      "tank": [
+        "Auf der Linie deines Teams kämpfen, nicht weit davor.",
+        "Anker-Winkel: Ecke seitlich vom Team, damit ihr ein Kreuzfeuer habt.",
+        "Lane vor dem Fight wählen und dort bleiben, nicht über die Map jagen."
+      ],
+      "support": [
+        "Heilt der andere Support schon Main, nimm du die Seite.",
+        "Hält niemand einen Seitenwinkel, nimm ihn selbst.",
+        "Lass einen Mitspieler auf seinem Winkel nicht allein."
       ]
     },
     "videos": [
@@ -209,6 +236,13 @@
         "label": "16:30",
         "url": "https://www.youtube.com/watch?v=i2XOfuzcZGE&t=990s"
       }
-    ]
+    ],
+    "rolePoints": {
+      "tank": [
+        "Erst rein, wenn dein Team gleichzeitig kämpfen kann.",
+        "In der Verteidigung warten, bis der Gegner die Linie überquert.",
+        "Nichts tun ist manchmal richtig."
+      ]
+    }
   }
 ]
