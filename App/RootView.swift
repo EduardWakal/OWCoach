@@ -12,7 +12,7 @@ struct RootView: View {
                 TodayView()
             }
             Tab("Lernen", systemImage: "book.fill") {
-                ComingSoon(title: "Lernen")
+                LearnView()
             }
             Tab("VOD", systemImage: "play.rectangle.fill") {
                 ComingSoon(title: "VOD")
