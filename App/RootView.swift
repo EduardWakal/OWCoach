@@ -4,7 +4,7 @@ struct RootView: View {
     var body: some View {
         TabView {
             Tab("Heute", systemImage: "flame.fill") {
-                Text("Heute")
+                TodayView()
             }
             Tab("Lernen", systemImage: "book.fill") {
                 ComingSoon(title: "Lernen")

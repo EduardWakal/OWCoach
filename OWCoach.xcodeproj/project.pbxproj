@@ -10,40 +10,56 @@
 		00CC861FD1CDD882EB09DE44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F39464DE9F13B854B0E93C57 /* Assets.xcassets */; };
 		0826BEBEA9B472F5097A0A90 /* GameEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD5FB5A1E5FD18E1C1784E6 /* GameEntry.swift */; };
 		18070A7637EF69ECEA5F6E45 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C06A223A30AC4B5E700ADCB /* Persistence.swift */; };
+		1E358AFB172E0599EDF99E2C /* WeekHeroesSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7835859356400CED31213B8B /* WeekHeroesSheet.swift */; };
 		2CB5D84B8F402378312B08A5 /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71859A89DDEC7979B3BAE5CA /* AppSettings.swift */; };
 		3C80559C1F2085DABBA7DBF5 /* HeroIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 108F7AF47D7047DEC2B2FDB7 /* HeroIcon.swift */; };
 		45AC6C886D56B88EE41E20C7 /* OWCoachApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726610C0E12469D2B2175897 /* OWCoachApp.swift */; };
 		5224E3820A7CB3AA3FFAF5E0 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 604B1ABAC2766AB01D63DB35 /* Theme.swift */; };
+		6AC2519C8ED97A2618C244FD /* WeekHeroesBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4199E666182316E75A26CBC /* WeekHeroesBar.swift */; };
 		7190AAF1288DEC0CF1BA3CB7 /* Content in Resources */ = {isa = PBXBuildFile; fileRef = 1B75FC7B1DC42101F09226D5 /* Content */; };
+		8B7C851A8C7611556E39E283 /* TodayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E5399B51EA99B1F47C5214 /* TodayView.swift */; };
 		8ECE19CF6B1ED9F7E70C9053 /* CardProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22322899C24BA6E506E768B /* CardProgress.swift */; };
 		91048B0CEBD8C62D58AF9A47 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974316139431A1E5F12F38FB /* RootView.swift */; };
 		A13B3A2B9AC855F7FDA950CD /* ContentEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51A645D8ADD0F2FCD60E2E64 /* ContentEnvironment.swift */; };
 		A16E3D904D4B3C2C3084557B /* LogGameFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C7A610AFC4DD990B9DB6C64 /* LogGameFlow.swift */; };
 		A491AF209FCB20C5983C8288 /* MapThumb.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5A5940A910B34BB0441533 /* MapThumb.swift */; };
+		B8768876A8BE3E2E303C6E13 /* StatTiles.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D7E3D4745C7226C6059168 /* StatTiles.swift */; };
+		C216DBF10F54E813A15F2BC4 /* FocusCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9752BF41A5168219875D66C /* FocusCardView.swift */; };
 		CCF41F16DFD4A2E55959DFC8 /* FocusPlan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F27F44022C4DD04B0B93B1F /* FocusPlan.swift */; };
+		CE3C3CEF10C15D7D9F2B4A5A /* SuggestionBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4D2CFF110CC55A085FB7A4 /* SuggestionBanner.swift */; };
+		D69FA007623A893CFBBFFBE5 /* FocusPickerSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60E1583CEF0B7346E95F2511 /* FocusPickerSheet.swift */; };
 		DA229DD7A17FD2FF9D0A4261 /* ChoiceButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590421D61B67A98355E1EFB7 /* ChoiceButton.swift */; };
 		DD0558EAF63E80E1395895CE /* LogSteps.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC15C4C55A4A101F991F7B1C /* LogSteps.swift */; };
 		E743A6535B0077222CC28E5B /* OWCoachKit in Frameworks */ = {isa = PBXBuildFile; productRef = ED737102E2332568C3F1B94B /* OWCoachKit */; };
+		ECB7BC1B9672F3C66BD2D4DA /* TodayGamesList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E45E3D63E1B62140EA1C77 /* TodayGamesList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		09E5399B51EA99B1F47C5214 /* TodayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayView.swift; sourceTree = "<group>"; };
 		108F7AF47D7047DEC2B2FDB7 /* HeroIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroIcon.swift; sourceTree = "<group>"; };
 		17B006FCC5C1DE03D8545F78 /* OWCoachKit */ = {isa = PBXFileReference; lastKnownFileType = folder; name = OWCoachKit; path = OWCoachKit; sourceTree = SOURCE_ROOT; };
 		1B75FC7B1DC42101F09226D5 /* Content */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Content; sourceTree = SOURCE_ROOT; };
 		1F27F44022C4DD04B0B93B1F /* FocusPlan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusPlan.swift; sourceTree = "<group>"; };
 		51A645D8ADD0F2FCD60E2E64 /* ContentEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentEnvironment.swift; sourceTree = "<group>"; };
 		590421D61B67A98355E1EFB7 /* ChoiceButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoiceButton.swift; sourceTree = "<group>"; };
+		5C4D2CFF110CC55A085FB7A4 /* SuggestionBanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuggestionBanner.swift; sourceTree = "<group>"; };
 		604B1ABAC2766AB01D63DB35 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		60E1583CEF0B7346E95F2511 /* FocusPickerSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusPickerSheet.swift; sourceTree = "<group>"; };
 		6BD5FB5A1E5FD18E1C1784E6 /* GameEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameEntry.swift; sourceTree = "<group>"; };
 		71859A89DDEC7979B3BAE5CA /* AppSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettings.swift; sourceTree = "<group>"; };
 		726610C0E12469D2B2175897 /* OWCoachApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OWCoachApp.swift; sourceTree = "<group>"; };
+		7835859356400CED31213B8B /* WeekHeroesSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekHeroesSheet.swift; sourceTree = "<group>"; };
 		7C06A223A30AC4B5E700ADCB /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		81E45E3D63E1B62140EA1C77 /* TodayGamesList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayGamesList.swift; sourceTree = "<group>"; };
 		974316139431A1E5F12F38FB /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
 		9C7A610AFC4DD990B9DB6C64 /* LogGameFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogGameFlow.swift; sourceTree = "<group>"; };
 		A22322899C24BA6E506E768B /* CardProgress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardProgress.swift; sourceTree = "<group>"; };
+		B4199E666182316E75A26CBC /* WeekHeroesBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekHeroesBar.swift; sourceTree = "<group>"; };
+		B9752BF41A5168219875D66C /* FocusCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusCardView.swift; sourceTree = "<group>"; };
 		BC5A5940A910B34BB0441533 /* MapThumb.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapThumb.swift; sourceTree = "<group>"; };
 		C1A439832C7BF9858759A5F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		D8C54FCE97281B83BAE22D53 /* OWCoach.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = OWCoach.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2D7E3D4745C7226C6059168 /* StatTiles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatTiles.swift; sourceTree = "<group>"; };
 		EC15C4C55A4A101F991F7B1C /* LogSteps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogSteps.swift; sourceTree = "<group>"; };
 		F39464DE9F13B854B0E93C57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -111,6 +127,7 @@
 				36628C42BBE4C9386302FE7B /* Data */,
 				44476A4C844143D3CCCE2D8A /* LogGame */,
 				57C1037CC73276FB739815E5 /* Support */,
+				B876AB381CBF2338ACCB24D0 /* Today */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -123,6 +140,21 @@
 				C3CE88865EC7957FE8DE7BE5 /* Packages */,
 				400697E9A7BA6C906D4CEAA5 /* Products */,
 			);
+			sourceTree = "<group>";
+		};
+		B876AB381CBF2338ACCB24D0 /* Today */ = {
+			isa = PBXGroup;
+			children = (
+				B9752BF41A5168219875D66C /* FocusCardView.swift */,
+				60E1583CEF0B7346E95F2511 /* FocusPickerSheet.swift */,
+				E2D7E3D4745C7226C6059168 /* StatTiles.swift */,
+				5C4D2CFF110CC55A085FB7A4 /* SuggestionBanner.swift */,
+				81E45E3D63E1B62140EA1C77 /* TodayGamesList.swift */,
+				09E5399B51EA99B1F47C5214 /* TodayView.swift */,
+				B4199E666182316E75A26CBC /* WeekHeroesBar.swift */,
+				7835859356400CED31213B8B /* WeekHeroesSheet.swift */,
+			);
+			path = Today;
 			sourceTree = "<group>";
 		};
 		C3CE88865EC7957FE8DE7BE5 /* Packages */ = {
@@ -214,6 +246,8 @@
 				8ECE19CF6B1ED9F7E70C9053 /* CardProgress.swift in Sources */,
 				DA229DD7A17FD2FF9D0A4261 /* ChoiceButton.swift in Sources */,
 				A13B3A2B9AC855F7FDA950CD /* ContentEnvironment.swift in Sources */,
+				C216DBF10F54E813A15F2BC4 /* FocusCardView.swift in Sources */,
+				D69FA007623A893CFBBFFBE5 /* FocusPickerSheet.swift in Sources */,
 				CCF41F16DFD4A2E55959DFC8 /* FocusPlan.swift in Sources */,
 				0826BEBEA9B472F5097A0A90 /* GameEntry.swift in Sources */,
 				3C80559C1F2085DABBA7DBF5 /* HeroIcon.swift in Sources */,
@@ -223,7 +257,13 @@
 				45AC6C886D56B88EE41E20C7 /* OWCoachApp.swift in Sources */,
 				18070A7637EF69ECEA5F6E45 /* Persistence.swift in Sources */,
 				91048B0CEBD8C62D58AF9A47 /* RootView.swift in Sources */,
+				B8768876A8BE3E2E303C6E13 /* StatTiles.swift in Sources */,
+				CE3C3CEF10C15D7D9F2B4A5A /* SuggestionBanner.swift in Sources */,
 				5224E3820A7CB3AA3FFAF5E0 /* Theme.swift in Sources */,
+				ECB7BC1B9672F3C66BD2D4DA /* TodayGamesList.swift in Sources */,
+				8B7C851A8C7611556E39E283 /* TodayView.swift in Sources */,
+				6AC2519C8ED97A2618C244FD /* WeekHeroesBar.swift in Sources */,
+				1E358AFB172E0599EDF99E2C /* WeekHeroesSheet.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
