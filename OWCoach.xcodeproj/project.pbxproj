@@ -18,8 +18,11 @@
 		8ECE19CF6B1ED9F7E70C9053 /* CardProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22322899C24BA6E506E768B /* CardProgress.swift */; };
 		91048B0CEBD8C62D58AF9A47 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974316139431A1E5F12F38FB /* RootView.swift */; };
 		A13B3A2B9AC855F7FDA950CD /* ContentEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51A645D8ADD0F2FCD60E2E64 /* ContentEnvironment.swift */; };
+		A16E3D904D4B3C2C3084557B /* LogGameFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C7A610AFC4DD990B9DB6C64 /* LogGameFlow.swift */; };
 		A491AF209FCB20C5983C8288 /* MapThumb.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5A5940A910B34BB0441533 /* MapThumb.swift */; };
 		CCF41F16DFD4A2E55959DFC8 /* FocusPlan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F27F44022C4DD04B0B93B1F /* FocusPlan.swift */; };
+		DA229DD7A17FD2FF9D0A4261 /* ChoiceButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590421D61B67A98355E1EFB7 /* ChoiceButton.swift */; };
+		DD0558EAF63E80E1395895CE /* LogSteps.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC15C4C55A4A101F991F7B1C /* LogSteps.swift */; };
 		E743A6535B0077222CC28E5B /* OWCoachKit in Frameworks */ = {isa = PBXBuildFile; productRef = ED737102E2332568C3F1B94B /* OWCoachKit */; };
 /* End PBXBuildFile section */
 
@@ -29,16 +32,19 @@
 		1B75FC7B1DC42101F09226D5 /* Content */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Content; sourceTree = SOURCE_ROOT; };
 		1F27F44022C4DD04B0B93B1F /* FocusPlan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusPlan.swift; sourceTree = "<group>"; };
 		51A645D8ADD0F2FCD60E2E64 /* ContentEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentEnvironment.swift; sourceTree = "<group>"; };
+		590421D61B67A98355E1EFB7 /* ChoiceButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoiceButton.swift; sourceTree = "<group>"; };
 		604B1ABAC2766AB01D63DB35 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		6BD5FB5A1E5FD18E1C1784E6 /* GameEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameEntry.swift; sourceTree = "<group>"; };
 		71859A89DDEC7979B3BAE5CA /* AppSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettings.swift; sourceTree = "<group>"; };
 		726610C0E12469D2B2175897 /* OWCoachApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OWCoachApp.swift; sourceTree = "<group>"; };
 		7C06A223A30AC4B5E700ADCB /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		974316139431A1E5F12F38FB /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		9C7A610AFC4DD990B9DB6C64 /* LogGameFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogGameFlow.swift; sourceTree = "<group>"; };
 		A22322899C24BA6E506E768B /* CardProgress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardProgress.swift; sourceTree = "<group>"; };
 		BC5A5940A910B34BB0441533 /* MapThumb.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapThumb.swift; sourceTree = "<group>"; };
 		C1A439832C7BF9858759A5F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		D8C54FCE97281B83BAE22D53 /* OWCoach.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = OWCoach.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC15C4C55A4A101F991F7B1C /* LogSteps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogSteps.swift; sourceTree = "<group>"; };
 		F39464DE9F13B854B0E93C57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -74,6 +80,16 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		44476A4C844143D3CCCE2D8A /* LogGame */ = {
+			isa = PBXGroup;
+			children = (
+				590421D61B67A98355E1EFB7 /* ChoiceButton.swift */,
+				9C7A610AFC4DD990B9DB6C64 /* LogGameFlow.swift */,
+				EC15C4C55A4A101F991F7B1C /* LogSteps.swift */,
+			);
+			path = LogGame;
+			sourceTree = "<group>";
+		};
 		57C1037CC73276FB739815E5 /* Support */ = {
 			isa = PBXGroup;
 			children = (
@@ -93,6 +109,7 @@
 				726610C0E12469D2B2175897 /* OWCoachApp.swift */,
 				974316139431A1E5F12F38FB /* RootView.swift */,
 				36628C42BBE4C9386302FE7B /* Data */,
+				44476A4C844143D3CCCE2D8A /* LogGame */,
 				57C1037CC73276FB739815E5 /* Support */,
 			);
 			path = App;
@@ -195,10 +212,13 @@
 			files = (
 				2CB5D84B8F402378312B08A5 /* AppSettings.swift in Sources */,
 				8ECE19CF6B1ED9F7E70C9053 /* CardProgress.swift in Sources */,
+				DA229DD7A17FD2FF9D0A4261 /* ChoiceButton.swift in Sources */,
 				A13B3A2B9AC855F7FDA950CD /* ContentEnvironment.swift in Sources */,
 				CCF41F16DFD4A2E55959DFC8 /* FocusPlan.swift in Sources */,
 				0826BEBEA9B472F5097A0A90 /* GameEntry.swift in Sources */,
 				3C80559C1F2085DABBA7DBF5 /* HeroIcon.swift in Sources */,
+				A16E3D904D4B3C2C3084557B /* LogGameFlow.swift in Sources */,
+				DD0558EAF63E80E1395895CE /* LogSteps.swift in Sources */,
 				A491AF209FCB20C5983C8288 /* MapThumb.swift in Sources */,
 				45AC6C886D56B88EE41E20C7 /* OWCoachApp.swift in Sources */,
 				18070A7637EF69ECEA5F6E45 /* Persistence.swift in Sources */,
