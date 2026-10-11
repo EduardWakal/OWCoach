@@ -5,6 +5,7 @@ struct FocusCardView: View {
     @Environment(\.content) private var content
     let card: Card?
     let role: Role?
+    var starred: [FindingRecord] = []
     let change: () -> Void
 
     var body: some View {
@@ -26,6 +27,16 @@ struct FocusCardView: View {
                             HStack(alignment: .firstTextBaseline, spacing: 8) {
                                 Text("•").foregroundStyle(Theme.accent)
                                 Text(point).font(.subheadline)
+                            }
+                        }
+                    }
+                    if !starred.isEmpty {
+                        Divider()
+                        Text("AUS DEINEN VODS").font(.caption.bold()).foregroundStyle(.secondary)
+                        ForEach(starred.prefix(3)) { finding in
+                            HStack(alignment: .firstTextBaseline, spacing: 8) {
+                                Image(systemName: "star.fill").font(.caption).foregroundStyle(Theme.accent)
+                                Text(finding.text).font(.subheadline)
                             }
                         }
                     }

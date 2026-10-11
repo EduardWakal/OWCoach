@@ -9,6 +9,7 @@ struct TodayView: View {
     @Query private var progress: [CardProgress]
     @Query(sort: \AppSettings.createdAt) private var allSettings: [AppSettings]
     @Query(sort: \FocusPlan.createdAt) private var plans: [FocusPlan]
+    @Query private var findings: [Finding]
 
     @State private var showLog = false
     @State private var showFocusPicker = false
@@ -37,7 +38,7 @@ struct TodayView: View {
                     if let suggestion {
                         SuggestionBanner(suggestion: suggestion, accept: { accept(suggestion) }, dismiss: { dismissSuggestion(suggestion, gameCount: records.count) })
                     }
-                    FocusCardView(card: activeCardID.flatMap(content.card), role: focusRole(settings)) { showFocusPicker = true }
+                    FocusCardView(card: activeCardID.flatMap(content.card), role: focusRole(settings), starred: activeCardID.map { Learnings.starred(for: $0, in: findings.map(\.record)) } ?? []) { showFocusPicker = true }
                     Button {
                         showLog = true
                     } label: {
