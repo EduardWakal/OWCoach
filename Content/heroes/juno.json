@@ -36,6 +36,19 @@
               "url": "https://www.youtube.com/watch?v=2BZPGqazWxM&t=2340s"
             }
           ]
+        },
+        {
+          "text": "Drei Spielweisen: Tank mit Hyper Ring reinbringen, beim Reingehen Torpedos verteilen, isolierte Ziele duellieren. Gute Junos wechseln je nach Lage zwischen ihnen.",
+          "videos": [
+            {
+              "label": "5 Levels 5:00",
+              "url": "https://www.youtube.com/watch?v=GpuNudXguXU&t=300s"
+            },
+            {
+              "label": "5 Levels 5:30",
+              "url": "https://www.youtube.com/watch?v=GpuNudXguXU&t=330s"
+            }
+          ]
         }
       ]
     },
@@ -89,6 +102,67 @@
               "url": "https://www.youtube.com/watch?v=2BZPGqazWxM&t=2320s"
             }
           ]
+        },
+        {
+          "text": "Nicht vor deinem Tank spielen. Wer zu früh vorn ist, verliert den Überblick und hat keine Cooldowns mehr, wenn der Tank Hilfe braucht.",
+          "videos": [
+            {
+              "label": "5 Levels 0:00",
+              "url": "https://www.youtube.com/watch?v=GpuNudXguXU&t=0s"
+            },
+            {
+              "label": "5 Levels 0:30",
+              "url": "https://www.youtube.com/watch?v=GpuNudXguXU&t=30s"
+            }
+          ]
+        },
+        {
+          "text": "Kein W auf dein Ziel. Mit Distanz und Deckung machst du denselben Schaden bei viel weniger Risiko.",
+          "videos": [
+            {
+              "label": "5 Levels 3:30",
+              "url": "https://www.youtube.com/watch?v=GpuNudXguXU&t=210s"
+            },
+            {
+              "label": "5 Levels 4:00",
+              "url": "https://www.youtube.com/watch?v=GpuNudXguXU&t=240s"
+            }
+          ]
+        },
+        {
+          "text": "Mit dem Tank reinspeeden, dann seitlich auf einen eigenen Winkel abdrehen statt mitzulaufen. Zwei Winkel machen mehr Druck, und du hast Deckung und Abstand.",
+          "videos": [
+            {
+              "label": "5 Levels 4:30",
+              "url": "https://www.youtube.com/watch?v=GpuNudXguXU&t=270s"
+            }
+          ]
+        },
+        {
+          "text": "Gegen Dive rückwärts zu deinem Support ausweichen, nicht zur Seite ins Offene. Sonst werdet ihr getrennt und einer stirbt.",
+          "videos": [
+            {
+              "label": "5 Levels 5:30",
+              "url": "https://www.youtube.com/watch?v=GpuNudXguXU&t=330s"
+            },
+            {
+              "label": "5 Levels 6:00",
+              "url": "https://www.youtube.com/watch?v=GpuNudXguXU&t=360s"
+            }
+          ]
+        },
+        {
+          "text": "Position nach Gegner-Comp: gegen mobilen Dive (Winston, Tracer) eng bei deiner Backline, gegen Comps ohne Höhe eigenen High-Ground-Winkel nehmen.",
+          "videos": [
+            {
+              "label": "5 Levels 7:00",
+              "url": "https://www.youtube.com/watch?v=GpuNudXguXU&t=420s"
+            },
+            {
+              "label": "5 Levels 7:30",
+              "url": "https://www.youtube.com/watch?v=GpuNudXguXU&t=450s"
+            }
+          ]
         }
       ]
     },
@@ -128,6 +202,62 @@
             {
               "label": "Emerald 31:20",
               "url": "https://www.youtube.com/watch?v=2BZPGqazWxM&t=1880s"
+            }
+          ]
+        },
+        {
+          "text": "Torpedos aufheben, bis sich die Gegner zu deinem Tank drehen. Dann triffst du 4–5 Locks, zu früh nur den Tank.",
+          "videos": [
+            {
+              "label": "5 Levels 0:30",
+              "url": "https://www.youtube.com/watch?v=GpuNudXguXU&t=30s"
+            },
+            {
+              "label": "5 Levels 1:00",
+              "url": "https://www.youtube.com/watch?v=GpuNudXguXU&t=60s"
+            },
+            {
+              "label": "5 Levels 2:00",
+              "url": "https://www.youtube.com/watch?v=GpuNudXguXU&t=120s"
+            }
+          ]
+        },
+        {
+          "text": "Gleiter nicht ohne Grund verbrauchen. Mit ihnen kommst du auf High Ground und weg von Bedrohungen.",
+          "videos": [
+            {
+              "label": "5 Levels 1:00",
+              "url": "https://www.youtube.com/watch?v=GpuNudXguXU&t=60s"
+            }
+          ]
+        },
+        {
+          "text": "Hyper Ring fürs Team, nicht zur eigenen Flucht. Dafür hast du die Gleiter. Den Ring für das Engage deines Tanks oder eine gegnerische Ult aufheben.",
+          "videos": [
+            {
+              "label": "5 Levels 2:30",
+              "url": "https://www.youtube.com/watch?v=GpuNudXguXU&t=150s"
+            },
+            {
+              "label": "5 Levels 3:00",
+              "url": "https://www.youtube.com/watch?v=GpuNudXguXU&t=180s"
+            }
+          ]
+        },
+        {
+          "text": "Orbital Ray nicht in einem verlorenen Fight verschwenden (3 gegen 5, keiner hat Leben). Halten gibt dir den Ult-Vorteil im nächsten Fight. Proaktiv zünden, wenn du weißt, dass ihr die Ult zuerst habt.",
+          "videos": [
+            {
+              "label": "5 Levels 8:00",
+              "url": "https://www.youtube.com/watch?v=GpuNudXguXU&t=480s"
+            },
+            {
+              "label": "5 Levels 9:00",
+              "url": "https://www.youtube.com/watch?v=GpuNudXguXU&t=540s"
+            },
+            {
+              "label": "5 Levels 9:30",
+              "url": "https://www.youtube.com/watch?v=GpuNudXguXU&t=570s"
             }
           ]
         }
