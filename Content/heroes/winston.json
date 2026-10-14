@@ -184,6 +184,72 @@
               "url": "https://www.youtube.com/watch?v=z0K56TujTIs&t=720s"
             }
           ]
+        },
+        {
+          "text": "Drei Absprungwinkel, nur der Blick zählt: nach unten bis flach kurz, flach bis etwa 75° mittel, darüber hoch. Innerhalb einer Zone gibt es keinen Unterschied.",
+          "videos": [
+            {
+              "label": "Mechanik 4:30",
+              "url": "https://www.youtube.com/watch?v=Vj-Y1f72EO0&t=270s"
+            },
+            {
+              "label": "Mechanik 5:30",
+              "url": "https://www.youtube.com/watch?v=Vj-Y1f72EO0&t=330s"
+            }
+          ]
+        },
+        {
+          "text": "Early Input: Schon vor dem Sprung laufen. Rückwärts springst du fast auf der Stelle, vorwärts viel weiter. In der Luft lenken wirkt schwächer, kürzt oder lenkt aber noch.",
+          "videos": [
+            {
+              "label": "Mechanik 6:30",
+              "url": "https://www.youtube.com/watch?v=Vj-Y1f72EO0&t=390s"
+            },
+            {
+              "label": "Mechanik 7:00",
+              "url": "https://www.youtube.com/watch?v=Vj-Y1f72EO0&t=420s"
+            }
+          ]
+        },
+        {
+          "text": "Nach einem Boop erst den Knockback auslaufen lassen, dann springen. Sonst frisst Lúcio-Boop oder Brig-Whip den Sprung.",
+          "videos": [
+            {
+              "label": "Mechanik 7:30",
+              "url": "https://www.youtube.com/watch?v=Vj-Y1f72EO0&t=450s"
+            }
+          ]
+        },
+        {
+          "text": "Kopf anstoßen: In Türen und unter Plattformen gibt das sofort Landeschaden statt erst nach einer Sekunde.",
+          "videos": [
+            {
+              "label": "Mechanik 8:00",
+              "url": "https://www.youtube.com/watch?v=Vj-Y1f72EO0&t=480s"
+            }
+          ]
+        },
+        {
+          "text": "Direkt nach dem Sprung ducken: So passt du in Türen und Spots, die stehend nicht gehen.",
+          "videos": [
+            {
+              "label": "Mechanik 18:00",
+              "url": "https://www.youtube.com/watch?v=Vj-Y1f72EO0&t=1080s"
+            }
+          ]
+        },
+        {
+          "text": "Präzise Jumps sind das Wichtigste. Üben: Custom Game, Control-Map, Bot-Lúcios ohne Fähigkeiten und mit wenig HP, nur springen. Perfekte Landung tötet, schlechte macht null Schaden.",
+          "videos": [
+            {
+              "label": "Mechanik 16:30",
+              "url": "https://www.youtube.com/watch?v=Vj-Y1f72EO0&t=990s"
+            },
+            {
+              "label": "Mechanik 17:00",
+              "url": "https://www.youtube.com/watch?v=Vj-Y1f72EO0&t=1020s"
+            }
+          ]
         }
       ]
     },
@@ -222,6 +288,86 @@
             {
               "label": "Plat Grundlagen 22:00",
               "url": "https://www.youtube.com/watch?v=z0K56TujTIs&t=1320s"
+            }
+          ]
+        },
+        {
+          "text": "Tesla am Rand der Reichweite tracken: Dann reicht eine kleine Kamerabewegung. Direkt auf dem Gegner treffen sie dich dafür schwerer.",
+          "videos": [
+            {
+              "label": "Mechanik 0:00",
+              "url": "https://www.youtube.com/watch?v=Vj-Y1f72EO0&t=0s"
+            },
+            {
+              "label": "Mechanik 0:30",
+              "url": "https://www.youtube.com/watch?v=Vj-Y1f72EO0&t=30s"
+            }
+          ]
+        },
+        {
+          "text": "Zwischen Fights Rechtsklick aufladen und zappen, das baut Ult.",
+          "videos": [
+            {
+              "label": "Mechanik 1:00",
+              "url": "https://www.youtube.com/watch?v=Vj-Y1f72EO0&t=60s"
+            }
+          ]
+        },
+        {
+          "text": "Melee macht denselben DPS wie Zappen. Im 1v1 Punches einbauen spart Munition.",
+          "videos": [
+            {
+              "label": "Mechanik 1:30",
+              "url": "https://www.youtube.com/watch?v=Vj-Y1f72EO0&t=90s"
+            }
+          ]
+        },
+        {
+          "text": "Kurz vor der Landung punchen: rund 50 Landeschaden plus 40 Melee, bis zu 90 auf einmal.",
+          "videos": [
+            {
+              "label": "Mechanik 2:00",
+              "url": "https://www.youtube.com/watch?v=Vj-Y1f72EO0&t=120s"
+            }
+          ]
+        },
+        {
+          "text": "Kills mit Melee beenden. Der Punch trifft sofort, Zappen dauert und gibt ihnen Zeit zum Heilen.",
+          "videos": [
+            {
+              "label": "Mechanik 2:30",
+              "url": "https://www.youtube.com/watch?v=Vj-Y1f72EO0&t=150s"
+            }
+          ]
+        },
+        {
+          "text": "Im Flug an Gegnern vorbei punchen statt kurz zu zappen. Die Melee-Hitbox bleibt kurz stehen, schnell drehen trifft rundherum.",
+          "videos": [
+            {
+              "label": "Mechanik 3:30",
+              "url": "https://www.youtube.com/watch?v=Vj-Y1f72EO0&t=210s"
+            },
+            {
+              "label": "Mechanik 4:00",
+              "url": "https://www.youtube.com/watch?v=Vj-Y1f72EO0&t=240s"
+            }
+          ]
+        },
+        {
+          "text": "Tesla ignoriert die Schadensreduktion von Rüstung. Damit hilfst du deinen DPS, Tanks zu knacken.",
+          "videos": [
+            {
+              "label": "Mechanik (Kommentar)",
+              "url": "https://www.youtube.com/watch?v=Vj-Y1f72EO0"
+            }
+          ]
+        },
+        {
+          "text": "Rechtsklick lädt auch mit nur 1 Munition voll auf. Hilft, wenn ein Ziel fast tot ist und dir gerade die Munition ausgeht.",
+          "videos": [
+            {
+              "label": "Mechanik (Kommentar)",
+              "url": "https://www.youtube.com/watch?v=Vj-Y1f72EO0"
             }
           ]
         }
@@ -277,6 +423,59 @@
               "url": "https://www.youtube.com/watch?v=z0K56TujTIs&t=1920s"
             }
           ]
+        },
+        {
+          "text": "Die Bubble landet sofort dort, wo du drückst, baut sich aber erst danach auf. Sleep und Stuns vorher erahnen, im Sprung nicht zu früh drücken.",
+          "videos": [
+            {
+              "label": "Mechanik 8:30",
+              "url": "https://www.youtube.com/watch?v=Vj-Y1f72EO0&t=510s"
+            },
+            {
+              "label": "Mechanik 9:00",
+              "url": "https://www.youtube.com/watch?v=Vj-Y1f72EO0&t=540s"
+            }
+          ]
+        },
+        {
+          "text": "Bubble-Dancing mit Plan: Gegner beobachten. Ana draußen → drin bleiben, kommt sie rein → raus. Wildes Hin und Her ist ein Muster.",
+          "videos": [
+            {
+              "label": "Mechanik 10:00",
+              "url": "https://www.youtube.com/watch?v=Vj-Y1f72EO0&t=600s"
+            },
+            {
+              "label": "Mechanik 10:30",
+              "url": "https://www.youtube.com/watch?v=Vj-Y1f72EO0&t=630s"
+            }
+          ]
+        },
+        {
+          "text": "Ganz drin oder ganz draußen. Crosshair in der Bubble heißt nicht, dass dein Körper drin ist.",
+          "videos": [
+            {
+              "label": "Mechanik 11:00",
+              "url": "https://www.youtube.com/watch?v=Vj-Y1f72EO0&t=660s"
+            }
+          ]
+        },
+        {
+          "text": "Bei der Landung Space halten: Der Hüpfer ist genau Mitte bis Rand. Am Ende vom Sprung bubblen, dann stehst du sofort am Rand.",
+          "videos": [
+            {
+              "label": "Mechanik 11:30",
+              "url": "https://www.youtube.com/watch?v=Vj-Y1f72EO0&t=690s"
+            }
+          ]
+        },
+        {
+          "text": "Vor Primal bubblen. Nach 10 Sekunden Ult ist die Bubble fast wieder da.",
+          "videos": [
+            {
+              "label": "Mechanik 12:00",
+              "url": "https://www.youtube.com/watch?v=Vj-Y1f72EO0&t=720s"
+            }
+          ]
         }
       ]
     },
@@ -302,6 +501,54 @@
             {
               "label": "Plat Grundlagen 40:00",
               "url": "https://www.youtube.com/watch?v=z0K56TujTIs&t=2400s"
+            }
+          ]
+        },
+        {
+          "text": "Die Primal-Hitbox ist ein Rechteck wie Reins Hammer. Schräg schwingen (Corner Swing) gibt mehr Reichweite.",
+          "videos": [
+            {
+              "label": "Mechanik 12:30",
+              "url": "https://www.youtube.com/watch?v=Vj-Y1f72EO0&t=750s"
+            },
+            {
+              "label": "Mechanik 13:30",
+              "url": "https://www.youtube.com/watch?v=Vj-Y1f72EO0&t=810s"
+            }
+          ]
+        },
+        {
+          "text": "Schräg reinkommen und links, rechts schwingen. Beim Springen nach unten schauen, sonst fliegst du über das Ziel.",
+          "videos": [
+            {
+              "label": "Mechanik 14:00",
+              "url": "https://www.youtube.com/watch?v=Vj-Y1f72EO0&t=840s"
+            }
+          ]
+        },
+        {
+          "text": "Combo: Swing, Sprung, Swing, Landen, Swing. Dort landen, wo er landet.",
+          "videos": [
+            {
+              "label": "Mechanik 14:30",
+              "url": "https://www.youtube.com/watch?v=Vj-Y1f72EO0&t=870s"
+            },
+            {
+              "label": "Mechanik 15:00",
+              "url": "https://www.youtube.com/watch?v=Vj-Y1f72EO0&t=900s"
+            }
+          ]
+        },
+        {
+          "text": "Wände nutzen: Der Gegner prallt ab, dann Short Jump mit Early Input rückwärts. In der Ecke: Short Jump, Swing, Swing.",
+          "videos": [
+            {
+              "label": "Mechanik 15:30",
+              "url": "https://www.youtube.com/watch?v=Vj-Y1f72EO0&t=930s"
+            },
+            {
+              "label": "Mechanik 16:00",
+              "url": "https://www.youtube.com/watch?v=Vj-Y1f72EO0&t=960s"
             }
           ]
         }
