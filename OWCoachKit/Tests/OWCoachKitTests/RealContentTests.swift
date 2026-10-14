@@ -23,6 +23,11 @@ struct RealContentTests {
         }
     }
 
+    @Test func tankCardsExist() throws {
+        let lib = try Self.repoContent()
+        #expect(lib.cards(for: .tank).map(\.id) == ["tank-full-hp", "tank-lane", "tank-rotation"])
+    }
+
     @Test func startHeroesExist() throws {
         let lib = try Self.repoContent()
         #expect(Set(lib.heroes.map(\.id)) == ["torbjorn", "juno", "domina", "winston", "zarya", "doctrine"])
@@ -34,7 +39,7 @@ struct RealContentTests {
 
     @Test func everyCardFollowsTheShortFormat() throws {
         let lib = try Self.repoContent()
-        let cards = lib.basics + lib.heroes.flatMap(\.path)
+        let cards = lib.basics + lib.roleCards.values.flatMap { $0 } + lib.heroes.flatMap(\.path)
         for card in cards {
             #expect(card.question.hasSuffix("?"), "\(card.id) question")
             #expect((1...3).contains(card.points.count), "\(card.id) points")
@@ -47,7 +52,7 @@ struct RealContentTests {
 
     @Test func idsAreUnique() throws {
         let lib = try Self.repoContent()
-        let ids = lib.basics.map(\.id) + lib.heroes.flatMap(\.path).map(\.id)
+        let ids = (lib.basics + lib.roleCards.values.flatMap { $0 } + lib.heroes.flatMap(\.path)).map(\.id)
         #expect(Set(ids).count == ids.count)
     }
 

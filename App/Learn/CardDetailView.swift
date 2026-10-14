@@ -14,7 +14,8 @@ struct CardDetailView: View {
     var body: some View {
         let card = content.card(cardID)
         let owner = content.heroOwning(cardID: cardID)
-        let role = owner?.role ?? allSettings.first?.defaultRole
+        let ownerRole = content.roleOwning(cardID: cardID)
+        let role = owner?.role ?? ownerRole ?? allSettings.first?.defaultRole
         let mastered = progress.filter { $0.masteredAt != nil }
         let status = CardStatus.of(cardID, active: plans.first?.activeCardID, mastered: Set(mastered.map(\.cardID)))
         let mine = Learnings.forCard(cardID, in: findings.map(\.record))
@@ -24,7 +25,7 @@ struct CardDetailView: View {
                 if let card {
                     VStack(alignment: .leading, spacing: 12) {
                         HStack {
-                            Text(owner?.name.uppercased() ?? "GRUNDLAGE").font(.caption.bold()).foregroundStyle(.secondary)
+                            Text(owner?.name.uppercased() ?? ownerRole?.label.uppercased() ?? "GRUNDLAGE").font(.caption.bold()).foregroundStyle(.secondary)
                             Spacer()
                             CardStatusBadge(status: status)
                         }

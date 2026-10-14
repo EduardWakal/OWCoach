@@ -1,0 +1,46 @@
+{
+  "tank": [
+    {
+      "id": "tank-full-hp",
+      "title": "Voll ins Engage",
+      "question": "Gehe ich mit vollem Leben ins Engage?",
+      "points": [
+        "Auf dem Weg und beim Aufstellen so wenig Schaden wie möglich nehmen: Deckung nutzen, nicht frontal durch offene Sichtlinien laufen.",
+        "Kein Poke-Duell vor dem Fight. Jeder Treffer davor fehlt dir im richtigen Engage.",
+        "Angeschlagen → erst heilen lassen, dann rein. Wer low engaged, stirbt als Erster und dein Team verliert den Fight."
+      ],
+      "videos": []
+    },
+    {
+      "id": "tank-lane",
+      "title": "Lane halten",
+      "question": "Bleibe ich auf der Lane, die ich vor dem Fight gewählt habe?",
+      "points": [
+        "Lane vor dem Fight wählen und bis zum Ende dabei bleiben.",
+        "Nicht mitten im Fight auf die andere Seite wechseln: Du läufst durchs Offene, nimmst Schaden und dein Team steht ohne Tank da.",
+        "Ein Ziel auf der anderen Lane gehört deinem Team. Halte den Druck auf deiner Seite."
+      ],
+      "videos": [
+        {
+          "label": "Winston GM Linie 18:00",
+          "url": "https://www.youtube.com/watch?v=ZgMTice9r-0&t=1080s"
+        },
+        {
+          "label": "Winston GM Linie 20:00",
+          "url": "https://www.youtube.com/watch?v=ZgMTice9r-0&t=1200s"
+        }
+      ]
+    },
+    {
+      "id": "tank-rotation",
+      "title": "Rotation durchziehen",
+      "question": "Ziehe ich die Rotation ganz durch?",
+      "points": [
+        "Wenn du rotierst, dann ganz. Nicht auf halbem Weg umdrehen oder stehen bleiben.",
+        "Halb rotieren kostet Leben: Du läufst durchs Offene, nimmst Schaden und kommst angeschlagen ins nächste Engage.",
+        "Unsicher → gar nicht erst losgehen und auf deiner Lane bleiben."
+      ],
+      "videos": []
+    }
+  ]
+}

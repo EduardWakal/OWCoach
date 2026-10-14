@@ -15,6 +15,8 @@ struct FocusCardView: View {
                     Text("FOKUS").font(.caption.bold()).foregroundStyle(Theme.accent)
                     if let card, let hero = content.heroOwning(cardID: card.id) {
                         Text("· \(hero.name)").font(.caption.bold()).foregroundStyle(.secondary)
+                    } else if let card, let role = content.roleOwning(cardID: card.id) {
+                        Text("· \(role.label)").font(.caption.bold()).foregroundStyle(.secondary)
                     }
                     Spacer()
                     Image(systemName: "arrow.triangle.2.circlepath").foregroundStyle(.secondary)

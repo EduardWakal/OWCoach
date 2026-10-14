@@ -90,6 +90,7 @@ struct TodayView: View {
 
     private func focusRole(_ settings: AppSettings?) -> Role? {
         if let id = activeCardID, let hero = content.heroOwning(cardID: id) { return hero.role }
+        if let id = activeCardID, let role = content.roleOwning(cardID: id) { return role }
         return weekHeroes.first.flatMap(content.hero)?.role ?? settings?.defaultRole
     }
 

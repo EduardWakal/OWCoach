@@ -15,6 +15,11 @@ struct FocusPickerSheet: View {
                 Section("Grundlagen") {
                     ForEach(content.basics) { row($0) }
                 }
+                ForEach(weekRoles, id: \.self) { role in
+                    Section(role.label) {
+                        ForEach(content.cards(for: role)) { row($0) }
+                    }
+                }
                 ForEach(weekHeroIDs.compactMap(content.hero)) { hero in
                     if !hero.path.isEmpty {
                         Section(hero.name) {
@@ -29,6 +34,11 @@ struct FocusPickerSheet: View {
                 ToolbarItem(placement: .cancellationAction) { Button("Abbrechen") { dismiss() } }
             }
         }
+    }
+
+    private var weekRoles: [Role] {
+        let played = Set(weekHeroIDs.compactMap { content.hero($0)?.role })
+        return Role.allCases.filter { played.contains($0) && !content.cards(for: $0).isEmpty }
     }
 
     private func row(_ card: Card) -> some View {

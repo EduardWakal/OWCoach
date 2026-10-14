@@ -31,6 +31,15 @@ struct ContentLibraryTests {
         #expect(lib.heroes(for: .support).isEmpty)
     }
 
+    @Test func roleCardsBelongToTheirRole() throws {
+        let lib = try Self.fixture()
+        #expect(lib.cards(for: .tank).map(\.id) == ["tank-a"])
+        #expect(lib.cards(for: .support).isEmpty)
+        #expect(lib.card("tank-a")?.title == "Tank A")
+        #expect(lib.roleOwning(cardID: "tank-a") == .tank)
+        #expect(lib.roleOwning(cardID: "cover") == nil)
+    }
+
     @Test func unknownIDsReturnNil() throws {
         let lib = try Self.fixture()
         #expect(lib.hero("gone") == nil)

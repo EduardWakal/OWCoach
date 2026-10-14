@@ -1,0 +1,13 @@
+{
+  "tank": [
+    {
+      "id": "tank-a",
+      "title": "Tank A",
+      "question": "Tank?",
+      "points": [
+        "Tank eins"
+      ],
+      "videos": []
+    }
+  ]
+}

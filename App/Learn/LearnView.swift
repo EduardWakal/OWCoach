@@ -33,9 +33,22 @@ struct LearnView: View {
 
                     ForEach(Role.allCases) { role in
                         let heroes = content.heroes(for: role).sorted { (pool.contains($0.id) ? 0 : 1, $0.name) < (pool.contains($1.id) ? 0 : 1, $1.name) }
-                        if !heroes.isEmpty {
+                        let roleCards = content.cards(for: role)
+                        if !heroes.isEmpty || !roleCards.isEmpty {
                             VStack(alignment: .leading, spacing: 12) {
                                 Text(role.label).font(.title3.bold())
+                                if !roleCards.isEmpty {
+                                    VStack(spacing: 0) {
+                                        ForEach(roleCards) { card in
+                                            NavigationLink(value: CardRoute(id: card.id)) {
+                                                CardRow(card: card, status: CardStatus.of(card.id, active: active, mastered: mastered))
+                                            }
+                                            .buttonStyle(.plain)
+                                            if card.id != roleCards.last?.id { Divider() }
+                                        }
+                                    }
+                                    .glassPanel()
+                                }
                                 LazyVGrid(columns: [GridItem(.adaptive(minimum: 88), spacing: 12)], spacing: 12) {
                                     ForEach(heroes) { hero in
                                         NavigationLink(value: HeroRoute(id: hero.id)) {
